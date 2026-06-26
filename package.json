@@ -7,7 +7,7 @@
     "start": "npx serve .",
     "scrape": "python3 scripts/update_movies.py",
     "enrich": "python3 scripts/enrich.py",
-    "build": "python3 scripts/build_chunks.py",
+    "build-chunks": "python3 scripts/build_chunks.py",
     "validate": "python3 scripts/validate_data.py"
   },
   "keywords": [
