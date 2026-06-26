@@ -1,0 +1,21 @@
+The GitHub Actions YAML files are included in TWO places:
+
+1) Correct GitHub Actions location:
+   .github/workflows/
+   ├── auto_updater.yml
+   ├── enrich.yml
+   ├── audit.yml
+   └── full_scan.yml
+
+2) Visible backup copy, easy to see in file manager:
+   GITHUB_ACTIONS_WORKFLOWS_COPY/
+   ├── auto_updater.yml
+   ├── enrich.yml
+   ├── audit.yml
+   └── full_scan.yml
+
+IMPORTANT:
+GitHub Actions only runs files from:
+.github/workflows/
+
+The visible backup folder is only added so you can easily see/copy the yml files if your file manager hides dot folders.

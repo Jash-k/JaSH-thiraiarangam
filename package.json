@@ -1,0 +1,11 @@
+{
+  "name": "jash-thiraiarangam",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JaSH திரையரங்கம் - a fast static Tamil cinema catalogue for Vercel.",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "python3 -m http.server 3000",
+    "deploy": "vercel --prod"
+  }
+}

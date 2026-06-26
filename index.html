@@ -1,0 +1,1792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>JaSH திரையரங்கம் · Premium Tamil Cinema</title>
+  <meta name="description" content="JaSH திரையரங்கம் — a fast, modern Tamil and dubbed cinema catalogue with clean filters and a cinematic player.">
+  <meta name="theme-color" content="#0b0714">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://image.tmdb.org">
+  <link rel="dns-prefetch" href="https://m.media-amazon.com">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Noto+Sans+Tamil:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <script>
+    const savedTheme = localStorage.getItem('jash-theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  </script>
+
+  <style>
+    :root {
+      --bg: #f5f6f8;
+      --bg-2: #ffffff;
+      --surface: #ffffff;
+      --surface-2: #f0f2f5;
+      --surface-hover: #e4e7eb;
+      --text: #0e0e11;
+      --muted: #64748b;
+      --border: rgba(0,0,0,0.06);
+      --accent: #e11d48;
+      --accent-2: #f59e0b;
+      --gold: #f5c14a;
+      --shadow-sm: 0 4px 20px rgba(0,0,0,0.03);
+      --shadow-lg: 0 24px 64px rgba(0,0,0,0.06);
+      --topbar-bg: rgba(255,255,255,0.85);
+      --hero-bg: linear-gradient(135deg, #fff2f2, #ffffff 60%);
+      --blob-opacity: 0.12;
+      --cinema-bg: #000000;
+    }
+
+    [data-theme="dark"] {
+      --bg: #070709;
+      --bg-2: #0c0c10;
+      --surface: #111116;
+      --surface-2: #191922;
+      --surface-hover: #22222e;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --border: rgba(255,255,255,0.05);
+      --shadow-sm: 0 4px 20px rgba(0,0,0,0.3);
+      --shadow-lg: 0 24px 64px rgba(0,0,0,0.5);
+      --topbar-bg: rgba(11,11,15,0.85);
+      --hero-bg: linear-gradient(135deg, rgba(30,8,10,0.7), rgba(12,12,18,0.95) 70%);
+      --blob-opacity: 0.25;
+      --cinema-bg: #000000;
+    }
+    
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Outfit', 'Noto Sans Tamil', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      min-height: 100vh;
+      overflow-x: hidden;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 12px; }
+
+    .ts-ambient { position: fixed; inset: 0; pointer-events: none; z-index: 0; }
+    .ts-ambient-blob { position: absolute; border-radius: 50%; filter: blur(140px); opacity: var(--blob-opacity); transition: opacity 0.3s; }
+    .ts-ambient-blob--red { width: 600px; height: 600px; left: -150px; top: -200px; background: radial-gradient(circle, var(--accent) 0%, transparent 70%); }
+    .ts-ambient-blob--amber { width: 500px; height: 500px; right: -150px; top: 150px; background: radial-gradient(circle, var(--accent-2) 0%, transparent 70%); }
+    
+    .ts-wrap { max-width: 1440px; margin: 0 auto; padding: 0 24px 64px; position: relative; z-index: 1; }
+
+    /* PREMIUM TOP BAR & MODERN BRAND LOGO */
+    .ts-topbar {
+      display: flex; align-items: center; gap: 20px;
+      padding: 14px 20px; margin: 20px 0 28px;
+      background: var(--topbar-bg);
+      backdrop-filter: blur(24px) saturate(160%);
+      -webkit-backdrop-filter: blur(24px) saturate(160%);
+      border-radius: 24px; border: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+      position: sticky; top: 14px; z-index: 50;
+    }
+    
+    .ts-logo { 
+      display: flex; align-items: center; gap: 14px; 
+      cursor: pointer; color: var(--text); transition: transform 0.2s ease;
+    }
+    .ts-logo:hover { transform: scale(1.02); }
+    
+    .ts-logo-mark {
+      width: 44px; height: 44px; border-radius: 16px;
+      display: inline-flex; align-items: center; justify-content: center;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: white; font-size: 20px;
+      box-shadow: 0 8px 24px rgba(239,58,63,0.35), inset 0 2px 4px rgba(255,255,255,0.3);
+      position: relative; overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .ts-logo-mark::after {
+      content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%;
+      background: linear-gradient(45deg, transparent, rgba(255,255,255,0.4), transparent);
+      transform: rotate(45deg); transition: transform 0.6s ease;
+    }
+    .ts-logo:hover .ts-logo-mark::after {
+      transform: translate(50%, 50%) rotate(45deg);
+    }
+    .ts-logo-text { font-weight: 900; font-size: 24px; letter-spacing: -1px; text-transform: uppercase; }
+    .ts-logo-accent { background: linear-gradient(135deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; text-shadow: 0 0 30px rgba(239,58,63,0.2); }
+
+    .ts-nav-links {
+      display: flex; gap: 6px; background: var(--surface-2);
+      padding: 6px; border-radius: 16px; border: 1px solid var(--border);
+    }
+    .ts-nav-btn {
+      background: transparent; border: none; cursor: pointer;
+      color: var(--muted); font-weight: 700; font-size: 14px;
+      padding: 8px 20px; border-radius: 12px; transition: all .25s ease;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .ts-nav-btn:hover:not(.active) { color: var(--text); background: var(--surface-hover); }
+    .ts-nav-btn.active {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: white; box-shadow: 0 6px 16px rgba(239,58,63,0.25);
+    }
+
+    .ts-search-wrap { flex: 1; max-width: 380px; margin-left: auto; position: relative; display: flex; align-items: center; }
+    .ts-search-icon { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: var(--muted); }
+    .ts-search-wrap input {
+      width: 100%; background: var(--surface-2); border: 1px solid var(--border);
+      border-radius: 16px; padding: 12px 16px 12px 46px;
+      color: var(--text); font-size: 14px; outline: none; transition: all .2s;
+    }
+    .ts-search-wrap input:focus { border-color: rgba(239,58,63,0.4); background: var(--surface); box-shadow: 0 0 0 4px rgba(239,58,63,0.1); }
+
+    .ts-theme-toggle {
+      background: var(--surface-2); border: 1px solid var(--border);
+      color: var(--muted); width: 42px; height: 42px;
+      border-radius: 14px; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; transition: 0.2s; font-size: 16px;
+    }
+    .ts-theme-toggle:hover { color: var(--text); background: var(--surface-hover); }
+
+    /* HERO SECTION */
+    .ts-hero {
+      position: relative;
+      background: var(--hero-bg);
+      border: 1px solid var(--border); border-radius: 32px;
+      padding: 44px 40px; margin-bottom: 28px; overflow: hidden;
+      min-height: 380px; display: flex; align-items: center; box-shadow: var(--shadow-sm);
+    }
+    .ts-hero-poster { position: absolute; right: 0; top: 0; bottom: 0; width: 60%; z-index: 0; pointer-events: none; }
+    .ts-hero-poster img {
+      width: 100%; height: 100%; object-fit: cover; object-position: center top;
+      -webkit-mask-image: linear-gradient(to right, transparent 0%, black 40%, black 100%);
+      mask-image: linear-gradient(to right, transparent 0%, black 40%, black 100%);
+      opacity: 0.85;
+    }
+    .ts-hero-inner { position: relative; z-index: 2; max-width: 580px; }
+    .ts-hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(239,58,63,0.1); border: 1px solid rgba(239,58,63,0.2);
+      color: var(--accent); font-size: 12px; font-weight: 800; padding: 6px 14px;
+      border-radius: 999px; letter-spacing: 0.5px; text-transform: uppercase; margin-bottom: 20px;
+    }
+    .ts-hero h1 { font-size: clamp(32px, 4.5vw, 52px); font-weight: 800; letter-spacing: -1.5px; line-height: 1.05; color: var(--text); }
+    .ts-hero h1 span {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .ts-hero p { color: var(--muted); font-size: 16px; margin: 16px 0 28px; max-width: 500px; line-height: 1.6; }
+    
+    .ts-stats-row { display: flex; gap: 36px; flex-wrap: wrap; margin-top: 10px; }
+    .ts-stat-num { font-size: 26px; font-weight: 900; color: var(--text); line-height: 1; }
+    .ts-stat-lbl { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-top: 6px; font-weight: 700; }
+
+    /* HISTORY STRIP */
+    .history-section {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 24px;
+      padding: 18px 24px; margin-bottom: 28px; box-shadow: var(--shadow-sm); display: none;
+    }
+    .history-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+    .history-title { font-size: 14px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; gap: 8px; }
+    .history-title i { color: var(--accent); }
+    .history-clear { background: transparent; border: none; color: var(--muted); font-size: 11px; font-weight: 700; text-transform: uppercase; cursor: pointer; }
+    .history-clear:hover { color: var(--accent); }
+    .history-scroll { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 8px; }
+    .history-scroll::-webkit-scrollbar { height: 4px; }
+    .history-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 10px; }
+    .history-item {
+      display: flex; align-items: center; gap: 12px; background: var(--bg); border: 1px solid var(--border);
+      padding: 8px 16px; border-radius: 12px; cursor: pointer; transition: all 0.2s; min-width: 220px; max-width: 280px; flex-shrink: 0;
+    }
+    .history-item:hover { border-color: var(--accent); background: var(--surface-hover); }
+    .history-item-icon { width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: white; font-size: 12px; }
+    .history-item-info { overflow: hidden; }
+    .history-item-title { font-size: 12px; font-weight: 700; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .history-item-meta { font-size: 10px; color: var(--muted); margin-top: 2px; }
+
+    /* DATABASE DASHBOARD */
+    .ts-sync-bar {
+      display: flex; align-items: center; justify-content: center; gap: 24px;
+      margin-bottom: 24px; padding: 12px 24px; background: var(--surface);
+      border: 1px solid var(--border); border-radius: 999px; box-shadow: var(--shadow-sm);
+      font-size: 12px; color: var(--muted); font-weight: 600;
+    }
+    .ts-sync-bar i { color: var(--accent); opacity: 0.8; }
+    .ts-sync-bar .ts-sync-val { color: var(--text); font-weight: 800; }
+
+    .ts-dashboard {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 24px;
+    }
+    .ts-db-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 24px;
+      padding: 24px 28px; box-shadow: var(--shadow-sm); transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .ts-db-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+    .ts-db-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+    .ts-db-title { font-size: 13px; font-weight: 800; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; display: flex; align-items: center; gap: 8px; }
+    .ts-db-title i { color: var(--accent); font-size: 16px; }
+    .ts-db-live {
+      font-size: 10px; font-weight: 800; padding: 4px 12px; border-radius: 999px;
+      text-transform: uppercase; letter-spacing: 0.5px; background: rgba(45, 184, 110, 0.1); color: #2db86e;
+      border: 1px solid rgba(45, 184, 110, 0.2); display: flex; align-items: center; gap: 6px;
+    }
+    .ts-db-live::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: #2db86e; animation: pulse-dot 1.5s infinite; }
+    @keyframes pulse-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+    
+    .ts-db-stats-row { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 8px; }
+    .ts-db-stat { text-align: center; background: var(--surface-2); border-radius: 16px; padding: 16px 12px; border: 1px solid var(--border); }
+    .ts-db-stat-val { font-size: 22px; font-weight: 900; color: var(--text); line-height: 1; }
+    .ts-db-stat-lbl { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; margin-top: 6px; font-weight: 700; }
+    
+    /* YEARWISE GROUP DIVISION HEADER */
+    .year-group-header {
+      font-size: 18px; font-weight: 800; color: var(--text); margin: 32px 0 16px;
+      display: flex; align-items: center; gap: 12px; border-bottom: 2px solid var(--border); padding-bottom: 8px;
+    }
+    .year-group-header span { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: white; font-size: 11px; font-weight: 900; padding: 3px 8px; border-radius: 6px; }
+
+    /* ADVANCED FILTERS SECTION */
+    .advanced-filter-panel {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 24px;
+      padding: 20px 24px; margin-bottom: 28px; box-shadow: var(--shadow-sm);
+    }
+    .filter-group-row { display: flex; gap: 24px; flex-wrap: wrap; margin-bottom: 16px; }
+    .filter-group { flex: 1; min-width: 200px; }
+    .filter-label { font-size: 12px; font-weight: 800; text-transform: uppercase; color: var(--muted); letter-spacing: 0.5px; margin-bottom: 8px; display: block; }
+    .filter-chips { display: flex; gap: 8px; flex-wrap: wrap; }
+    .filter-chip {
+      background: var(--surface-2); border: 1px solid var(--border); color: var(--muted);
+      font-size: 13px; font-weight: 700; padding: 8px 16px; border-radius: 12px; cursor: pointer; transition: all 0.2s;
+    }
+    .filter-chip:hover { color: var(--text); background: var(--surface-hover); }
+    .filter-chip.active { background: linear-gradient(135deg, var(--accent), var(--accent-2)); border-color: transparent; color: white; }
+    
+    .filter-select {
+      background: var(--surface-2); border: 1px solid var(--border); color: var(--text);
+      font-size: 13px; font-weight: 700; padding: 10px 16px; border-radius: 12px; outline: none; width: 100%; cursor: pointer;
+    }
+
+    .filter-bottom-actions { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border); padding-top: 16px; flex-wrap: wrap; gap: 12px; }
+    .active-filters-badges { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .active-badge { font-size: 11px; font-weight: 700; background: rgba(239,58,63,0.1); color: var(--accent); padding: 5px 12px; border-radius: 8px; display: inline-flex; align-items: center; gap: 6px; }
+    .active-badge i { cursor: pointer; }
+    .reset-btn { background: transparent; border: none; color: var(--muted); font-weight: 700; font-size: 13px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+    .reset-btn:hover { color: var(--accent); }
+
+    /* GRID & CARDS */
+    .feed-view-stage { display: block; }
+    .ts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 24px; }
+    .ts-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 20px;
+      overflow: hidden; cursor: pointer; transition: transform .3s cubic-bezier(.2,.8,.2,1), box-shadow .3s, border-color .3s;
+      box-shadow: var(--shadow-sm); position: relative;
+    }
+    .ts-card:hover { transform: translateY(-8px); border-color: rgba(239,58,63,0.4); box-shadow: var(--shadow-lg); }
+    
+    .ts-poster { position: relative; aspect-ratio: 2/3; overflow: hidden; background: #0c0c11; display: flex; align-items: center; justify-content: center;}
+    .ts-poster-bg { position: absolute; inset: 0; transition: transform .5s ease;}
+    .ts-card:hover .ts-poster-bg { transform: scale(1.08); }
+    .ts-poster-bg-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; z-index: 1; }
+    .ts-card:hover .ts-poster-bg-img { transform: scale(1.08); }
+    .ts-poster-grad { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, transparent 60%); z-index: 2; }
+    .ts-badge-rating {
+      position: absolute; bottom: 12px; left: 12px;
+      background: rgba(0,0,0,0.7); backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #f5c14a; font-size: 11px; font-weight: 800;
+      padding: 4px 10px; border-radius: 8px; z-index: 5;
+    }
+    .ts-card-genres {
+      font-size: 10px; color: var(--muted); margin-top: 4px;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      font-weight: 600;
+    }
+    
+    .ts-badge-new {
+      position: absolute; top: 12px; left: 12px; background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: white; font-size: 10px; font-weight: 900; padding: 4px 10px; border-radius: 8px; text-transform: uppercase; box-shadow: 0 4px 12px rgba(239,58,63,0.4); z-index: 7;
+    }
+    .ts-badge-cat {
+      position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.6); backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,0.2); color: #fff; font-size: 10px; font-weight: 800; padding: 4px 10px; border-radius: 8px; text-transform: uppercase; z-index: 7;
+    }
+    
+    .ts-poster-hover { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); opacity: 0; transition: opacity .25s ease; z-index: 6; }
+    .ts-card:hover .ts-poster-hover { opacity: 1; }
+    .ts-poster-play {
+      width: 58px; height: 58px; border-radius: 50%; background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      display: flex; align-items: center; justify-content: center; color: white;
+      box-shadow: 0 10px 30px rgba(239,58,63,0.5); transform: scale(0.85); transition: transform .25s ease;
+    }
+    .ts-card:hover .ts-poster-play { transform: scale(1); }
+    
+    .ts-card-info { padding: 14px 16px 18px; position: relative; z-index: 2; background: var(--surface); }
+    .ts-card-name { font-size: 15px; font-weight: 800; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .ts-card-meta { font-size: 12px; color: var(--muted); margin-top: 6px; display: flex; gap: 6px; align-items: center; font-weight: 600; }
+    .ts-card-prints-badge {
+      display: inline-flex; align-items: center; gap: 4px;
+      font-size: 10px; font-weight: 800; background: var(--surface-2); color: var(--muted);
+      padding: 3px 8px; border-radius: 6px; border: 1px solid var(--border); margin-left: auto;
+    }
+
+    /* PAGINATION */
+    .ts-pagination { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 28px 0; }
+    .ts-page-btn {
+      background: var(--surface-2); border: 1px solid var(--border); color: var(--muted);
+      font-size: 13px; font-weight: 700; width: 38px; height: 38px; border-radius: 12px; cursor: pointer; transition: 0.2s;
+    }
+    .ts-page-btn:hover { background: var(--surface-hover); color: var(--text); }
+    .ts-page-btn.active { background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: white; border-color: transparent; }
+
+    /* THEATRE VIEWPORT & DUAL COLUMN LAYOUT */
+    .cinema-theatre-stage { display: none; padding: 20px 0 40px; }
+    .cinema-theatre-stage.active { display: block; }
+    
+    .cinema-details-layout {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 32px;
+      max-width: 1000px;
+      margin: 0 auto;
+      align-items: start;
+      transition: max-width 0.3s ease, grid-template-columns 0.3s ease;
+    }
+    
+    .cinema-details-layout.with-sidebar {
+      grid-template-columns: 1fr 380px; 
+      max-width: 1440px;
+    }
+    
+    .cinema-main-col {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    
+    .cinema-details-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      gap: 24px;
+    }
+    
+    .cinema-details-poster {
+      width: 130px;
+      aspect-ratio: 2/3;
+      border-radius: 16px;
+      overflow: hidden;
+      flex-shrink: 0;
+      border: 1px solid var(--border);
+      background: #0c0c11;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .cinema-details-poster img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .cinema-details-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 14px;
+    }
+    
+    .cinema-parent-title {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--text);
+      line-height: 1.3;
+      text-transform: capitalize;
+    }
+    
+    .cinema-parent-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    
+    .cinema-parent-meta div {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--surface-2);
+      padding: 6px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+    
+    .cinema-parent-meta i {
+      color: var(--accent);
+      width: 14px;
+      text-align: center;
+    }
+
+    .cinema-actions-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .cinema-playing-title-area h2 {
+      font-size: 26px;
+      font-weight: 900;
+      letter-spacing: -0.5px;
+      color: var(--text);
+      text-transform: capitalize;
+    }
+    .cinema-playing-title-area p {
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 4px;
+      font-weight: 600;
+    }
+
+    .back-feed-btn {
+      background: var(--surface-2); border: 1px solid var(--border); color: var(--text);
+      padding: 12px 26px; border-radius: 16px; font-weight: 700; font-size: 14px; cursor: pointer; transition: 0.2s; display: flex; align-items: center; gap: 8px;
+    }
+    .back-feed-btn:hover { background: var(--surface-hover); }
+    
+    .premium-cropped-viewport-container {
+      width: 100%; background: var(--cinema-bg); 
+      border-radius: 24px; overflow: hidden; aspect-ratio: 16/9; border: 1px solid var(--border); 
+      box-shadow: var(--shadow-lg); position: relative;
+    }
+    
+    .premium-cropped-viewport-container iframe {
+      position: absolute; 
+      top: -80px; 
+      left: 0; 
+      width: 100%; 
+      height: calc(100% + 180px); /* FIXED: Increased from 80px to crop out bottom options */
+      border: none; 
+      background: var(--cinema-bg);
+    }
+
+    /* RIGHT SIDEBAR WITH VERTICAL SCROLL & DROPDOWN */
+    .cinema-sidebar-col {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 20px 24px;
+      box-shadow: var(--shadow-sm);
+      position: sticky;
+      top: 90px;
+      display: flex;
+      flex-direction: column;
+      max-height: calc(100vh - 120px);
+    }
+    
+    .sidebar-header-flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+    }
+
+    .parts-carousel-title {
+      font-size: 16px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text);
+      margin: 0;
+    }
+    .parts-carousel-title i { color: var(--accent); }
+    
+    .parts-vertical-scroll {
+      display: flex;
+      flex-direction: column; 
+      gap: 12px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding-right: 8px;
+    }
+    
+    .parts-vertical-scroll::-webkit-scrollbar { width: 6px; }
+    .parts-vertical-scroll::-webkit-scrollbar-track { background: var(--surface-2); border-radius: 10px; }
+    .parts-vertical-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 10px; }
+    .parts-vertical-scroll::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+
+    /* CHILD CARDS: Horizontal layout inside the vertical sidebar */
+    .child-part-card {
+      display: flex;
+      flex-direction: row;
+      gap: 14px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 10px;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      align-items: center;
+      width: 100%;
+    }
+    .child-part-card:hover {
+      border-color: rgba(239,58,63,0.4);
+      background: var(--surface-hover);
+      transform: translateX(-4px); 
+    }
+    .child-part-card.active {
+      border-color: var(--accent);
+      background: rgba(239,58,63,0.05);
+      box-shadow: 0 4px 12px rgba(239,58,63,0.1);
+    }
+    
+    .child-part-poster-area {
+      width: 120px;
+      aspect-ratio: 16/9;
+      position: relative;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+    .child-part-poster-area img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.85;
+      transition: transform 0.3s;
+    }
+    .child-part-card:hover .child-part-poster-area img {
+      transform: scale(1.05);
+    }
+    .child-part-play-indicator {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(0,0,0,0.4);
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .child-part-card:hover .child-part-play-indicator {
+      opacity: 1;
+    }
+    .child-part-card.active .child-part-play-indicator {
+      opacity: 1;
+      background: rgba(0,0,0,0.5);
+    }
+    .child-part-play-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      box-shadow: 0 4px 12px rgba(239,58,63,0.4);
+    }
+    .child-part-card.active .child-part-play-icon {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    }
+
+    .child-part-details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+      flex-grow: 1;
+      min-width: 0;
+    }
+    .child-part-title {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 4px;
+      text-transform: capitalize;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .child-part-meta {
+      font-size: 11px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    
+    .ts-empty { grid-column: 1/-1; text-align: center; padding: 60px 20px; color: var(--muted); }
+
+    /* RESPONSIVE LAYOUT (MOBILE & TABLET) */
+    @media (max-width: 1024px) {
+      .cinema-details-layout.with-sidebar { grid-template-columns: 1fr; }
+      .cinema-sidebar-col { position: static; max-height: 500px; margin-top: 16px; }
+    }
+    @media (max-width: 900px) {
+      .ts-topbar { flex-wrap: wrap; border-radius: 20px; padding: 14px; gap: 14px; }
+      .ts-search-wrap { order: 5; max-width: 100%; margin-left: 0; }
+      .ts-hero { padding: 32px; min-height: auto; border-radius: 24px; }
+      .ts-hero h1 { font-size: 32px; }
+      .ts-hero-poster { display: none; }
+      .ts-dashboard { grid-template-columns: 1fr; }
+      .ts-db-stats-row { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+      .ts-sync-bar { flex-direction: column; gap: 8px; border-radius: 20px; text-align: center; }
+      .filter-group-row { flex-direction: column; gap: 16px; }
+      
+      .cinema-details-card { flex-direction: column; text-align: center; align-items: center; }
+      .premium-cropped-viewport-container iframe {
+        top: -60px; 
+        height: calc(100% + 140px); /* FIXED: Increased bottom crop for mobile */
+      }
+    }
+
+    /* JaSH திரையரங்கம் modern refresh + performance polish */
+    :root {
+      --brand-glow: rgba(225, 29, 72, .26);
+      --glass: rgba(255,255,255,.72);
+    }
+    [data-theme="dark"] {
+      --bg: #06030d;
+      --bg-2: #0d0718;
+      --surface: rgba(18, 12, 30, .86);
+      --surface-2: rgba(255,255,255,.06);
+      --surface-hover: rgba(255,255,255,.10);
+      --border: rgba(255,255,255,.10);
+      --topbar-bg: rgba(13, 7, 24, .78);
+      --hero-bg: radial-gradient(circle at 82% 18%, rgba(245,158,11,.18), transparent 34%), linear-gradient(135deg, rgba(225,29,72,.20), rgba(13,7,24,.96) 68%);
+    }
+    .ts-wrap { max-width: 1500px; }
+    .ts-topbar { box-shadow: 0 18px 70px rgba(0,0,0,.18); }
+    .ts-logo-mark { font-family: 'Noto Sans Tamil', 'Outfit', sans-serif; font-weight: 900; font-size: 24px; }
+    .ts-logo-text { text-transform: none; letter-spacing: -.7px; white-space: nowrap; }
+    .ts-logo-accent { font-family: 'Noto Sans Tamil', 'Outfit', sans-serif; }
+    .ts-hero { overflow: hidden; box-shadow: 0 28px 90px rgba(0,0,0,.16); }
+    .ts-hero::after { content:''; position:absolute; inset:auto -12% -35% 38%; height:70%; background: radial-gradient(circle, rgba(245,158,11,.22), transparent 64%); pointer-events:none; }
+    .ts-hero h1 span { font-family: 'Noto Sans Tamil', 'Outfit', sans-serif; }
+    .ts-card { content-visibility: auto; contain-intrinsic-size: 390px 260px; will-change: transform; }
+    .ts-card, .ts-db-card, .advanced-filter-panel, .history-section { border: 1px solid var(--border); }
+    .ts-card-name { letter-spacing: -.2px; }
+    .ts-poster-bg-img { opacity: 0; transition: opacity .35s ease, transform .5s ease; }
+    .ts-poster-bg-img[src] { opacity: 1; }
+    .filter-chip, .ts-nav-btn, .ts-page-btn, .back-feed-btn, .reset-btn, .ts-theme-toggle { touch-action: manipulation; }
+    button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid rgba(245,158,11,.48); outline-offset: 3px; }
+    .app-loader { position: fixed; inset: 0; z-index: 999; display: grid; place-items: center; background: radial-gradient(circle at top left, rgba(225,29,72,.22), transparent 34%), var(--bg); color: var(--text); transition: opacity .28s ease, visibility .28s ease; }
+    .app-loader.hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+    .loader-card { width: min(420px, calc(100vw - 32px)); padding: 28px; border-radius: 28px; background: var(--topbar-bg); border: 1px solid var(--border); box-shadow: var(--shadow-lg); backdrop-filter: blur(24px); text-align: center; }
+    .loader-logo { width: 68px; height: 68px; margin: 0 auto 16px; border-radius: 24px; display:grid; place-items:center; color:#fff; font: 900 34px 'Noto Sans Tamil','Outfit'; background: linear-gradient(135deg, var(--accent), var(--accent-2)); box-shadow: 0 18px 52px var(--brand-glow); }
+    .loader-title { font-weight: 900; font-size: 24px; letter-spacing: -.8px; }
+    .loader-sub { margin-top: 8px; color: var(--muted); font-weight: 600; line-height: 1.45; }
+    .loader-bar { height: 8px; margin-top: 22px; border-radius: 99px; background: var(--surface-2); overflow:hidden; }
+    .loader-bar::before { content:''; display:block; height:100%; width:40%; border-radius:inherit; background: linear-gradient(90deg, var(--accent), var(--accent-2)); animation: loaderMove 1s infinite ease-in-out; }
+    @keyframes loaderMove { 0% { transform: translateX(-110%); } 100% { transform: translateX(260%); } }
+    .skeleton-card { min-height: 365px; border-radius: 24px; background: linear-gradient(110deg, var(--surface) 8%, var(--surface-2) 18%, var(--surface) 33%); background-size: 200% 100%; animation: shimmer 1.15s infinite linear; border: 1px solid var(--border); }
+    @keyframes shimmer { to { background-position-x: -200%; } }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .001ms !important; } }
+    @media (max-width: 560px) { .ts-wrap { padding-inline: 14px; } .ts-logo-text { font-size: 18px; } .ts-nav-links { width: 100%; overflow-x:auto; } .ts-nav-btn { flex: 1; padding-inline: 12px; } .ts-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; } .ts-card-info { padding: 12px !important; } }
+
+  </style>
+</head>
+<body>
+
+<div class="app-loader" id="appLoader" role="status" aria-live="polite">
+  <div class="loader-card">
+    <div class="loader-logo">ஜ</div>
+    <div class="loader-title">JaSH திரையரங்கம்</div>
+    <div class="loader-sub">Preparing your cinema feed with optimized static data and lazy-loaded posters…</div>
+    <div class="loader-bar" aria-hidden="true"></div>
+  </div>
+</div>
+
+
+<div class="ts-ambient" aria-hidden="true">
+  <div class="ts-ambient-blob ts-ambient-blob--red"></div>
+  <div class="ts-ambient-blob ts-ambient-blob--amber"></div>
+</div>
+
+<div class="ts-wrap" id="tsApp">
+  <header class="ts-topbar">
+    <div class="ts-logo" onclick="hardRefreshHome()">
+      <span class="ts-logo-mark" aria-hidden="true">ஜ</span>
+      <span class="ts-logo-text">JaSH <span class="ts-logo-accent">திரையரங்கம்</span></span>
+    </div>
+    
+    <nav class="ts-nav-links">
+      <button class="ts-nav-btn active" id="nav-home" onclick="hardRefreshHome()"><i class="fas fa-home"></i> Home</button>
+      <button class="ts-nav-btn" id="nav-play" onclick="switchLib('play')">Tamil</button>
+      <button class="ts-nav-btn" id="nav-dub" onclick="switchLib('dub')">Dubbed</button>
+    </nav>
+    
+    <div class="ts-search-wrap">
+      <i class="fas fa-search ts-search-icon"></i>
+      <input type="text" id="searchBox" placeholder="Search by name, category, year…" oninput="onSearch()">
+    </div>
+    
+    <button class="ts-theme-toggle" onclick="toggleTheme()" aria-label="Toggle Theme">
+      <i class="fas fa-moon" id="themeIcon"></i>
+    </button>
+  </header>
+
+  <div class="feed-view-stage" id="feedViewStagePanel">
+    
+    <section class="history-section" id="historySection">
+      <div class="history-header">
+        <span class="history-title"><i class="fas fa-history"></i> Recently Watched</span>
+        <button class="history-clear" onclick="clearHistory()">Clear All</button>
+      </div>
+      <div class="history-scroll" id="historyContainer"></div>
+    </section>
+
+    <section class="ts-hero">
+      <div class="ts-hero-glow"></div>
+      <div class="ts-hero-inner">
+        <span class="ts-hero-badge"><i class="fas fa-bolt"></i> FAST • MODERN • CINEMATIC</span>
+        <h1>JaSH திரையரங்கம். <br><span>புதிய திரை அனுபவம்.</span></h1>
+        <p>A premium Tamil and dubbed cinema hub rebuilt with faster loading, elegant cards, smarter filters, lazy posters, and a clean theatre-style player.</p>
+        <div class="ts-stats-row">
+          <div class="ts-stat"><div class="ts-stat-num" id="countTamil">—</div><div class="ts-stat-lbl">Tamil</div></div>
+          <div class="ts-stat"><div class="ts-stat-num" id="countDub">—</div><div class="ts-stat-lbl">Dubbed</div></div>
+          <div class="ts-stat"><div class="ts-stat-num" style="color:var(--accent)">HD</div><div class="ts-stat-lbl">Quality</div></div>
+        </div>
+      </div>
+      <div class="ts-hero-poster" aria-hidden="true">
+        <img id="heroBgImage" src="https://image.tmdb.org/t/p/original/9Rq14EyrUMpEXfYjLkhfNFB6dIh.jpg" alt="" fetchpriority="high" decoding="async" onerror="this.src='https://image.tmdb.org/t/p/original/9Rq14EyrUMpEXfYjLkhfNFB6dIh.jpg'"/>
+      </div>
+    </section>
+
+    <div class="ts-sync-bar" id="syncBar">
+      <span><i class="fas fa-clock"></i> Last Synced: <span class="ts-sync-val" id="lastSyncTime">—</span></span>
+      <span><i class="fas fa-database"></i> Total: <span class="ts-sync-val" id="totalAll">—</span> titles</span>
+      <span><i class="fas fa-gauge-high"></i> Cache-friendly static delivery</span>
+    </div>
+
+    <div class="ts-dashboard" id="dashboardPanel">
+      
+      <div class="ts-db-card">
+        <div class="ts-db-header">
+          <span class="ts-db-title"><i class="fas fa-film"></i> Tamil Movies</span>
+          <span class="ts-db-live">Synced</span>
+        </div>
+        <div class="ts-db-stats-row">
+          <div class="ts-db-stat"><div class="ts-db-stat-val" id="dbPlayFirst">—</div><div class="ts-db-stat-lbl">First ID</div></div>
+          <div class="ts-db-stat"><div class="ts-db-stat-val" id="dbPlayLast">—</div><div class="ts-db-stat-lbl">Last ID</div></div>
+        </div>
+      </div>
+
+      <div class="ts-db-card">
+        <div class="ts-db-header">
+          <span class="ts-db-title"><i class="fas fa-language"></i> Tamil Dubbed</span>
+          <span class="ts-db-live">Synced</span>
+        </div>
+        <div class="ts-db-stats-row">
+          <div class="ts-db-stat"><div class="ts-db-stat-val" id="dbDubFirst">—</div><div class="ts-db-stat-lbl">First ID</div></div>
+          <div class="ts-db-stat"><div class="ts-db-stat-val" id="dbDubLast">—</div><div class="ts-db-stat-lbl">Last ID</div></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="advanced-filter-panel">
+      <div class="filter-group-row">
+        <div class="filter-group">
+          <span class="filter-label">Content Type</span>
+          <div class="filter-chips">
+            <button class="filter-chip active" id="f-cat-all" onclick="setCategory('all')">All Types</button>
+            <button class="filter-chip" id="f-cat-Movie" onclick="setCategory('Movie')">Movies</button>
+            <button class="filter-chip" id="f-cat-Series" onclick="setCategory('Series')">Web Series</button>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <span class="filter-label">Release Year</span>
+          <select class="filter-select" id="filterYearSelect" onchange="onYearSelectChange()">
+            <option value="all">All Years</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <span class="filter-label">Sorting Order</span>
+          <select class="filter-select" id="filterSortSelect" onchange="onSortChange()">
+            <option value="latest">Sort: Latest Uploads</option>
+            <option value="oldest">Sort: Oldest Uploads</option>
+            <option value="az">Sort: A-Z Alphabetical</option>
+            <option value="za">Sort: Z-A Alphabetical</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <span class="filter-label">Genre</span>
+          <select class="filter-select" id="filterGenreSelect" onchange="onGenreChange()">
+            <option value="all">All Genres</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="filter-bottom-actions">
+        <div class="active-filters-badges" id="activeBadgesContainer"></div>
+        <button class="reset-btn" onclick="resetFilters()"><i class="fas fa-trash-alt"></i> Reset All Filters</button>
+      </div>
+    </div>
+
+    <div id="gridWrapper">
+      <div class="ts-grid" id="gridContainer"></div>
+    </div>
+    
+    <div class="ts-pagination" id="pagControls"></div>
+  </div>
+
+  <div class="cinema-theatre-stage" id="cinemaTheatreStageViewport">
+    <div class="cinema-details-layout" id="cinemaDynamicLayout">
+      
+      <main class="cinema-main-col">
+        <div class="cinema-actions-header">
+          <div class="cinema-playing-title-area">
+            <h2 id="cinemaPlayerTitle"></h2>
+            <p id="cinemaPlayerMeta"></p>
+          </div>
+          <button class="back-feed-btn" onclick="closePlayer()"><i class="fas fa-arrow-left"></i> Back to Feed</button>
+        </div>
+
+        <div class="premium-cropped-viewport-container">
+          <div id="iframeInjectionPoint"></div>
+        </div>
+
+        <div class="cinema-details-card">
+          <div class="cinema-details-poster" id="cinemaParentCard">
+            <img id="cinemaParentPosterImg" src="" alt="Poster">
+          </div>
+          <div class="cinema-details-info">
+            <h3 class="cinema-parent-title" id="cinemaParentTitle"></h3>
+            <div class="cinema-parent-meta" id="cinemaParentMeta"></div>
+            <div class="cinema-parent-description" id="cinemaParentDesc" style="margin-top: 14px; color: var(--text-light); font-size: 14px; line-height: 1.5; opacity: 0.85; max-width: 800px; display: none;"></div>
+          </div>
+        </div>
+      </main>
+
+      <aside class="cinema-sidebar-col" id="partsCarouselSection" style="display: none;">
+        <div class="sidebar-header-flex">
+          <h4 class="parts-carousel-title"><i class="fas fa-list-ul"></i> Episodes</h4>
+          <select class="filter-select" id="episodeDropdown" onchange="playChildPart(this.value)" style="width: 140px; padding: 6px 12px; font-size: 12px; border-radius: 8px; cursor: pointer;">
+          </select>
+        </div>
+        <div class="parts-vertical-scroll" id="partsCarouselScroll"></div>
+      </aside>
+
+    </div>
+  </div>
+</div>
+
+<script>
+window.open = function() { return null; }; 
+
+function initThemeIcon() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  document.getElementById('themeIcon').className = isDark ? 'fas fa-sun' : 'fas fa-moon';
+}
+
+function toggleTheme() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const newTheme = isDark ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', newTheme);
+  localStorage.setItem('jash-theme', newTheme);
+  initThemeIcon();
+}
+
+const COLORS = [
+  ['#1a0a10','#c94b6e'],['#0a0f1a','#4a7fc1'],['#0a1a10','#3d9b6b'],
+  ['#1a100a','#c97c3a'],['#10081a','#7c5bc1'],['#0a1a1a','#2d9fa8'],
+  ['#1a1a0a','#b0a030'],['#180a0a','#d4453d'],['#0a0a18','#5560c8'],
+  ['#081510','#2db86e'],
+];
+
+const ITEMS = 24;
+let lib = {play:[], dub:[]};
+let rawLib = {play:[], dub:[]};
+let activeLib = 'play';
+let currentView = 'home';
+let category = 'all';
+let selectedYear = 'all';
+let selectedGenre = 'all';
+let sortVal = 'latest';
+
+// INDEPENDENT PAGINATION STATES
+let pages = { play: 1, dub: 1 };
+let filtered = [];
+let currentPlayingMovie = null;
+
+function colorFor(title) {
+  let h = 0;
+  for(let i=0;i<title.length;i++) h=(h*31+title.charCodeAt(i))>>>0;
+  return COLORS[h % COLORS.length];
+}
+function initials(title) {
+  return title.split(' ').slice(0,2).map(w=>w[0]||'').join('').toUpperCase();
+}
+
+// WATCHING HISTORY LOGIC
+function getHistory() {
+  try {
+    return JSON.parse(localStorage.getItem('jash-history')) || [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function addToHistory(movie) {
+  let hist = getHistory();
+  hist = hist.filter(item => !(item.id === movie.id && item.lib === activeLib));
+  hist.unshift({ id: movie.id, title: movie.title, category: movie.category, lib: activeLib });
+  if (hist.length > 10) hist.pop();
+  localStorage.setItem('jash-history', JSON.stringify(hist));
+  renderHistory();
+}
+
+function clearHistory() {
+  localStorage.removeItem('jash-history');
+  renderHistory();
+}
+
+function renderHistory() {
+  const hist = getHistory();
+  const container = document.getElementById('historyContainer');
+  const section = document.getElementById('historySection');
+  
+  if (!hist || hist.length === 0) {
+    section.style.display = 'none';
+    return;
+  }
+  
+  section.style.display = 'block';
+  container.innerHTML = hist.map(m => {
+    return `
+      <div class="history-item" onclick="playHistoryItem('${m.id}', '${m.lib}')">
+        <div class="history-item-icon"><i class="fas fa-play"></i></div>
+        <div class="history-item-info">
+          <div class="history-item-title" style="text-transform: capitalize;">${cleanTitleForGrouping(m.title) || m.title}</div>
+          <div class="history-item-meta">ID: #${m.id} • ${m.lib === 'play' ? 'Tamil' : 'Dubbed'}</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function playHistoryItem(id, listType) {
+  activeLib = listType;
+  updateNav();
+  const targetMovie = lib[activeLib].find(m => m.prints.some(p => p.id === id));
+  if (targetMovie) {
+    document.getElementById('searchBox').value = id;
+    playMovie(targetMovie, true);
+  }
+}
+
+// Clean and normalize movie title for aggressive grouping
+function cleanTitleForGrouping(title) {
+  if (!title) return '';
+  return title
+    .toLowerCase()
+    .replace(/\(.*?\)/g, '') 
+    .replace(/(isaiDub|isaimini|moviesda|tamilyogi)\.[a-z]+\s*-\s*/gi, '') 
+    .replace(/\s*-\s*OneStream/gi, '')
+    .replace(/\s*\|\s*OneStream/gi, '')
+    .replace(/\b(1080p|720p|480p|360p|hd|sample|mp4|hq|lq|predvd|original|remastered|x264|hevc|dd5\.1|aac|tc|ts|camrip|dvdrip|webrip|web-dl)\b/gi, '')
+    .replace(/\b(season|s|part|pt|ep|episode|vol|volume|chapter)[\s\-:.]*\d+/gi, '')
+    .replace(/\bs\d+[\s\-:.]*e\d+\b/gi, '')
+    .replace(/\bsingle\s*part\b/gi, '')
+    .replace(/\b(19|20)\d{2}\b/g, '') 
+    .replace(/[-_:]+$/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+// Unified Grouping logic with Aggressive OMDB Metadata Inheritance
+function groupLibrary(moviesList) {
+  const groupsMap = {};
+  moviesList.forEach(m => {
+    const key = cleanTitleForGrouping(m.title);
+    if (!groupsMap[key]) {
+      groupsMap[key] = [];
+    }
+    groupsMap[key].push(m);
+  });
+
+  const groupedList = [];
+  for (const [key, items] of Object.entries(groupsMap)) {
+    items.sort((a,b) => parseInt(b.id) - parseInt(a.id));
+    
+    const rep = { ...items[0] };
+    rep.prints = items; 
+
+    for (const print of items) {
+        if (!rep.poster && print.poster) rep.poster = print.poster;
+        if (!rep.rating && print.rating) rep.rating = print.rating;
+        if (!rep.genres && print.genres) rep.genres = print.genres;
+        
+        if (!rep.runtime && print.runtime) rep.runtime = print.runtime;
+        if (!rep.released && print.released) rep.released = print.released;
+        
+        if ((!rep.year || rep.year === 'Unknown') && print.year && print.year !== 'Unknown') {
+            rep.year = print.year;
+        }
+    }
+
+    groupedList.push(rep);
+  }
+  return groupedList;
+}
+
+
+function fetchJSON(url) {
+  return fetch(url, { cache: 'force-cache' }).then(r => {
+    if (!r.ok) throw new Error(`Failed to load ${url}`);
+    return r.json();
+  });
+}
+
+function showInitialSkeleton() {
+  const grid = document.getElementById('gridContainer');
+  if (!grid) return;
+  grid.innerHTML = Array.from({ length: 12 }, () => '<div class="skeleton-card" aria-hidden="true"></div>').join('');
+}
+
+function hideLoader() {
+  const loader = document.getElementById('appLoader');
+  if (loader) loader.classList.add('hidden');
+}
+
+let searchTimer = null;
+function queueFilter() {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => {
+    pages[activeLib] = 1;
+    applyFilter();
+  }, 120);
+}
+
+async function load() {
+  initThemeIcon(); 
+  renderHistory();
+  showInitialSkeleton();
+  
+  const [p, d, t] = await Promise.all([
+    fetchJSON('data/movies.json').catch(()=>({})),
+    fetchJSON('data/movies_dub.json').catch(()=>({})),
+    fetchJSON('data/tracking.json').catch(()=>({}))
+  ]);
+  
+  rawLib.play = Object.entries(p).map(([id,m])=>({id, ...m, category: m.category||'Movie'}));
+  rawLib.dub  = Object.entries(d).map(([id,m])=>({id, ...m, category: m.category||'Movie'}));
+  
+  lib.play = groupLibrary(rawLib.play);
+  lib.dub  = groupLibrary(rawLib.dub);
+
+  const allYearsSet = new Set();
+  [...rawLib.play, ...rawLib.dub].forEach(m => {
+    if (m.year && m.year !== 'Unknown' && !isNaN(parseInt(m.year))) {
+      allYearsSet.add(parseInt(m.year));
+    }
+  });
+  const sortedYears = Array.from(allYearsSet).sort((a,b) => b - a); 
+  const filterYearSelect = document.getElementById('filterYearSelect');
+  if (filterYearSelect) {
+    filterYearSelect.innerHTML = '<option value="all">All Years</option>';
+    sortedYears.forEach(yr => {
+      filterYearSelect.innerHTML += `<option value="${yr}">${yr} Release</option>`;
+    });
+  }
+
+  const allGenresSet = new Set();
+  [...rawLib.play, ...rawLib.dub].forEach(m => {
+    if (m.genres) {
+      m.genres.split(',').forEach(g => {
+        const trimmed = g.trim();
+        if (trimmed) allGenresSet.add(trimmed);
+      });
+    }
+  });
+  const sortedGenres = Array.from(allGenresSet).sort();
+  const filterGenreSelect = document.getElementById('filterGenreSelect');
+  if (filterGenreSelect) {
+    filterGenreSelect.innerHTML = '<option value="all">All Genres</option>';
+    sortedGenres.forEach(g => {
+      filterGenreSelect.innerHTML += `<option value="${g}">${g}</option>`;
+    });
+  }
+  
+  document.getElementById('countTamil').textContent = rawLib.play.length || '0';
+  document.getElementById('countDub').textContent   = rawLib.dub.length  || '0';
+
+  populateDashboard(p, d, t);
+
+  const moviesWithPoster = rawLib.play.filter(m => m.poster && m.poster.startsWith('http'));
+  if (moviesWithPoster.length > 0) {
+    const hero = moviesWithPoster[Math.floor(Math.random() * moviesWithPoster.length)];
+    const heroImg = document.getElementById('heroBgImage');
+    if (heroImg) {
+      heroImg.src = hero.poster;
+    }
+  }
+  
+  const up = new URLSearchParams(location.search);
+  if(up.get('lib')) {
+    activeLib = up.get('lib');
+    currentView = activeLib; 
+  }
+  
+  if(up.get('id')) {
+    const directId = up.get('id');
+    const urlLib = up.get('lib');
+    let targetMovie = null;
+    
+    if (urlLib === 'play' || urlLib === 'dub') {
+      targetMovie = lib[urlLib].find(m => m.prints.some(p => p.id === directId));
+      if (targetMovie) {
+        activeLib = urlLib;
+      }
+    }
+    
+    if (!targetMovie) {
+      targetMovie = lib.play.find(m => m.prints.some(p => p.id === directId));
+      if (targetMovie) {
+        activeLib = 'play';
+      } else {
+        targetMovie = lib.dub.find(m => m.prints.some(p => p.id === directId));
+        if (targetMovie) activeLib = 'dub';
+      }
+    }
+    
+    if(targetMovie) {
+       currentView = activeLib;
+       updateNav();
+       document.getElementById('searchBox').value = directId;
+       playMovie(targetMovie, false);
+       hideLoader();
+       return;
+     }
+  }
+
+  if(up.get('page')) pages[activeLib] = parseInt(up.get('page'))||1;
+
+  if (!up.get('lib') && !up.get('id')) {
+    currentView = 'home';
+    document.getElementById('dashboardPanel').style.display = 'grid';
+    document.getElementById('syncBar').style.display = 'flex';
+  } else {
+    document.getElementById('dashboardPanel').style.display = 'none';
+    document.getElementById('syncBar').style.display = 'none';
+  }
+
+  updateNav();
+  applyFilter();
+  hideLoader();
+}
+
+function switchLib(l) { 
+  activeLib = l; 
+  currentView = l; 
+  
+  document.getElementById('feedViewStagePanel').style.display = 'block';
+  document.getElementById('cinemaTheatreStageViewport').classList.remove('active');
+  document.getElementById('iframeInjectionPoint').innerHTML = ''; 
+  currentPlayingMovie = null;
+
+  document.getElementById('dashboardPanel').style.display = 'none';
+  document.getElementById('syncBar').style.display = 'none';
+  
+  updateNav(); 
+  applyFilter(); 
+  pushState(); 
+}
+
+function setCategory(c) { 
+  category = c; 
+  pages[activeLib] = 1; 
+  document.querySelectorAll('.filter-chip').forEach(b=>b.classList.remove('active')); 
+  document.getElementById('f-cat-'+c)?.classList.add('active'); 
+  applyFilter(); 
+  pushState(); 
+}
+
+function onYearSelectChange() {
+  selectedYear = document.getElementById('filterYearSelect').value;
+  pages[activeLib] = 1;
+  applyFilter();
+}
+
+function onSortChange() {
+  sortVal = document.getElementById('filterSortSelect').value;
+  pages[activeLib] = 1;
+  applyFilter();
+}
+
+function onSearch() { 
+  queueFilter();
+}
+
+function resetFilters() {
+  document.getElementById('searchBox').value = '';
+  document.getElementById('filterYearSelect').value = 'all';
+  document.getElementById('filterSortSelect').value = 'latest';
+  document.getElementById('filterGenreSelect').value = 'all';
+  category = 'all';
+  selectedYear = 'all';
+  selectedGenre = 'all';
+  sortVal = 'latest';
+  pages[activeLib] = 1;
+  document.querySelectorAll('.filter-chip').forEach(b=>b.classList.remove('active'));
+  document.getElementById('f-cat-all').classList.add('active');
+  applyFilter();
+  pushState();
+}
+
+function updateNav() {
+  document.getElementById('nav-home').classList.toggle('active', currentView === 'home');
+  document.getElementById('nav-play').classList.toggle('active', currentView === 'play');
+  document.getElementById('nav-dub').classList.toggle('active', currentView === 'dub');
+}
+
+function applyFilter() {
+  const q = document.getElementById('searchBox').value.toLowerCase().trim();
+  
+  if (/^\d+$/.test(q)) {
+    const existsInCurrent = lib[activeLib].some(m => m.prints.some(p => p.id === q));
+    if (!existsInCurrent) {
+      const otherLib = activeLib === 'play' ? 'dub' : 'play';
+      const existsInOther = lib[otherLib].some(m => m.prints.some(p => p.id === q));
+      if (existsInOther) {
+        activeLib = otherLib;
+        currentView = otherLib;
+        updateNav();
+      }
+    }
+  }
+  
+  filtered = lib[activeLib].filter(m=>{
+    const matchesSearch = m.prints.some(p => p.title?.toLowerCase().includes(q) || p.id.includes(q));
+    const matchesCat = category==='all'||m.category===category;
+    
+    let matchesYear = true;
+    if (selectedYear !== 'all') {
+      matchesYear = m.year === selectedYear;
+    }
+    let matchesGenre = true;
+    if (selectedGenre !== 'all') {
+      matchesGenre = m.genres && m.genres.toLowerCase().includes(selectedGenre.toLowerCase());
+    }
+    return matchesSearch && matchesCat && matchesYear && matchesGenre;
+  });
+
+  if (sortVal === 'latest') {
+    filtered.sort((a,b)=>parseInt(b.id)-parseInt(a.id));
+  } else if (sortVal === 'oldest') {
+    filtered.sort((a,b)=>parseInt(a.id)-parseInt(b.id));
+  } else if (sortVal === 'az') {
+    filtered.sort((a,b)=>(cleanTitleForGrouping(a.title) || '').localeCompare(cleanTitleForGrouping(b.title) || ''));
+  } else if (sortVal === 'za') {
+    filtered.sort((a,b)=>(cleanTitleForGrouping(b.title) || '').localeCompare(cleanTitleForGrouping(a.title) || ''));
+  }
+
+  updateActiveBadges();
+  render();
+}
+
+function updateActiveBadges() {
+  const container = document.getElementById('activeBadgesContainer');
+  let badgesHTML = '';
+  
+  if (category !== 'all') {
+    badgesHTML += `<span class="active-badge">${category} <i class="fas fa-times" onclick="setCategory('all')"></i></span>`;
+  }
+  if (selectedYear !== 'all') {
+    badgesHTML += `<span class="active-badge">Year: ${selectedYear} <i class="fas fa-times" onclick="removeYearFilter()"></i></span>`;
+  }
+  if (sortVal !== 'latest') {
+    badgesHTML += `<span class="active-badge">Sort: ${sortVal.toUpperCase()} <i class="fas fa-times" onclick="removeSortFilter()"></i></span>`;
+  }
+  if (selectedGenre !== 'all') {
+    badgesHTML += `<span class="active-badge">Genre: ${selectedGenre} <i class="fas fa-times" onclick="removeGenreFilter()"></i></span>`;
+  }
+  
+  container.innerHTML = badgesHTML;
+}
+
+function removeYearFilter() {
+  document.getElementById('filterYearSelect').value = 'all';
+  selectedYear = 'all';
+  applyFilter();
+}
+
+function removeSortFilter() {
+  document.getElementById('filterSortSelect').value = 'latest';
+  sortVal = 'latest';
+  applyFilter();
+}
+
+function onGenreChange() {
+  selectedGenre = document.getElementById('filterGenreSelect').value;
+  pages[activeLib] = 1;
+  applyFilter();
+}
+
+function removeGenreFilter() {
+  document.getElementById('filterGenreSelect').value = 'all';
+  selectedGenre = 'all';
+  applyFilter();
+}
+
+let sectionPages = {};
+
+function goSectionPage(groupName, p) {
+  sectionPages[groupName] = p;
+  render();
+}
+
+function renderSectionPag(groupName, totalItems, currentPage) {
+  const total = Math.ceil(totalItems / 12);
+  if (total <= 1) return '';
+  
+  let h = `<div class="ts-pagination" style="padding: 12px 0 24px; justify-content: flex-start; gap: 6px;">`;
+  if (currentPage > 1) {
+    h += `<button class="ts-page-btn" onclick="goSectionPage('${groupName}', ${currentPage - 1})"><i class="fas fa-chevron-left"></i></button>`;
+  }
+  
+  let s = Math.max(1, currentPage - 2), e = Math.min(total, s + 4);
+  if (e - s < 4) s = Math.max(1, e - 4);
+  
+  if (s > 1) {
+    h += `<button class="ts-page-btn" onclick="goSectionPage('${groupName}', 1)">1</button>`;
+    if (s > 2) h += `<span class="ts-page-ellipsis">…</span>`;
+  }
+  
+  for (let i = s; i <= e; i++) {
+    h += `<button class="ts-page-btn${i === currentPage ? ' active' : ''}" onclick="goSectionPage('${groupName}', ${i})">${i}</button>`;
+  }
+  
+  if (e < total) {
+    if (e < total - 1) h += `<span class="ts-page-ellipsis">…</span>`;
+    h += `<button class="ts-page-btn" onclick="goSectionPage('${groupName}', ${total})">${total}</button>`;
+  }
+  
+  if (currentPage < total) {
+    h += `<button class="ts-page-btn" onclick="goSectionPage('${groupName}', ${currentPage + 1})"><i class="fas fa-chevron-right"></i></button>`;
+  }
+  
+  h += `</div>`;
+  return h;
+}
+
+function render() {
+  const g = document.getElementById('gridContainer');
+  
+  if (!filtered.length) {
+    g.innerHTML = '<div class="ts-empty"><i class="fas fa-film ts-empty-icon" style="font-size:32px;opacity:0.3;margin-bottom:10px;display:block"></i><p>No titles found matching selected filters.</p></div>';
+    document.getElementById('pagControls').innerHTML = '';
+    return;
+  }
+
+  if (selectedYear === 'all' && sortVal === 'latest') {
+    const distinctYears = new Set();
+    [...rawLib.play, ...rawLib.dub].forEach(m => {
+      if (m.year && m.year !== 'Unknown' && !isNaN(parseInt(m.year))) {
+        distinctYears.add(parseInt(m.year));
+      }
+    });
+    const sortedDbYears = Array.from(distinctYears).sort((a,b) => b - a);
+    
+    const topYears = sortedDbYears.slice(0, 4);
+    
+    const groups = {};
+    topYears.forEach(yr => {
+      groups[`${yr} Releases`] = [];
+    });
+    groups["Older / Classic"] = [];
+
+    filtered.forEach(m => {
+      const yr = parseInt(m.year);
+      if (topYears.includes(yr)) {
+        groups[`${yr} Releases`].push(m);
+      } else {
+        groups["Older / Classic"].push(m);
+      }
+    });
+
+    let html = '';
+    const SECTION_ITEMS = 12;
+    for (const [groupName, movies] of Object.entries(groups)) {
+      if (movies.length > 0) {
+        const groupPage = sectionPages[groupName] || 1;
+        const gStart = (groupPage - 1) * SECTION_ITEMS;
+        const gSlice = movies.slice(gStart, gStart + SECTION_ITEMS);
+        
+        html += `
+          <div style="grid-column: 1/-1; display: flex; flex-direction: column; gap: 16px; margin-bottom: 32px;">
+            <div class="year-group-header" style="margin-top: 16px; margin-bottom: 0px; border-bottom: 2px solid var(--border);">
+              ${groupName} <span>${movies.length} titles total</span>
+            </div>
+            <div class="ts-grid">
+              ${gSlice.map((m, i) => renderCard(m, i)).join('')}
+            </div>
+            ${renderSectionPag(groupName, movies.length, groupPage)}
+          </div>
+        `;
+      }
+    }
+    g.innerHTML = html;
+    document.getElementById('pagControls').innerHTML = ''; 
+  } else {
+    const start = (pages[activeLib] - 1) * ITEMS;
+    const slice = filtered.slice(start, start + ITEMS);
+    g.innerHTML = slice.map((m, i) => renderCard(m, i)).join('');
+    renderPag();
+  }
+}
+
+function renderCard(m, i) {
+  const masterTitle = cleanTitleForGrouping(m.title) || m.id;
+  const [bg,accent]=colorFor(masterTitle);
+  const ini=initials(masterTitle);
+  
+  const maxYearInDb = Math.max(...[...rawLib.play, ...rawLib.dub].map(mov => parseInt(mov.year) || 0));
+  const isNew = parseInt(m.year) >= maxYearInDb;
+  const numPrints = m.prints ? m.prints.length : 1;
+  const hasMultipleParts = numPrints > 1;
+  
+  const printBadge = hasMultipleParts ? `<span class="ts-card-prints-badge"><i class="fas fa-layer-group"></i> ${numPrints} Parts</span>` : '';
+  
+  let posterContent = '';
+  if (m.poster) {
+    posterContent = `<img src="${m.poster}" alt="${(m.title||'').replace(/"/g,'&quot;')}" class="ts-poster-bg-img" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="ts-poster-bg" style="background:${bg};display:none;position:absolute;inset:0;align-items:center;justify-content:center;">
+        <span style="font-size:36px;font-weight:900;color:${accent};opacity:0.35;letter-spacing:-2px;">${ini}</span>
+      </div>`;
+  } else {
+    posterContent = `<div class="ts-poster-bg" style="background:${bg}"></div>
+      <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:36px;font-weight:900;color:${accent};opacity:0.35;letter-spacing:-2px;pointer-events:none;">${ini}</div>`;
+  }
+  
+  const displayYear = (m.year && m.year !== 'Unknown') ? m.year : '';
+  const displayGenres = m.genres ? `<div class="ts-card-genres">${m.genres}</div>` : '<div class="ts-card-genres">General Track</div>';
+  
+  const cardClickAction = `onclick="playMovieById('${m.id}')"`;
+  
+  return `
+  <article class="ts-card" ${cardClickAction}>
+    <div class="ts-poster">
+      ${posterContent}
+      <div class="ts-poster-grad"></div>
+      
+      ${isNew?'<span class="ts-badge-new">New</span>':''}
+      <span class="ts-badge-cat">${m.category||'Movie'}</span>
+      ${m.rating ? `<span class="ts-badge-rating">⭐ ${m.rating}</span>` : ''}
+      
+      <div class="ts-poster-hover">
+        <span class="ts-poster-play"><i class="fas fa-play" style="margin-left:4px"></i></span>
+      </div>
+    </div>
+
+    <div class="ts-card-info" style="display: flex; flex-direction: column; height: 95px; justify-content: space-between;">
+      <div class="ts-card-name" style="text-transform: capitalize;">${masterTitle}</div>
+      <div class="ts-card-meta" style="display:flex; justify-content:space-between; align-items:center; width:100%;">
+        <div>
+          <span>#${m.id}</span>
+          ${displayYear ? `<span class="ts-dot">•</span><span>${displayYear}</span>` : ''}
+        </div>
+        ${printBadge}
+      </div>
+      ${displayGenres}
+    </div>
+  </article>`;
+}
+
+function renderPag() {
+  const total=Math.ceil(filtered.length/ITEMS);
+  const pc=document.getElementById('pagControls');
+  if(total <= 1){pc.innerHTML='';return;}
+  let h='';
+  const currentPage = pages[activeLib];
+  
+  if(currentPage>1) h+=`<button class="ts-page-btn" onclick="goPage(${currentPage-1})"><i class="fas fa-chevron-left"></i></button>`;
+  let s=Math.max(1,currentPage-2),e=Math.min(total,s+4);
+  if(e-s<4) s=Math.max(1,e-4);
+  if(s>1) h+=`<button class="ts-page-btn" onclick="goPage(1)">1</button>${s>2?'<span class="ts-page-ellipsis">…</span>':''}`;
+  for(let i=s;i<=e;i++) h+=`<button class="ts-page-btn${i===currentPage?' active':''}" onclick="goPage(${i})">${i}</button>`;
+  if(e<total) h+=`${e<total-1?'<span class="ts-page-ellipsis">…</span>':''}<button class="ts-page-btn" onclick="goPage(${total})">${total}</button>`;
+  if(currentPage<total) h+=`<button class="ts-page-btn" onclick="goPage(${currentPage+1})"><i class="fas fa-chevron-right"></i></button>`;
+  pc.innerHTML=h;
+}
+
+function goPage(p){ pages[activeLib]=p; pushState(); applyFilter(); document.documentElement.scrollTop = 0; }
+function pushState(){ history.pushState({},'',`?lib=${activeLib}&page=${pages[activeLib]}`); }
+
+function playMovieById(id) {
+  const targetMovie = lib[activeLib].find(m => m.prints.some(p => p.id === id));
+  if (targetMovie) {
+    document.getElementById('searchBox').value = id;
+    playMovie(targetMovie, true);
+  }
+}
+
+function playMovie(m, updateUrl = true){
+  currentPlayingMovie = m;
+  document.getElementById('feedViewStagePanel').style.display = 'none';
+  document.getElementById('cinemaTheatreStageViewport').classList.add('active');
+  
+  const masterTitle = cleanTitleForGrouping(m.title) || m.id;
+  const [bg, accent] = colorFor(masterTitle);
+  const ini = initials(masterTitle);
+
+  const posterImg = document.getElementById('cinemaParentPosterImg');
+  if (m.poster) {
+    posterImg.src = m.poster;
+    posterImg.style.display = 'block';
+  } else {
+    posterImg.src = '';
+    posterImg.style.display = 'none';
+  }
+  
+  document.getElementById('cinemaParentTitle').innerText = masterTitle;
+  
+  const displayYear = (m.year && m.year !== 'Unknown') ? m.year : '';
+  const displayGenres = m.genres ? m.genres : 'General Track';
+  const displayRating = m.rating ? `⭐ ${m.rating}` : 'N/A';
+  
+  document.getElementById('cinemaParentMeta').innerHTML = `
+    <div><i class="fas fa-tag"></i> <span>${m.category || 'Movie'}</span></div>
+    ${displayYear ? `<div><i class="fas fa-calendar-alt"></i> <span>${displayYear}</span></div>` : ''}
+    <div><i class="fas fa-star"></i> <span>Rating: ${displayRating}</span></div>
+    <div><i class="fas fa-bookmark"></i> <span>${displayGenres}</span></div>
+  `;
+
+  const descEl = document.getElementById('cinemaParentDesc');
+  if (descEl) {
+    let descHTML = '';
+    if (m.plot && m.plot !== 'N/A') descHTML += `<p style="margin-bottom:12px; font-size:15px; font-weight: 500; line-height: 1.6;">${m.plot}</p>`;
+    
+    let extraMeta = [];
+    if (m.runtime && m.runtime !== 'N/A') extraMeta.push(`<strong>Runtime:</strong> ${m.runtime}`);
+    if (m.director && m.director !== 'N/A') extraMeta.push(`<strong>Director:</strong> ${m.director}`);
+    if (m.writer && m.writer !== 'N/A') extraMeta.push(`<strong>Writer:</strong> ${m.writer}`);
+    if (m.actors && m.actors !== 'N/A') extraMeta.push(`<strong>Actors:</strong> ${m.actors}`);
+    if (m.language && m.language !== 'N/A') extraMeta.push(`<strong>Language:</strong> ${m.language}`);
+    if (m.country && m.country !== 'N/A') extraMeta.push(`<strong>Country:</strong> ${m.country}`);
+    if (m.rated && m.rated !== 'N/A') extraMeta.push(`<strong>Rated:</strong> ${m.rated}`);
+    
+    if (extraMeta.length > 0) {
+      descHTML += `<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 8px 16px; font-size: 13px; opacity: 0.8; margin-top: 12px; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 12px;">` + extraMeta.map(item => `<div>${item}</div>`).join('') + `</div>`;
+    }
+    
+    if (descHTML) {
+      descEl.innerHTML = descHTML;
+      descEl.style.display = 'block';
+    } else {
+      descEl.innerHTML = '';
+      descEl.style.display = 'none';
+    }
+  }
+
+  const q = document.getElementById('searchBox').value.trim();
+  let preselectedId = m.id;
+  
+  const layoutContainer = document.getElementById('cinemaDynamicLayout');
+  const carouselSection = document.getElementById('partsCarouselSection');
+  const carouselScroll = document.getElementById('partsCarouselScroll');
+
+  const numPrints = m.prints ? m.prints.length : 1;
+  const hasMultipleParts = numPrints > 1;
+
+  if (hasMultipleParts) {
+    layoutContainer.classList.add('with-sidebar');
+    carouselSection.style.display = 'flex';
+    
+    const matchedPrint = m.prints.find(p => p.id === q || p.title?.toLowerCase().includes(q.toLowerCase()));
+    if (matchedPrint) {
+      preselectedId = matchedPrint.id;
+    } else {
+      preselectedId = m.prints[0].id;
+    }
+    
+    let dropdownOptionsHTML = ''; // FIXED: Container for the new dropdown options
+    
+    carouselScroll.innerHTML = m.prints.map(p => {
+      let subTitle = p.title.toLowerCase().replace(masterTitle.toLowerCase(), '').trim();
+      subTitle = subTitle.replace(/(isaimini|isaidub|moviesda|tamilyogi)\.[a-z]+/gi, '')
+                         .replace(/[\s\-\|]+onestream/gi, '')
+                         .replace(/\b(1080p|720p|480p|360p|hd|sample|mp4|hq|lq|predvd|original|remastered|x264|hevc|dd5\.1|aac|tc|ts|camrip|dvdrip|webrip|web-dl)\b/gi, '')
+                         .replace(/\b(19|20)\d{2}\b/g, '')
+                         .replace(/[-_:\s|]+/g, ' ')
+                         .trim();
+      if (!subTitle) subTitle = `Part ID: #${p.id}`;
+      
+      const isActive = p.id === preselectedId ? ' active' : '';
+      const isSelected = p.id === preselectedId ? 'selected' : ''; // FIXED: Check for dropdown sync
+      
+      // FIXED: Build the dropdown option simultaneously
+      dropdownOptionsHTML += `<option value="${p.id}" ${isSelected}>${subTitle}</option>`;
+      
+      let childPosterHTML = '';
+      if (m.poster) {
+        childPosterHTML = `<img src="${m.poster}" alt="${subTitle}">`;
+      } else {
+        childPosterHTML = `<div style="width:100%;height:100%;background:${bg};display:flex;align-items:center;justify-content:center;color:${accent};font-size:18px;font-weight:900;">${ini}</div>`;
+      }
+
+      return `
+        <div class="child-part-card${isActive}" id="child-card-${p.id}" onclick="playChildPart('${p.id}')">
+          <div class="child-part-poster-area">
+            ${childPosterHTML}
+            <div class="child-part-play-indicator">
+              <div class="child-part-play-icon">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="child-part-details">
+            <div class="child-part-title">${subTitle}</div>
+            <div class="child-part-meta">Ep ID: #${p.id}</div>
+          </div>
+        </div>
+      `;
+    }).join('');
+    
+    // FIXED: Inject the generated options into the dropdown
+    document.getElementById('episodeDropdown').innerHTML = dropdownOptionsHTML;
+    
+  } else {
+    layoutContainer.classList.remove('with-sidebar');
+    carouselSection.style.display = 'none';
+    carouselScroll.innerHTML = '';
+  }
+  
+  loadStreamSource(preselectedId, m.title, m.category);
+  
+  addToHistory(m);
+  
+  if(updateUrl) history.pushState({},'',`?lib=${activeLib}&id=${preselectedId}`);
+  document.documentElement.scrollTop = 0;
+}
+
+function playChildPart(id) {
+  if (!currentPlayingMovie) return;
+  const match = currentPlayingMovie.prints.find(p => p.id === id);
+  if (match) {
+    document.querySelectorAll('.child-part-card').forEach(c => c.classList.remove('active'));
+    const activeCard = document.getElementById(`child-card-${id}`);
+    if (activeCard) activeCard.classList.add('active');
+
+    // FIXED: Keep the dropdown in sync when a card is clicked
+    const dropdown = document.getElementById('episodeDropdown');
+    if (dropdown && dropdown.value !== id) {
+      dropdown.value = id;
+    }
+
+    loadStreamSource(match.id, match.title, match.category);
+    addToHistory(match);
+    history.pushState({},'',`?lib=${activeLib}&id=${match.id}`);
+  }
+}
+
+function loadStreamSource(id, title, category) {
+  const base = activeLib === 'play' ? 'https://play.onestream.today' : 'https://dub.onestream.today';
+  const url = activeLib === 'play' ? `${base}/stream/page/${id}` : `${base}/stream/video/${id}`;
+  
+  let cleanTitle = cleanTitleForGrouping(title) || title;
+  
+  let activeSub = '';
+  if (currentPlayingMovie && currentPlayingMovie.prints && currentPlayingMovie.prints.length > 1) {
+    const parentTitle = cleanTitleForGrouping(currentPlayingMovie.title);
+    activeSub = title.toLowerCase().replace(parentTitle.toLowerCase(), '').trim();
+    activeSub = activeSub.replace(/(isaimini|isaidub|moviesda|tamilyogi)\.[a-z]+/gi, '')
+                         .replace(/[\s\-\|]+onestream/gi, '')
+                         .replace(/\b(1080p|720p|480p|360p|hd|sample|mp4|hq|lq|predvd|original|remastered|x264|hevc|dd5\.1|aac|tc|ts|camrip|dvdrip|webrip|web-dl)\b/gi, '')
+                         .replace(/\b(19|20)\d{2}\b/g, '')
+                         .replace(/[-_:\s|]+/g, ' ')
+                         .trim();
+  }
+
+  document.getElementById('cinemaPlayerTitle').innerText = cleanTitle + (activeSub ? ` - ${activeSub}` : '');
+  document.getElementById('cinemaPlayerMeta').innerHTML = `<i class="fas fa-tag" style="opacity:0.5; margin-right:4px"></i> ${category} • ID: #${id} • ${activeLib==='play'?'Original Track':'Tamil Dubbed'}`;
+  
+  // FIXED: added scrolling="no" to iframe
+  document.getElementById('iframeInjectionPoint').innerHTML = `
+    <iframe src="${url}" sandbox="allow-scripts allow-same-origin allow-forms" scrolling="no" allowfullscreen></iframe>
+  `;
+}
+
+function hardRefreshHome() {
+  window.location.href = `${location.origin}${location.pathname}`;
+}
+
+function closePlayer() {
+  const searchBox = document.getElementById('searchBox');
+  if (searchBox && /^\d+$/.test(searchBox.value.trim())) {
+    searchBox.value = '';
+  }
+  
+  document.getElementById('feedViewStagePanel').style.display = 'block';
+  document.getElementById('cinemaTheatreStageViewport').classList.remove('active');
+  document.getElementById('iframeInjectionPoint').innerHTML = ''; 
+  currentPlayingMovie = null;
+  
+  updateNav();
+  applyFilter();
+  history.pushState({}, '', `?lib=${activeLib}&page=${pages[activeLib]}`);
+}
+
+function populateDashboard(playData, dubData, tracking) {
+  function calcStats(data) {
+    const ids = Object.keys(data).map(Number).sort((a,b) => a - b);
+    if (!ids.length) return null;
+    return { first: ids[0], last: ids[ids.length - 1], total: ids.length };
+  }
+
+  function fmt(n) {
+    if (n >= 1000) return (n/1000).toFixed(1).replace(/\.0$/, '') + 'K';
+    return n.toString();
+  }
+
+  function timeAgo(isoStr) {
+    if (!isoStr) return 'Unknown';
+    const diff = Date.now() - new Date(isoStr).getTime();
+    const mins = Math.floor(diff / 60000);
+    if (mins < 1) return 'Just now';
+    if (mins < 60) return mins + ' min ago';
+    const hrs = Math.floor(mins / 60);
+    if (hrs < 24) return hrs + 'h ago';
+    const days = Math.floor(hrs / 24);
+    return days + 'd ago';
+  }
+
+  const ps = calcStats(playData);
+  if (ps) {
+    document.getElementById('dbPlayFirst').textContent = '#' + ps.first;
+    document.getElementById('dbPlayLast').textContent = '#' + ps.last;
+  }
+
+  const ds = calcStats(dubData);
+  if (ds) {
+    document.getElementById('dbDubFirst').textContent = '#' + ds.first;
+    document.getElementById('dbDubLast').textContent = '#' + ds.last;
+  }
+
+  const totalAll = (ps ? ps.total : 0) + (ds ? ds.total : 0);
+  document.getElementById('totalAll').textContent = fmt(totalAll);
+  document.getElementById('lastSyncTime').textContent = timeAgo(tracking.last_updated);
+}
+
+load();
+</script>
+</body>
+</html>
