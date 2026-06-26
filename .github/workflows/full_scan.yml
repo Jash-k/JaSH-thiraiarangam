@@ -1,52 +1,27 @@
-name: JaSH Full Scan (Rebuild)
+name: Deep Historical Scan
 
 on:
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  full-scan:
+  scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 330
-
+    permissions:
+      contents: write
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-
-    - name: Install dependencies
-      run: pip install requests beautifulsoup4
-
-    - name: Run full scan in batches with periodic commits
-      run: |
-        for i in $(seq 1 40); do
-          echo "========================================="
-          echo "  BATCH $i / 40"
-          echo "========================================="
-          python full_scan.py --batch-size 5000
-
-          # Commit progress after each batch
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add data/*.json
-          git commit -m "Full scan progress: batch $i" || echo "No changes in batch $i"
-          git pull --rebase origin main || true
-          git push || true
-
-          echo "Batch $i committed. Continuing..."
-        done
-
-    - name: Final commit
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add data/*.json
-        git commit -m "Full scan complete" || echo "Already committed."
-        git pull --rebase origin main
-        git push
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run Scan
+        run: python3 scripts/full_scan.py
+      - name: Rebuild & Commit
+        run: |
+          python3 scripts/build_chunks.py
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/
+          if ! git diff --quiet || ! git diff --staged --quiet; then
+            git commit -m "🚀 Deep historical scan updates"
+            git push
+          fi

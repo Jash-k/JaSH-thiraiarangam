@@ -1,11 +1,22 @@
 {
   "name": "jash-thiraiarangam",
-  "version": "1.0.0",
+  "version": "3.0.0",
+  "description": "Modular, modern, Vercel-ready Tamil cinema catalogue for JaSH திரையரங்கம்",
   "private": true,
-  "description": "JaSH திரையரங்கம் - a fast static Tamil cinema catalogue for Vercel.",
   "scripts": {
-    "dev": "vercel dev",
-    "start": "python3 -m http.server 3000",
-    "deploy": "vercel --prod"
-  }
+    "start": "npx serve .",
+    "scrape": "python3 scripts/update_movies.py",
+    "enrich": "python3 scripts/enrich.py",
+    "build": "python3 scripts/build_chunks.py",
+    "validate": "python3 scripts/validate_data.py"
+  },
+  "keywords": [
+    "tamil-cinema",
+    "ott",
+    "vercel",
+    "python",
+    "github-actions"
+  ],
+  "author": "JaSH திரையரங்கம்",
+  "license": "MIT"
 }

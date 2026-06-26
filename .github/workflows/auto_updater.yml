@@ -1,37 +1,49 @@
-name: JaSH Auto Updater
+name: Daily Auto Updater & Chunk Compiler
 
 on:
   schedule:
-    # Runs automatically every 15 minutes
-    - cron: '*/15 * * * *'
+    - cron: '0 0 * * *' # Midnight UTC
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  update:
+  update-catalogue:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-    - name: Install dependencies
-      run: pip install requests beautifulsoup4
+      - name: Scrape New Streams
+        run: python3 scripts/update_movies.py
 
-    - name: Scan for new movies
-      run: python update_movies.py
+      - name: Enrich OMDb Metadata
+        env:
+          OMDB_KEYS: ${{ secrets.OMDB_KEYS }}
+        run: python3 scripts/enrich.py
 
-    - name: Commit and push
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add data/*.json
-        git commit -m "Automated database update" || echo "No new movies found."
-        git pull --rebase origin main
-        git push
+      - name: Build Static JSON Chunks
+        run: python3 scripts/build_chunks.py
+
+      - name: Validate JSON Schema
+        run: python3 scripts/validate_data.py
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/
+          
+          if ! git diff --quiet || ! git diff --staged --quiet; then
+            git commit -m "🤖 Auto-update catalogue: New streams & chunk recompilation"
+            git pull --rebase origin main
+            git push
+          else
+            echo "Database is fully up to date."
+          fi

@@ -1,36 +1,17 @@
-name: JaSH Audit
+name: Weekly Link Audit
 
 on:
+  schedule:
+    - cron: '0 4 * * 0' # Sundays at 4am
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
   audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
-
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-
-    - name: Install dependencies
-      run: pip install requests beautifulsoup4
-
-    - name: Run cross-check audit
-      run: python audit.py
-
-    - name: Commit and push
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add data/*.json
-        git commit -m "Audit: filled gaps and updated empty IDs" || echo "No gaps found — audit passed."
-        git pull --rebase origin main
-        git push
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run Audit
+        run: python3 scripts/audit.py
