@@ -1,5 +1,225 @@
 [
   {
+    "id": "38678",
+    "title": "Twin Dragons",
+    "raw_title": "Twin Dragons (1992) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjM4NDNhMDEtYjA4Mi00NjliLThmOTgtMDM3ZDQ1MDE4ZjRlXkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "6.4",
+    "genres": "Action, Comedy",
+    "runtime": "104 min",
+    "released": "09 Apr 1999",
+    "year": "1992",
+    "plot": "Identical twins are separated at birth, one becoming a streetwise mechanic, and the other an acclaimed classical concert conductor. Finally meeting in adulthood, they each become mistaken for the other and entangled in each other'...",
+    "director": "Ringo Lam, Hark Tsui",
+    "actors": "Jackie Chan, Maggie Cheung, Teddy Robin Kwan",
+    "language": "Cantonese",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38678",
+        "title": "Twin Dragons (1992) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38678"
+      },
+      {
+        "id": "38677",
+        "title": "Twin Dragons (1992) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38677"
+      },
+      {
+        "id": "38675",
+        "title": "Twin Dragons (1992) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38675"
+      },
+      {
+        "id": "38674",
+        "title": "Twin Dragons (1992) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38674"
+      },
+      {
+        "id": "38672",
+        "title": "Twin Dragons (1992)",
+        "stream_url": "https://dub.onestream.today/stream/video/38672"
+      }
+    ]
+  },
+  {
+    "id": "38671",
+    "title": "The Young Master",
+    "raw_title": "The Young Master (1980) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOGRlZjg4ZWMtNjc3OC00N2JlLThkZDgtNjhmMjM5NTQ2NGM0XkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "7.0",
+    "genres": "Action, Adventure, Comedy",
+    "runtime": "105 min",
+    "released": "09 Feb 1980",
+    "year": "1980",
+    "plot": "A talented martial arts student goes after his expelled brother, who get into bad company.",
+    "director": "Jackie Chan",
+    "actors": "Jackie Chan, Biao Yuen, Pai Wei",
+    "language": "Cantonese",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38671",
+        "title": "The Young Master (1980) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38671"
+      },
+      {
+        "id": "38670",
+        "title": "The Young Master (1980) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38670"
+      },
+      {
+        "id": "38668",
+        "title": "The Young Master (1980) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38668"
+      },
+      {
+        "id": "38667",
+        "title": "The Young Master (1980) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38667"
+      },
+      {
+        "id": "38665",
+        "title": "The Young Master (1980)",
+        "stream_url": "https://dub.onestream.today/stream/video/38665"
+      }
+    ]
+  },
+  {
+    "id": "38657",
+    "title": "The Tuxedo",
+    "raw_title": "The Tuxedo (2002) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjEyNTI0NjM5M15BMl5BanBnXkFtZTYwMjQ0NTE3._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "5.4",
+    "genres": "Action, Comedy, Sci-Fi",
+    "runtime": "98 min",
+    "released": "27 Sep 2002",
+    "year": "2002",
+    "plot": "A hapless chauffeur must take a comatose Secret Agent's place using his special gadget-laden tuxedo.",
+    "director": "Kevin Donovan",
+    "actors": "Jackie Chan, Jennifer Love Hewitt, Jason Isaacs",
+    "language": "English, Cantonese",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38657",
+        "title": "The Tuxedo (2002) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38657"
+      },
+      {
+        "id": "38656",
+        "title": "The Tuxedo (2002) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38656"
+      },
+      {
+        "id": "38654",
+        "title": "The Tuxedo (2002) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38654"
+      },
+      {
+        "id": "38653",
+        "title": "The Tuxedo (2002) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38653"
+      },
+      {
+        "id": "38651",
+        "title": "The Tuxedo (2002)",
+        "stream_url": "https://dub.onestream.today/stream/video/38651"
+      }
+    ]
+  },
+  {
+    "id": "38650",
+    "title": "The Spy Next Door",
+    "raw_title": "The Spy Next Door (2010) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTI5MjEzMjM4N15BMl5BanBnXkFtZTcwODc0ODEwMw@@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "5.5",
+    "genres": "Action, Comedy, Family",
+    "runtime": "94 min",
+    "released": "15 Jan 2010",
+    "year": "2010",
+    "plot": "Former C.I.A. spy Bob Ho takes on his toughest assignment to date: looking after his girlfriend's three kids, but things take a turn when a russian terrorist takes aim at the family",
+    "director": "Brian Levant",
+    "actors": "Jackie Chan, Amber Valletta, Billy Ray Cyrus",
+    "language": "English, Chinese, Russian",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38650",
+        "title": "The Spy Next Door (2010) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38650"
+      },
+      {
+        "id": "38649",
+        "title": "The Spy Next Door (2010) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38649"
+      },
+      {
+        "id": "38647",
+        "title": "The Spy Next Door (2010) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38647"
+      },
+      {
+        "id": "38646",
+        "title": "The Spy Next Door (2010) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38646"
+      },
+      {
+        "id": "38644",
+        "title": "The Spy Next Door (2010)",
+        "stream_url": "https://dub.onestream.today/stream/video/38644"
+      }
+    ]
+  },
+  {
+    "id": "38643",
+    "title": "The Myth",
+    "raw_title": "The Myth (2005) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BODU5MDczMWYtYTc5MS00NzZkLWIwMjQtNGI0NDdkYWE4NmI0XkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "6.1",
+    "genres": "Action, Adventure, Comedy",
+    "runtime": "122 min",
+    "released": "11 May 2005",
+    "year": "2005",
+    "plot": "Archeologist Jack keeps having reoccurring dreams of a past life, where he is the great general Meng Yi, who is sworn to protect a princess named Ok-Soo. Jack decides to go investigate everything with his friend William.",
+    "director": "Stanley Tong",
+    "actors": "Bing Shao, Jackie Chan, Weixing Yao",
+    "language": "Mandarin, Cantonese, English, Korean",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38643",
+        "title": "The Myth (2005) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38643"
+      },
+      {
+        "id": "38642",
+        "title": "The Myth (2005) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38642"
+      },
+      {
+        "id": "38640",
+        "title": "The Myth (2005) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38640"
+      },
+      {
+        "id": "38639",
+        "title": "The Myth (2005) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38639"
+      },
+      {
+        "id": "38637",
+        "title": "The Myth (2005)",
+        "stream_url": "https://dub.onestream.today/stream/video/38637"
+      }
+    ]
+  },
+  {
     "id": "38636",
     "title": "The Medallion",
     "raw_title": "The Medallion (2003) Sample (640x360)",
@@ -827,226 +1047,6 @@
         "id": "38476",
         "title": "Heart Of A Dragon (1985)",
         "stream_url": "https://dub.onestream.today/stream/video/38476"
-      }
-    ]
-  },
-  {
-    "id": "38475",
-    "title": "Gorgeous",
-    "raw_title": "Gorgeous (1999) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNmI1NWJiOTQtY2VjYi00ZmZjLWEzZTQtNWI2ODYyMTBjNmY1XkEyXkFqcGc@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "6.0",
-    "genres": "Action, Comedy, Romance",
-    "runtime": "121 min",
-    "released": "06 Feb 1999",
-    "year": "1999",
-    "plot": "A romantic girl travels to Hong Kong in search of certain love but instead meets a kind-hearted professional fighter for whom she begins to fall instead.",
-    "director": "Vincent Kok",
-    "actors": "Jackie Chan, Shu Qi, Tony Leung Chiu-wai",
-    "language": "Cantonese, English, Mandarin, Japanese, Min Nan",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38475",
-        "title": "Gorgeous (1999) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38475"
-      },
-      {
-        "id": "38474",
-        "title": "Gorgeous (1999) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38474"
-      },
-      {
-        "id": "38472",
-        "title": "Gorgeous (1999) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38472"
-      },
-      {
-        "id": "38471",
-        "title": "Gorgeous (1999) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38471"
-      },
-      {
-        "id": "38469",
-        "title": "Gorgeous (1999)",
-        "stream_url": "https://dub.onestream.today/stream/video/38469"
-      }
-    ]
-  },
-  {
-    "id": "38468",
-    "title": "Fist Of Fury",
-    "raw_title": "Fist Of Fury (1972) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BZDAxMWZjMTgtNDdkMC00YmI5LWFkNzYtOTA0NDMwNjE2Y2MzXkEyXkFqcGc@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "7.2",
-    "genres": "Action, Drama, Romance",
-    "runtime": "107 min",
-    "released": "09 Sep 1972",
-    "year": "1972",
-    "plot": "During the Japanese occupation of Shanghai, the star pupil of a recently-deceased martial arts teacher battles a Japanese dojo which seeks the demise of his master's fighting school.",
-    "director": "Wei Lo",
-    "actors": "Bruce Lee, Nora Miao, James Tien",
-    "language": "Mandarin, Cantonese, English",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38468",
-        "title": "Fist Of Fury (1972) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38468"
-      },
-      {
-        "id": "38467",
-        "title": "Fist Of Fury (1972) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38467"
-      },
-      {
-        "id": "38465",
-        "title": "Fist Of Fury (1972) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38465"
-      },
-      {
-        "id": "38464",
-        "title": "Fist Of Fury (1972) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38464"
-      },
-      {
-        "id": "38462",
-        "title": "Fist Of Fury (1972)",
-        "stream_url": "https://dub.onestream.today/stream/video/38462"
-      }
-    ]
-  },
-  {
-    "id": "38461",
-    "title": "Fantasy Mission Force",
-    "raw_title": "Fantasy Mission Force (1983) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMzAxNjRhOTQtMTUxNS00ZjFiLWFkMzctMGQwYWFlOTNiZDJhXkEyXkFqcGc@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "4.6",
-    "genres": "Action, Adventure, Comedy",
-    "runtime": "90 min",
-    "released": "13 Feb 1983",
-    "year": "1983",
-    "plot": "A force of loners and fighters is put together to try and rescue Generals that are captured by the Japanese and save the war effort with the promise of gold and/or pardons of past crimes.",
-    "director": "Yen-Ping Chu",
-    "actors": "Jackie Chan, Brigitte Lin, Adam Cheng",
-    "language": "Mandarin, Cantonese",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38461",
-        "title": "Fantasy Mission Force (1983) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38461"
-      },
-      {
-        "id": "38460",
-        "title": "Fantasy Mission Force (1983) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38460"
-      },
-      {
-        "id": "38458",
-        "title": "Fantasy Mission Force (1983) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38458"
-      },
-      {
-        "id": "38457",
-        "title": "Fantasy Mission Force (1983) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38457"
-      },
-      {
-        "id": "38455",
-        "title": "Fantasy Mission Force (1983)",
-        "stream_url": "https://dub.onestream.today/stream/video/38455"
-      }
-    ]
-  },
-  {
-    "id": "38454",
-    "title": "Enter The Dragon",
-    "raw_title": "Enter The Dragon (1973) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BZDAyYjAwNmMtMjM5OC00NTc5LThmNjAtOTUxODQxOWYwOTE5XkEyXkFqcGc@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "7.6",
-    "genres": "Action, Crime, Thriller",
-    "runtime": "99 min",
-    "released": "19 Aug 1973",
-    "year": "1973",
-    "plot": "A Shaolin monk travels to an island fortress to spy on an opium lord - who is also a former monk from his temple - under the guise of attending a martial arts tournament.",
-    "director": "Robert Clouse",
-    "actors": "Bruce Lee, John Saxon, Jim Kelly",
-    "language": "English, Cantonese",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38454",
-        "title": "Enter The Dragon (1973) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38454"
-      },
-      {
-        "id": "38453",
-        "title": "Enter The Dragon (1973) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38453"
-      },
-      {
-        "id": "38451",
-        "title": "Enter The Dragon (1973) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38451"
-      },
-      {
-        "id": "38450",
-        "title": "Enter The Dragon (1973) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38450"
-      },
-      {
-        "id": "38448",
-        "title": "Enter The Dragon (1973)",
-        "stream_url": "https://dub.onestream.today/stream/video/38448"
-      }
-    ]
-  },
-  {
-    "id": "38447",
-    "title": "Dragons Forever",
-    "raw_title": "Dragons Forever (1988) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BN2IwNTk1NDItN2ZjNi00YWQ4LTg2NDMtODlkZmNkNWExNGFmXkEyXkFqcGc@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "7.1",
-    "genres": "Action, Comedy, Romance",
-    "runtime": "102 min",
-    "released": "11 Feb 1988",
-    "year": "1988",
-    "plot": "Three successful Hong Kong lawyers are hired by a chemical company of questionable ethics and must eventually make a difficult decision when their employer's motives become clear.",
-    "director": "Sammo Kam-Bo Hung, Corey Yuen",
-    "actors": "Jackie Chan, Sammo Kam-Bo Hung, Biao Yuen",
-    "language": "Cantonese",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38447",
-        "title": "Dragons Forever (1988) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38447"
-      },
-      {
-        "id": "38446",
-        "title": "Dragons Forever (1988) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38446"
-      },
-      {
-        "id": "38444",
-        "title": "Dragons Forever (1988) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38444"
-      },
-      {
-        "id": "38443",
-        "title": "Dragons Forever (1988) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38443"
-      },
-      {
-        "id": "38441",
-        "title": "Dragons Forever (1988)",
-        "stream_url": "https://dub.onestream.today/stream/video/38441"
       }
     ]
   }
