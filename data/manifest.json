@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-06-28T02:38:53.311734Z",
+  "updated_at": "2026-06-29T02:39:04.224815Z",
   "stats": {
     "tamil_count": 74,
-    "dubbed_count": 196,
-    "total_titles": 270,
+    "dubbed_count": 203,
+    "total_titles": 277,
     "play_pages": 4,
     "dub_pages": 9,
-    "last_movie_id": 4899,
-    "last_dubbed_id": 39899
+    "last_movie_id": 4949,
+    "last_dubbed_id": 39949
   },
   "genres": [
     "Action",
@@ -80,12 +80,15 @@
     1981,
     1980,
     1979,
+    1977,
     1976,
     1974,
     1973,
     1972,
     1971,
     1969,
+    1967,
+    1965,
     1964,
     1963,
     1962,
