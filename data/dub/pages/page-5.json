@@ -1,5 +1,49 @@
 [
   {
+    "id": "39065",
+    "title": "Scooby Doo",
+    "raw_title": "Scooby Doo (2002) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZWY2YWM1NzItMTM4OC00OWExLTkxZGItNzNmYzI4MmFiYjVmXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+    "category": "Series",
+    "rating": "7.9",
+    "genres": "Animation, Adventure, Comedy",
+    "runtime": "22 min",
+    "released": "13 Sep 1969",
+    "year": "1969",
+    "plot": "Four teenage friends, Fred Jones, Daphne Blake, Velma Dinkley, and Shaggy Rogers, along with their talking dog, Scooby-Doo, travel around in their van, The Mystery Machine, solving strange, spooky, and hilariously kooky mysteries.",
+    "director": "",
+    "actors": "Don Messick, Casey Kasem, Nicole Jaffe",
+    "language": "English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "39065",
+        "title": "Scooby Doo (2002) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39065"
+      },
+      {
+        "id": "39064",
+        "title": "Scooby Doo (2002) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39064"
+      },
+      {
+        "id": "39062",
+        "title": "Scooby Doo (2002) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39062"
+      },
+      {
+        "id": "39061",
+        "title": "Scooby Doo (2002) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39061"
+      },
+      {
+        "id": "39059",
+        "title": "Scooby Doo (2002)",
+        "stream_url": "https://dub.onestream.today/stream/video/39059"
+      }
+    ]
+  },
+  {
     "id": "39050",
     "title": "The Chronicles Of Riddick",
     "raw_title": "The Chronicles Of Riddick (2004) Sample (640x360)",
@@ -1033,50 +1077,6 @@
         "id": "38811",
         "title": "Mission Impossible 2 (2000)",
         "stream_url": "https://dub.onestream.today/stream/video/38811"
-      }
-    ]
-  },
-  {
-    "id": "38802",
-    "title": "Men In Black 3",
-    "raw_title": "Men In Black 3 (2012) Sample (640x360)",
-    "poster": "",
-    "category": "Movie",
-    "rating": "7.9",
-    "genres": "Documentary, News",
-    "runtime": "",
-    "released": "23 May 2012",
-    "year": "2012",
-    "plot": "",
-    "director": "Rick Tugman",
-    "actors": "Josh Brolin, Alice Eve, Tommy Lee Jones, Jason Kennedy",
-    "language": "English",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38802",
-        "title": "Men In Black 3 (2012) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38802"
-      },
-      {
-        "id": "38801",
-        "title": "Men In Black 3 (2012) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38801"
-      },
-      {
-        "id": "38799",
-        "title": "Men In Black 3 (2012) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38799"
-      },
-      {
-        "id": "38798",
-        "title": "Men In Black 3 (2012) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38798"
-      },
-      {
-        "id": "38796",
-        "title": "Men In Black 3 (2012)",
-        "stream_url": "https://dub.onestream.today/stream/video/38796"
       }
     ]
   }

@@ -1,5 +1,49 @@
 [
   {
+    "id": "38405",
+    "title": "Armour Of God",
+    "raw_title": "Armour Of God (1986) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDE3ZDg0MDYtYmRhNi00ZWViLWFhZjctOWRkMzBjM2NlMTRlXkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "6.9",
+    "genres": "Action, Adventure, Comedy",
+    "runtime": "88 min",
+    "released": "21 Jan 1987",
+    "year": "1986",
+    "plot": "Asian Hawk (Jackie Chan) and his bumbling sidekick are sent on a quest through Europe to find a mysterious treasure held by a shadowy organization of monks.",
+    "director": "Jackie Chan, Eric Tsang",
+    "actors": "Jackie Chan, Alan Tam, Lola Forner",
+    "language": "Cantonese, English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38405",
+        "title": "Armour Of God (1986) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38405"
+      },
+      {
+        "id": "38404",
+        "title": "Armour Of God (1986) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38404"
+      },
+      {
+        "id": "38402",
+        "title": "Armour Of God (1986) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38402"
+      },
+      {
+        "id": "38401",
+        "title": "Armour Of God (1986) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38401"
+      },
+      {
+        "id": "38399",
+        "title": "Armour Of God (1986)",
+        "stream_url": "https://dub.onestream.today/stream/video/38399"
+      }
+    ]
+  },
+  {
     "id": "38390",
     "title": "Indiana Jones",
     "raw_title": "Indiana Jones (2008) Sample (640x360)",
@@ -1083,50 +1127,6 @@
         "id": "38159",
         "title": "Evil Dead 2 (1987)",
         "stream_url": "https://dub.onestream.today/stream/video/38159"
-      }
-    ]
-  },
-  {
-    "id": "38143",
-    "title": "Dungeons And Dragons",
-    "raw_title": "Dungeons and Dragons (2000) Sample (640x360)",
-    "poster": "",
-    "category": "Movie",
-    "rating": "6.9",
-    "genres": "Documentary",
-    "runtime": "",
-    "released": "",
-    "year": "2001",
-    "plot": "This video gives fantasy film and game fans a behind-the- scenes look at the making of the hit movie based on the classic Dungeons and Dragons role-playing game. Includes interviews with ...",
-    "director": "Jeffrey Schwarz",
-    "actors": "Lee Arenberg, Charles Darby, Aladino V. Debert, Jeremy Irons",
-    "language": "English",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38143",
-        "title": "Dungeons and Dragons (2000) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38143"
-      },
-      {
-        "id": "38142",
-        "title": "Dungeons and Dragons (2000) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38142"
-      },
-      {
-        "id": "38140",
-        "title": "Dungeons and Dragons (2000) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38140"
-      },
-      {
-        "id": "38139",
-        "title": "Dungeons and Dragons (2000) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38139"
-      },
-      {
-        "id": "38137",
-        "title": "Dungeons and Dragons (2000)",
-        "stream_url": "https://dub.onestream.today/stream/video/38137"
       }
     ]
   }
