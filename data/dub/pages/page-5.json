@@ -1,5 +1,181 @@
 [
   {
+    "id": "39116",
+    "title": "The Amazing Spiderman",
+    "raw_title": "The Amazing Spiderman (2012) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzI0MmQyMzYtZDAzNi00ZWZiLWFjMTgtNzQwOTRjYTFlM2Y3XkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "",
+    "genres": "Sci-Fi",
+    "runtime": "",
+    "released": "30 Nov 2021",
+    "year": "2021",
+    "plot": "The extended version of 2014's The Amazing Spider-Man 2. Includes never before seen footage and alternate takes of the movie.",
+    "director": "Vicente Canales",
+    "actors": "Marcelo Alessandrini Acosta, Iván Alejandro Cuéllar Avilés, Paul Mocencahua Badillo",
+    "language": "Spanish",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "39116",
+        "title": "The Amazing Spiderman (2012) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39116"
+      },
+      {
+        "id": "39115",
+        "title": "The Amazing Spiderman (2012) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39115"
+      },
+      {
+        "id": "39113",
+        "title": "The Amazing Spiderman (2012) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39113"
+      },
+      {
+        "id": "39112",
+        "title": "The Amazing Spiderman (2012) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39112"
+      },
+      {
+        "id": "39110",
+        "title": "The Amazing Spiderman (2012)",
+        "stream_url": "https://dub.onestream.today/stream/video/39110"
+      }
+    ]
+  },
+  {
+    "id": "39109",
+    "title": "The Amazing Spider Man 2",
+    "raw_title": "The Amazing Spider Man 2 (2014) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTA5NDYxNTg0OV5BMl5BanBnXkFtZTgwODE5NzU1MTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "category": "Movie",
+    "rating": "6.6",
+    "genres": "Action, Adventure, Sci-Fi",
+    "runtime": "142 min",
+    "released": "02 May 2014",
+    "year": "2014",
+    "plot": "When New York is put under siege by Oscorp, it is up to Spider-Man to save the city he swore to protect as well as his loved ones.",
+    "director": "Marc Webb",
+    "actors": "Andrew Garfield, Emma Stone, Jamie Foxx",
+    "language": "English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "39109",
+        "title": "The Amazing Spider Man 2 (2014) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39109"
+      },
+      {
+        "id": "39108",
+        "title": "The Amazing Spider Man 2 (2014) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39108"
+      },
+      {
+        "id": "39106",
+        "title": "The Amazing Spider Man 2 (2014) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39106"
+      },
+      {
+        "id": "39105",
+        "title": "The Amazing Spider Man 2 (2014) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39105"
+      },
+      {
+        "id": "39103",
+        "title": "The Amazing Spider Man 2 (2014)",
+        "stream_url": "https://dub.onestream.today/stream/video/39103"
+      }
+    ]
+  },
+  {
+    "id": "39102",
+    "title": "Spiderman 3",
+    "raw_title": "Spiderman 3 (2007) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTI3NDE1ZmEtMTRiMS00YTY4LTk0OGItNjY4YmI0MDM4OGM4XkEyXkFqcGdeQXVyODE2NDgwMzM@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "6.2",
+    "genres": "Documentary, Short",
+    "runtime": "19 min",
+    "released": "30 Oct 2007",
+    "year": "2007",
+    "plot": "",
+    "director": "",
+    "actors": "",
+    "language": "English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "39102",
+        "title": "Spiderman 3 (2007) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39102"
+      },
+      {
+        "id": "39101",
+        "title": "Spiderman 3 (2007) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39101"
+      },
+      {
+        "id": "39099",
+        "title": "Spiderman 3 (2007) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39099"
+      },
+      {
+        "id": "39098",
+        "title": "Spiderman 3 (2007) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39098"
+      },
+      {
+        "id": "39096",
+        "title": "Spiderman 3 (2007)",
+        "stream_url": "https://dub.onestream.today/stream/video/39096"
+      }
+    ]
+  },
+  {
+    "id": "39095",
+    "title": "Spiderman 2",
+    "raw_title": "Spiderman 2 (2004) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzI0MmQyMzYtZDAzNi00ZWZiLWFjMTgtNzQwOTRjYTFlM2Y3XkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "",
+    "genres": "Sci-Fi",
+    "runtime": "",
+    "released": "30 Nov 2021",
+    "year": "2021",
+    "plot": "The extended version of 2014's The Amazing Spider-Man 2. Includes never before seen footage and alternate takes of the movie.",
+    "director": "Vicente Canales",
+    "actors": "Marcelo Alessandrini Acosta, Iván Alejandro Cuéllar Avilés, Paul Mocencahua Badillo",
+    "language": "Spanish",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "39095",
+        "title": "Spiderman 2 (2004) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39095"
+      },
+      {
+        "id": "39094",
+        "title": "Spiderman 2 (2004) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39094"
+      },
+      {
+        "id": "39092",
+        "title": "Spiderman 2 (2004) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39092"
+      },
+      {
+        "id": "39091",
+        "title": "Spiderman 2 (2004) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39091"
+      },
+      {
+        "id": "39089",
+        "title": "Spiderman 2 (2004)",
+        "stream_url": "https://dub.onestream.today/stream/video/39089"
+      }
+    ]
+  },
+  {
     "id": "39088",
     "title": "Spiderman",
     "raw_title": "Spiderman (2002) Sample (640x360)",
@@ -901,182 +1077,6 @@
         "id": "38855",
         "title": "National Treasure (2004)",
         "stream_url": "https://dub.onestream.today/stream/video/38855"
-      }
-    ]
-  },
-  {
-    "id": "38853",
-    "title": "The Muppets",
-    "raw_title": "The Muppets (2011) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMjE0MTM4NTc3NF5BMl5BanBnXkFtZTcwMjYzOTIxNg@@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "7.1",
-    "genres": "Adventure, Comedy, Family",
-    "runtime": "103 min",
-    "released": "23 Nov 2011",
-    "year": "2011",
-    "plot": "A Muppet fanatic with some help from his 2 human compatriots must regroup the Muppet gang to stop an avaricious oil mogul from taking down one of their precious life-longing treasures.",
-    "director": "James Bobin",
-    "actors": "Amy Adams, Jason Segel, Chris Cooper",
-    "language": "English, Mandarin",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38853",
-        "title": "The Muppets (2011) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38853"
-      },
-      {
-        "id": "38852",
-        "title": "The Muppets (2011) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38852"
-      },
-      {
-        "id": "38850",
-        "title": "The Muppets (2011) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38850"
-      },
-      {
-        "id": "38849",
-        "title": "The Muppets (2011) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38849"
-      },
-      {
-        "id": "38847",
-        "title": "The Muppets (2011)",
-        "stream_url": "https://dub.onestream.today/stream/video/38847"
-      }
-    ]
-  },
-  {
-    "id": "38846",
-    "title": "Muppets From Space",
-    "raw_title": "Muppets From Space (1999) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BYjM2YmVlN2MtYTlmZS00Zjk1LTk1MWYtNTM4NmU0NTIwMTQ5XkEyXkFqcGc@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "6.2",
-    "genres": "Adventure, Comedy, Family",
-    "runtime": "87 min",
-    "released": "14 Jul 1999",
-    "year": "1999",
-    "plot": "Gonzo is contacted by his alien family through his breakfast cereal. But when the men in black kidnap him, it's up to Kermit and the gang to rescue Gonzo and help him reunite with his long-lost family.",
-    "director": "Tim Hill",
-    "actors": "Dave Goelz, Steve Whitmire, Bill Barretta",
-    "language": "English",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38846",
-        "title": "Muppets From Space (1999) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38846"
-      },
-      {
-        "id": "38845",
-        "title": "Muppets From Space (1999) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38845"
-      },
-      {
-        "id": "38843",
-        "title": "Muppets From Space (1999) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38843"
-      },
-      {
-        "id": "38842",
-        "title": "Muppets From Space (1999) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38842"
-      },
-      {
-        "id": "38840",
-        "title": "Muppets From Space (1999)",
-        "stream_url": "https://dub.onestream.today/stream/video/38840"
-      }
-    ]
-  },
-  {
-    "id": "38839",
-    "title": "Muppet Treasure Island",
-    "raw_title": "Muppet Treasure Island (1996) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BZmE3MmM4NTYtM2JhYS00ZjIwLWExOTItOTI3YjI4ZDQ2NjBhXkEyXkFqcGc@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "6.9",
-    "genres": "Action, Adventure, Comedy",
-    "runtime": "99 min",
-    "released": "16 Feb 1996",
-    "year": "1996",
-    "plot": "The Muppets set sail in search of treasure, with Jim Hawkins and Long John Silver.",
-    "director": "Brian Henson",
-    "actors": "Tim Curry, Billy Connolly, Jennifer Saunders",
-    "language": "English",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38839",
-        "title": "Muppet Treasure Island (1996) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38839"
-      },
-      {
-        "id": "38838",
-        "title": "Muppet Treasure Island (1996) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38838"
-      },
-      {
-        "id": "38836",
-        "title": "Muppet Treasure Island (1996) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38836"
-      },
-      {
-        "id": "38835",
-        "title": "Muppet Treasure Island (1996) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38835"
-      },
-      {
-        "id": "38833",
-        "title": "Muppet Treasure Island (1996)",
-        "stream_url": "https://dub.onestream.today/stream/video/38833"
-      }
-    ]
-  },
-  {
-    "id": "38824",
-    "title": "Mission Impossible 3",
-    "raw_title": "Mission Impossible 3 (2006) Sample (640x360)",
-    "poster": "",
-    "category": "Movie",
-    "rating": "",
-    "genres": "Short, Thriller",
-    "runtime": "8 min",
-    "released": "",
-    "year": "2014",
-    "plot": "",
-    "director": "João Castillo",
-    "actors": "Djaz Jaziri, Mohamed Mahayni, Daniel Vandeberg",
-    "language": "English, Spanish, French",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38824",
-        "title": "Mission Impossible 3 (2006) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38824"
-      },
-      {
-        "id": "38823",
-        "title": "Mission Impossible 3 (2006) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38823"
-      },
-      {
-        "id": "38821",
-        "title": "Mission Impossible 3 (2006) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38821"
-      },
-      {
-        "id": "38820",
-        "title": "Mission Impossible 3 (2006) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38820"
-      },
-      {
-        "id": "38818",
-        "title": "Mission Impossible 3 (2006)",
-        "stream_url": "https://dub.onestream.today/stream/video/38818"
       }
     ]
   }
