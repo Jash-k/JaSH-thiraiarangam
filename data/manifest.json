@@ -1,21 +1,22 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-07-18T01:43:31.685781Z",
+  "updated_at": "2026-07-19T01:51:28.988615Z",
   "stats": {
-    "tamil_count": 74,
-    "dubbed_count": 226,
-    "total_titles": 300,
+    "tamil_count": 76,
+    "dubbed_count": 228,
+    "total_titles": 304,
     "play_pages": 4,
     "dub_pages": 10,
-    "last_movie_id": 5899,
-    "last_dubbed_id": 40899
+    "last_movie_id": 5949,
+    "last_dubbed_id": 40949
   },
   "genres": [
     "Action",
     "Adult",
     "Adventure",
     "Animation",
+    "Biography",
     "Comedy",
     "Crime",
     "Documentary",
@@ -96,6 +97,90 @@
     1937
   ],
   "featured": [
+    {
+      "id": "5941",
+      "title": "Uppu Karuvaadu",
+      "raw_title": "Uppu Karuvaadu DVDRip Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTk5MGNiMzEtMjI4NC00MmMxLWI0MjYtMmEwNWQwMWUyOTRiXkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.2",
+      "genres": "Comedy",
+      "runtime": "",
+      "released": "27 Nov 2015",
+      "year": "2015",
+      "plot": "A struggling filmmaker Chandran, gets a Producer for his film. The producer who runs a Fishing export business by the shores of North Madras has one condition though - the film should star his daughter Maha as the female lead. Her...",
+      "director": "Radha Mohan",
+      "actors": "M.S. Bhaskar, Chaams, Karunakaran",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "5941",
+          "title": "Uppu Karuvaadu DVDRip Sample",
+          "stream_url": "https://play.onestream.today/stream/page/5941"
+        },
+        {
+          "id": "5940",
+          "title": "Uppu Karuvaadu DVDRip Single Part",
+          "stream_url": "https://play.onestream.today/stream/page/5940"
+        },
+        {
+          "id": "5938",
+          "title": "Uppu Karuvaadu DVDRip Single Part LQ",
+          "stream_url": "https://play.onestream.today/stream/page/5938"
+        },
+        {
+          "id": "5936",
+          "title": "Uppu Karuvaadu DVDRip Sample",
+          "stream_url": "https://play.onestream.today/stream/page/5936"
+        },
+        {
+          "id": "5935",
+          "title": "Uppu Karuvaadu DVDRip Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/5935"
+        },
+        {
+          "id": "5934",
+          "title": "Uppu Karuvaadu DVDRip Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/5934"
+        },
+        {
+          "id": "5933",
+          "title": "Uppu Karuvaadu DVDRip Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/5933"
+        },
+        {
+          "id": "5931",
+          "title": "Uppu Karuvaadu DVDRip Sample",
+          "stream_url": "https://play.onestream.today/stream/page/5931"
+        },
+        {
+          "id": "5930",
+          "title": "Uppu Karuvaadu DVDRip Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/5930"
+        },
+        {
+          "id": "5929",
+          "title": "Uppu Karuvaadu DVDRip Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/5929"
+        },
+        {
+          "id": "5928",
+          "title": "Uppu Karuvaadu DVDRip Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/5928"
+        },
+        {
+          "id": "5927",
+          "title": "Uppu Karuvaadu DVDRip Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/5927"
+        },
+        {
+          "id": "5925",
+          "title": "Uppu Karuvaadu (2015) HD DVDRip",
+          "stream_url": "https://play.onestream.today/stream/page/5925"
+        }
+      ]
+    },
     {
       "id": "4838",
       "title": "Mayakkam Enna",
@@ -937,85 +1022,6 @@
           "id": "3905",
           "title": "Priyamanavale",
           "stream_url": "https://play.onestream.today/stream/page/3905"
-        }
-      ]
-    },
-    {
-      "id": "3904",
-      "title": "Poove Unakkaga",
-      "raw_title": "Poove Unakkaga Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZThhNzc0YTItOGNjZS00ZmYyLTk5NGUtYTY0YmNhMWNkN2E5XkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "8.6",
-      "genres": "Comedy, Drama, Romance",
-      "runtime": "150 min",
-      "released": "15 Feb 1996",
-      "year": "1996",
-      "plot": "When a man realizes that the Hindu woman he loves is in love with a Christian man, he decides to sacrifice his love and unite their families so as to make the love story a success.",
-      "director": "Vikraman",
-      "actors": "Joseph Vijay, Sangeetha, Anju Aravind",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "3904",
-          "title": "Poove Unakkaga Sample",
-          "stream_url": "https://play.onestream.today/stream/page/3904"
-        },
-        {
-          "id": "3903",
-          "title": "Poove Unakkaga Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/3903"
-        },
-        {
-          "id": "3902",
-          "title": "Poove Unakkaga Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/3902"
-        },
-        {
-          "id": "3901",
-          "title": "Poove Unakkaga Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/3901"
-        },
-        {
-          "id": "3900",
-          "title": "Poove Unakkaga Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/3900"
-        },
-        {
-          "id": "3898",
-          "title": "Poove Unakkaga Sample",
-          "stream_url": "https://play.onestream.today/stream/page/3898"
-        },
-        {
-          "id": "3897",
-          "title": "Poove Unakkaga Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/3897"
-        },
-        {
-          "id": "3896",
-          "title": "Poove Unakkaga Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/3896"
-        },
-        {
-          "id": "3895",
-          "title": "Poove Unakkaga Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/3895"
-        },
-        {
-          "id": "3894",
-          "title": "Poove Unakkaga Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/3894"
-        },
-        {
-          "id": "3892",
-          "title": "Poove Unakkaga Single Part LQ",
-          "stream_url": "https://play.onestream.today/stream/page/3892"
-        },
-        {
-          "id": "3890",
-          "title": "Poove Unakkaga",
-          "stream_url": "https://play.onestream.today/stream/page/3890"
         }
       ]
     }
