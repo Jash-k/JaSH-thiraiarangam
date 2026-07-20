@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-07-19T01:51:28.988615Z",
+  "updated_at": "2026-07-20T02:08:40.573322Z",
   "stats": {
-    "tamil_count": 76,
+    "tamil_count": 79,
     "dubbed_count": 228,
-    "total_titles": 304,
+    "total_titles": 307,
     "play_pages": 4,
     "dub_pages": 10,
-    "last_movie_id": 5949,
-    "last_dubbed_id": 40949
+    "last_movie_id": 5999,
+    "last_dubbed_id": 40999
   },
   "genres": [
     "Action",
@@ -38,6 +38,7 @@
     "Thriller"
   ],
   "years": [
+    2025,
     2023,
     2022,
     2021,
@@ -97,6 +98,70 @@
     1937
   ],
   "featured": [
+    {
+      "id": "5999",
+      "title": "E",
+      "raw_title": "E (2006) Part-2",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "8.4",
+      "genres": "Animation, Adventure, Family",
+      "runtime": "98 min",
+      "released": "27 Jun 2008",
+      "year": "2008",
+      "plot": "A robot who is responsible for cleaning a waste-covered Earth meets another robot and falls in love with her. Together, they set out on a journey that will alter the fate of mankind.",
+      "director": "Andrew Stanton",
+      "actors": "Ben Burtt, Elissa Knight, Jeff Garlin",
+      "language": "English",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "5999",
+          "title": "E (2006) Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/5999"
+        },
+        {
+          "id": "5998",
+          "title": "E (2006) Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/5998"
+        },
+        {
+          "id": "5996",
+          "title": "E (2006) Sample",
+          "stream_url": "https://play.onestream.today/stream/page/5996"
+        },
+        {
+          "id": "5995",
+          "title": "E (2006) Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/5995"
+        },
+        {
+          "id": "5994",
+          "title": "E (2006) Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/5994"
+        },
+        {
+          "id": "5993",
+          "title": "E (2006) Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/5993"
+        },
+        {
+          "id": "5992",
+          "title": "E (2006) Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/5992"
+        },
+        {
+          "id": "5990",
+          "title": "E (2006) Single Part Lq",
+          "stream_url": "https://play.onestream.today/stream/page/5990"
+        },
+        {
+          "id": "5988",
+          "title": "E (2006)",
+          "stream_url": "https://play.onestream.today/stream/page/5988"
+        }
+      ]
+    },
     {
       "id": "5941",
       "title": "Uppu Karuvaadu",
@@ -943,85 +1008,6 @@
           "id": "3920",
           "title": "Priyamudan",
           "stream_url": "https://play.onestream.today/stream/page/3920"
-        }
-      ]
-    },
-    {
-      "id": "3919",
-      "title": "Priyamanavale",
-      "raw_title": "Priyamanavale Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYjBiYWU4NWMtMDE0Yi00ZWE2LWI2MzQtNTdkYjc4ZmM4YTgyXkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.5",
-      "genres": "Drama, Romance",
-      "runtime": "169 min",
-      "released": "20 Oct 2000",
-      "year": "2000",
-      "plot": "Vijay has no faith in marriage. However, on his father's insistence, he marries Priya but lays down a condition wherein at the end of the year he will decide whether to continue their marriage or not.",
-      "director": "K. Selvabharathi",
-      "actors": "Joseph Vijay, Simran, Radhika Chaudhari",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "3919",
-          "title": "Priyamanavale Sample",
-          "stream_url": "https://play.onestream.today/stream/page/3919"
-        },
-        {
-          "id": "3918",
-          "title": "Priyamanavale Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/3918"
-        },
-        {
-          "id": "3917",
-          "title": "Priyamanavale Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/3917"
-        },
-        {
-          "id": "3916",
-          "title": "Priyamanavale Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/3916"
-        },
-        {
-          "id": "3915",
-          "title": "Priyamanavale Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/3915"
-        },
-        {
-          "id": "3913",
-          "title": "Priyamanavale Sample",
-          "stream_url": "https://play.onestream.today/stream/page/3913"
-        },
-        {
-          "id": "3912",
-          "title": "Priyamanavale Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/3912"
-        },
-        {
-          "id": "3911",
-          "title": "Priyamanavale Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/3911"
-        },
-        {
-          "id": "3910",
-          "title": "Priyamanavale Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/3910"
-        },
-        {
-          "id": "3909",
-          "title": "Priyamanavale Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/3909"
-        },
-        {
-          "id": "3907",
-          "title": "Priyamanavale Single Part LQ",
-          "stream_url": "https://play.onestream.today/stream/page/3907"
-        },
-        {
-          "id": "3905",
-          "title": "Priyamanavale",
-          "stream_url": "https://play.onestream.today/stream/page/3905"
         }
       ]
     }
