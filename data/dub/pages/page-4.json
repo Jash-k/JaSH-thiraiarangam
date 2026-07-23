@@ -1,5 +1,49 @@
 [
   {
+    "id": "39562",
+    "title": "Clash Of The Titans",
+    "raw_title": "Clash Of The Titans (2010) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTYxNjg4MzU5OV5BMl5BanBnXkFtZTcwOTA3NTUwMw@@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "5.8",
+    "genres": "Action, Adventure, Fantasy",
+    "runtime": "106 min",
+    "released": "02 Apr 2010",
+    "year": "2010",
+    "plot": "Perseus, a demigod and the son of Zeus, battles the minions of Hades and the Underworld in order to stop them from conquering Olympus and Earth.",
+    "director": "Louis Leterrier",
+    "actors": "Sam Worthington, Liam Neeson, Ralph Fiennes",
+    "language": "English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "39562",
+        "title": "Clash Of The Titans (2010) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39562"
+      },
+      {
+        "id": "39561",
+        "title": "Clash Of The Titans (2010) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39561"
+      },
+      {
+        "id": "39559",
+        "title": "Clash Of The Titans (2010) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39559"
+      },
+      {
+        "id": "39558",
+        "title": "Clash Of The Titans (2010) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39558"
+      },
+      {
+        "id": "39556",
+        "title": "Clash Of The Titans (2010)",
+        "stream_url": "https://dub.onestream.today/stream/video/39556"
+      }
+    ]
+  },
+  {
     "id": "39547",
     "title": "Thor",
     "raw_title": "Thor (2011) Sample (640x360)",
@@ -1008,50 +1052,6 @@
         "id": "39285",
         "title": "Terminator 2 Judgement Day (1991)",
         "stream_url": "https://dub.onestream.today/stream/video/39285"
-      }
-    ]
-  },
-  {
-    "id": "39284",
-    "title": "Terminator",
-    "raw_title": "Terminator (1984) Sample (640x360)",
-    "poster": "",
-    "category": "Movie",
-    "rating": "6.1",
-    "genres": "Short, Action, Sci-Fi",
-    "runtime": "39 min",
-    "released": "",
-    "year": "1991",
-    "plot": "A cyborg comes from the future, to kill a girl named Sarah Lee.",
-    "director": "Ben Hernandez",
-    "actors": "Loris Basso, James Callahan, Debbie Medows",
-    "language": "English",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "39284",
-        "title": "Terminator (1984) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/39284"
-      },
-      {
-        "id": "39283",
-        "title": "Terminator (1984) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/39283"
-      },
-      {
-        "id": "39281",
-        "title": "Terminator (1984) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/39281"
-      },
-      {
-        "id": "39280",
-        "title": "Terminator (1984) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/39280"
-      },
-      {
-        "id": "39278",
-        "title": "Terminator (1984)",
-        "stream_url": "https://dub.onestream.today/stream/video/39278"
       }
     ]
   }
