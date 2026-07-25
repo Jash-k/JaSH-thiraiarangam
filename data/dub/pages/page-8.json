@@ -1,5 +1,269 @@
 [
   {
+    "id": "38657",
+    "title": "The Tuxedo",
+    "raw_title": "The Tuxedo (2002) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjEyNTI0NjM5M15BMl5BanBnXkFtZTYwMjQ0NTE3._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "5.4",
+    "genres": "Action, Comedy, Sci-Fi",
+    "runtime": "98 min",
+    "released": "27 Sep 2002",
+    "year": "2002",
+    "plot": "A hapless chauffeur must take a comatose Secret Agent's place using his special gadget-laden tuxedo.",
+    "director": "Kevin Donovan",
+    "actors": "Jackie Chan, Jennifer Love Hewitt, Jason Isaacs",
+    "language": "English, Cantonese",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38657",
+        "title": "The Tuxedo (2002) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38657"
+      },
+      {
+        "id": "38656",
+        "title": "The Tuxedo (2002) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38656"
+      },
+      {
+        "id": "38654",
+        "title": "The Tuxedo (2002) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38654"
+      },
+      {
+        "id": "38653",
+        "title": "The Tuxedo (2002) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38653"
+      },
+      {
+        "id": "38651",
+        "title": "The Tuxedo (2002)",
+        "stream_url": "https://dub.onestream.today/stream/video/38651"
+      }
+    ]
+  },
+  {
+    "id": "38650",
+    "title": "The Spy Next Door",
+    "raw_title": "The Spy Next Door (2010) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTI5MjEzMjM4N15BMl5BanBnXkFtZTcwODc0ODEwMw@@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "5.5",
+    "genres": "Action, Comedy, Family",
+    "runtime": "94 min",
+    "released": "15 Jan 2010",
+    "year": "2010",
+    "plot": "Former C.I.A. spy Bob Ho takes on his toughest assignment to date: looking after his girlfriend's three kids, but things take a turn when a russian terrorist takes aim at the family",
+    "director": "Brian Levant",
+    "actors": "Jackie Chan, Amber Valletta, Billy Ray Cyrus",
+    "language": "English, Chinese, Russian",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38650",
+        "title": "The Spy Next Door (2010) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38650"
+      },
+      {
+        "id": "38649",
+        "title": "The Spy Next Door (2010) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38649"
+      },
+      {
+        "id": "38647",
+        "title": "The Spy Next Door (2010) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38647"
+      },
+      {
+        "id": "38646",
+        "title": "The Spy Next Door (2010) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38646"
+      },
+      {
+        "id": "38644",
+        "title": "The Spy Next Door (2010)",
+        "stream_url": "https://dub.onestream.today/stream/video/38644"
+      }
+    ]
+  },
+  {
+    "id": "38643",
+    "title": "The Myth",
+    "raw_title": "The Myth (2005) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BODU5MDczMWYtYTc5MS00NzZkLWIwMjQtNGI0NDdkYWE4NmI0XkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "6.1",
+    "genres": "Action, Adventure, Comedy",
+    "runtime": "122 min",
+    "released": "11 May 2005",
+    "year": "2005",
+    "plot": "Archeologist Jack keeps having reoccurring dreams of a past life, where he is the great general Meng Yi, who is sworn to protect a princess named Ok-Soo. Jack decides to go investigate everything with his friend William.",
+    "director": "Stanley Tong",
+    "actors": "Bing Shao, Jackie Chan, Weixing Yao",
+    "language": "Mandarin, Cantonese, English, Korean",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38643",
+        "title": "The Myth (2005) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38643"
+      },
+      {
+        "id": "38642",
+        "title": "The Myth (2005) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38642"
+      },
+      {
+        "id": "38640",
+        "title": "The Myth (2005) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38640"
+      },
+      {
+        "id": "38639",
+        "title": "The Myth (2005) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38639"
+      },
+      {
+        "id": "38637",
+        "title": "The Myth (2005)",
+        "stream_url": "https://dub.onestream.today/stream/video/38637"
+      }
+    ]
+  },
+  {
+    "id": "38636",
+    "title": "The Medallion",
+    "raw_title": "The Medallion (2003) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNTFjNzBmNjgtNjc3MC00NWViLTk4YmEtYjZlZTYxZmZiN2E2XkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "5.2",
+    "genres": "Action, Comedy, Fantasy",
+    "runtime": "88 min",
+    "released": "22 Aug 2003",
+    "year": "2003",
+    "plot": "A Hong Kong detective suffers a fatal accident involving a mysterious medallion and is transformed into an immortal warrior with superhuman powers.",
+    "director": "Gordon Chan",
+    "actors": "Jackie Chan, Lee Evans, Claire Forlani",
+    "language": "English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38636",
+        "title": "The Medallion (2003) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38636"
+      },
+      {
+        "id": "38635",
+        "title": "The Medallion (2003) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38635"
+      },
+      {
+        "id": "38633",
+        "title": "The Medallion (2003) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38633"
+      },
+      {
+        "id": "38632",
+        "title": "The Medallion (2003) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38632"
+      },
+      {
+        "id": "38630",
+        "title": "The Medallion (2003)",
+        "stream_url": "https://dub.onestream.today/stream/video/38630"
+      }
+    ]
+  },
+  {
+    "id": "38629",
+    "title": "The Killer Meteors",
+    "raw_title": "The Killer Meteors (1976) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjkzOWVlMmYtYzJmOC00NWIxLWJjNjAtMWJlNDE3YWQ5NzE3XkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "4.9",
+    "genres": "Action, Thriller",
+    "runtime": "104 min",
+    "released": "21 Aug 1976",
+    "year": "1976",
+    "plot": "Mei Xing He is a local hero, as known as \"Killer Meteors\", his secret weapon makes him invincible. However, when Hua Wu Bin, another powerful local character seeks his assistance, Mei Xing He will face the deadliest challenge of h...",
+    "director": "Wei Lo",
+    "actors": "Jackie Chan, Jimmy Wang Yu, Yu-Li Lan",
+    "language": "Mandarin",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38629",
+        "title": "The Killer Meteors (1976) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38629"
+      },
+      {
+        "id": "38628",
+        "title": "The Killer Meteors (1976) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38628"
+      },
+      {
+        "id": "38626",
+        "title": "The Killer Meteors (1976) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38626"
+      },
+      {
+        "id": "38625",
+        "title": "The Killer Meteors (1976) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38625"
+      },
+      {
+        "id": "38623",
+        "title": "The Killer Meteors (1976)",
+        "stream_url": "https://dub.onestream.today/stream/video/38623"
+      }
+    ]
+  },
+  {
+    "id": "38622",
+    "title": "The Karate Kid",
+    "raw_title": "The Karate Kid (2010) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BM2I3ZmZhNzctMzBlNC00YTc2LWE1MmEtY2ZkMzg3Y2I1ZDJhXkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "7.3",
+    "genres": "Action, Drama, Family",
+    "runtime": "126 min",
+    "released": "22 Jun 1984",
+    "year": "1984",
+    "plot": "Recently relocated from NJ to LA, Daniel becomes the target of a gang of Cobra Kai dojo students. When Mr. Miyagi saves him with expert Karate skills, Daniel convinces him to teach him to defend himself, and put his bullies in the...",
+    "director": "John G. Avildsen",
+    "actors": "Ralph Macchio, Pat Morita, Elisabeth Shue",
+    "language": "English, Japanese",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38622",
+        "title": "The Karate Kid (2010) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38622"
+      },
+      {
+        "id": "38621",
+        "title": "The Karate Kid (2010) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38621"
+      },
+      {
+        "id": "38619",
+        "title": "The Karate Kid (2010) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38619"
+      },
+      {
+        "id": "38618",
+        "title": "The Karate Kid (2010) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38618"
+      },
+      {
+        "id": "38616",
+        "title": "The Karate Kid (2010)",
+        "stream_url": "https://dub.onestream.today/stream/video/38616"
+      }
+    ]
+  },
+  {
     "id": "38615",
     "title": "The Forbidden Kingdom",
     "raw_title": "The Forbidden Kingdom (2008) Sample (640x360)",
@@ -783,270 +1047,6 @@
         "id": "38462",
         "title": "Fist Of Fury (1972)",
         "stream_url": "https://dub.onestream.today/stream/video/38462"
-      }
-    ]
-  },
-  {
-    "id": "38461",
-    "title": "Fantasy Mission Force",
-    "raw_title": "Fantasy Mission Force (1983) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMzAxNjRhOTQtMTUxNS00ZjFiLWFkMzctMGQwYWFlOTNiZDJhXkEyXkFqcGc@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "4.6",
-    "genres": "Action, Adventure, Comedy",
-    "runtime": "90 min",
-    "released": "13 Feb 1983",
-    "year": "1983",
-    "plot": "A force of loners and fighters is put together to try and rescue Generals that are captured by the Japanese and save the war effort with the promise of gold and/or pardons of past crimes.",
-    "director": "Yen-Ping Chu",
-    "actors": "Jackie Chan, Brigitte Lin, Adam Cheng",
-    "language": "Mandarin, Cantonese",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38461",
-        "title": "Fantasy Mission Force (1983) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38461"
-      },
-      {
-        "id": "38460",
-        "title": "Fantasy Mission Force (1983) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38460"
-      },
-      {
-        "id": "38458",
-        "title": "Fantasy Mission Force (1983) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38458"
-      },
-      {
-        "id": "38457",
-        "title": "Fantasy Mission Force (1983) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38457"
-      },
-      {
-        "id": "38455",
-        "title": "Fantasy Mission Force (1983)",
-        "stream_url": "https://dub.onestream.today/stream/video/38455"
-      }
-    ]
-  },
-  {
-    "id": "38454",
-    "title": "Enter The Dragon",
-    "raw_title": "Enter The Dragon (1973) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BZDAyYjAwNmMtMjM5OC00NTc5LThmNjAtOTUxODQxOWYwOTE5XkEyXkFqcGc@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "7.6",
-    "genres": "Action, Crime, Thriller",
-    "runtime": "99 min",
-    "released": "19 Aug 1973",
-    "year": "1973",
-    "plot": "A Shaolin monk travels to an island fortress to spy on an opium lord - who is also a former monk from his temple - under the guise of attending a martial arts tournament.",
-    "director": "Robert Clouse",
-    "actors": "Bruce Lee, John Saxon, Jim Kelly",
-    "language": "English, Cantonese",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38454",
-        "title": "Enter The Dragon (1973) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38454"
-      },
-      {
-        "id": "38453",
-        "title": "Enter The Dragon (1973) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38453"
-      },
-      {
-        "id": "38451",
-        "title": "Enter The Dragon (1973) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38451"
-      },
-      {
-        "id": "38450",
-        "title": "Enter The Dragon (1973) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38450"
-      },
-      {
-        "id": "38448",
-        "title": "Enter The Dragon (1973)",
-        "stream_url": "https://dub.onestream.today/stream/video/38448"
-      }
-    ]
-  },
-  {
-    "id": "38447",
-    "title": "Dragons Forever",
-    "raw_title": "Dragons Forever (1988) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BN2IwNTk1NDItN2ZjNi00YWQ4LTg2NDMtODlkZmNkNWExNGFmXkEyXkFqcGc@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "7.1",
-    "genres": "Action, Comedy, Romance",
-    "runtime": "102 min",
-    "released": "11 Feb 1988",
-    "year": "1988",
-    "plot": "Three successful Hong Kong lawyers are hired by a chemical company of questionable ethics and must eventually make a difficult decision when their employer's motives become clear.",
-    "director": "Sammo Kam-Bo Hung, Corey Yuen",
-    "actors": "Jackie Chan, Sammo Kam-Bo Hung, Biao Yuen",
-    "language": "Cantonese",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38447",
-        "title": "Dragons Forever (1988) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38447"
-      },
-      {
-        "id": "38446",
-        "title": "Dragons Forever (1988) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38446"
-      },
-      {
-        "id": "38444",
-        "title": "Dragons Forever (1988) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38444"
-      },
-      {
-        "id": "38443",
-        "title": "Dragons Forever (1988) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38443"
-      },
-      {
-        "id": "38441",
-        "title": "Dragons Forever (1988)",
-        "stream_url": "https://dub.onestream.today/stream/video/38441"
-      }
-    ]
-  },
-  {
-    "id": "38440",
-    "title": "Dragon Lord",
-    "raw_title": "Dragon Lord (1982) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BYTA2ODRlYmMtM2Q3Yy00MjMyLWFhMzQtYzRhZDQ4MWE0OGQ4XkEyXkFqcGc@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "6.3",
-    "genres": "Action, Comedy, Sport",
-    "runtime": "102 min",
-    "released": "21 Jan 1982",
-    "year": "1982",
-    "plot": "The adventures of a restless martial arts student called Dragon, who, while constantly pursuing a girl, gets involved in the affairs of a gang of thieves.",
-    "director": "Jackie Chan",
-    "actors": "Jackie Chan, Mars, Michael Wai-Man Chan",
-    "language": "Cantonese, English",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38440",
-        "title": "Dragon Lord (1982) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38440"
-      },
-      {
-        "id": "38439",
-        "title": "Dragon Lord (1982) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38439"
-      },
-      {
-        "id": "38437",
-        "title": "Dragon Lord (1982) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38437"
-      },
-      {
-        "id": "38436",
-        "title": "Dragon Lord (1982) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38436"
-      },
-      {
-        "id": "38434",
-        "title": "Dragon Lord (1982)",
-        "stream_url": "https://dub.onestream.today/stream/video/38434"
-      }
-    ]
-  },
-  {
-    "id": "38433",
-    "title": "City Hunter",
-    "raw_title": "City Hunter (1993) (Tamil) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNWQyMmZhYjItZjZjMC00MDU1LWJmM2QtY2U0NzhlNDAyMDQ2XkEyXkFqcGc@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "6.3",
-    "genres": "Action, Comedy, Crime",
-    "runtime": "100 min",
-    "released": "14 Jan 1993",
-    "year": "1993",
-    "plot": "A self-indulgent private investigator winds up on a cruise ship full of rich patrons, gorgeous women, murderous terrorists, and scarce food.",
-    "director": "Jing Wong",
-    "actors": "Jackie Chan, Richard Norton, Joey Wang",
-    "language": "Cantonese",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38433",
-        "title": "City Hunter (1993) (Tamil) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38433"
-      },
-      {
-        "id": "38432",
-        "title": "City Hunter (1993) (Tamil) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38432"
-      },
-      {
-        "id": "38430",
-        "title": "City Hunter (1993) (Tamil) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38430"
-      },
-      {
-        "id": "38429",
-        "title": "City Hunter (1993) (Tamil) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38429"
-      },
-      {
-        "id": "38427",
-        "title": "City Hunter (1993) (Tamil)",
-        "stream_url": "https://dub.onestream.today/stream/video/38427"
-      }
-    ]
-  },
-  {
-    "id": "38419",
-    "title": "Around The World In 80 Days",
-    "raw_title": "Around The World In 80 Days (2004) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMjIwNDk0NzUtNTZlOC00OGNiLWI0ODgtYWNhYzU4MzEwMjRiXkEyXkFqcGc@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "5.9",
-    "genres": "Action, Adventure, Comedy",
-    "runtime": "120 min",
-    "released": "16 Jun 2004",
-    "year": "2004",
-    "plot": "To win a bet, an eccentric British inventor embarks, with his Chinese valet and an aspiring French artist, on a trip full of adventures and dangers around the world in exactly 80 days.",
-    "director": "Frank Coraci",
-    "actors": "Jackie Chan, Steve Coogan, Jim Broadbent",
-    "language": "English, Cantonese, French, German, Hindi, Turkish",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38419",
-        "title": "Around The World In 80 Days (2004) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38419"
-      },
-      {
-        "id": "38418",
-        "title": "Around The World In 80 Days (2004) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38418"
-      },
-      {
-        "id": "38416",
-        "title": "Around The World In 80 Days (2004) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38416"
-      },
-      {
-        "id": "38415",
-        "title": "Around The World In 80 Days (2004) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38415"
-      },
-      {
-        "id": "38413",
-        "title": "Around The World In 80 Days (2004)",
-        "stream_url": "https://dub.onestream.today/stream/video/38413"
       }
     ]
   }
