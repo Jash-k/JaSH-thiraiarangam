@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-07-26T01:57:21.995156Z",
+  "updated_at": "2026-07-27T02:05:10.020240Z",
   "stats": {
-    "tamil_count": 94,
-    "dubbed_count": 244,
-    "total_titles": 338,
-    "play_pages": 4,
+    "tamil_count": 97,
+    "dubbed_count": 247,
+    "total_titles": 344,
+    "play_pages": 5,
     "dub_pages": 11,
-    "last_movie_id": 6299,
-    "last_dubbed_id": 41299
+    "last_movie_id": 6349,
+    "last_dubbed_id": 41349
   },
   "genres": [
     "Action",
@@ -102,9 +102,88 @@
   ],
   "featured": [
     {
-      "id": "6299",
+      "id": "6318",
+      "title": "Dhool",
+      "raw_title": "Dhool Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTRhYmI3YjgtMzQ2NC00NjIwLThkNjktYzc0MDYyYmZlOTUxXkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.2",
+      "genres": "Action, Comedy, Drama",
+      "runtime": "180 min",
+      "released": "10 Jan 2003",
+      "year": "2003",
+      "plot": "Arumugam lands in the city to protest to a minister about water pollution in his village. Here, he gets involved in a battle against corrupt politicians and rowdies, who leave him practically dead.",
+      "director": "Dharani",
+      "actors": "Vikram, Jyotika, Reema Sen",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "6318",
+          "title": "Dhool Sample",
+          "stream_url": "https://play.onestream.today/stream/page/6318"
+        },
+        {
+          "id": "6317",
+          "title": "Dhool Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/6317"
+        },
+        {
+          "id": "6316",
+          "title": "Dhool Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/6316"
+        },
+        {
+          "id": "6315",
+          "title": "Dhool Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/6315"
+        },
+        {
+          "id": "6314",
+          "title": "Dhool Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/6314"
+        },
+        {
+          "id": "6312",
+          "title": "Dhool Sample",
+          "stream_url": "https://play.onestream.today/stream/page/6312"
+        },
+        {
+          "id": "6311",
+          "title": "Dhool Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/6311"
+        },
+        {
+          "id": "6310",
+          "title": "Dhool Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/6310"
+        },
+        {
+          "id": "6309",
+          "title": "Dhool Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/6309"
+        },
+        {
+          "id": "6308",
+          "title": "Dhool Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/6308"
+        },
+        {
+          "id": "6306",
+          "title": "Dhool Single Part Lq",
+          "stream_url": "https://play.onestream.today/stream/page/6306"
+        },
+        {
+          "id": "6304",
+          "title": "Dhool",
+          "stream_url": "https://play.onestream.today/stream/page/6304"
+        }
+      ]
+    },
+    {
+      "id": "6303",
       "title": "Dhill",
-      "raw_title": "Dhill Part - 1",
+      "raw_title": "Dhill Sample",
       "poster": "https://m.media-amazon.com/images/M/MV5BNGM2MThiYWYtMGNiZC00OGM5LWE1Y2MtNWQ1OGMxOGVlNTQ3XkEyXkFqcGc@._V1_SX300.jpg",
       "category": "Movie",
       "rating": "7.0",
@@ -118,6 +197,26 @@
       "language": "Tamil",
       "lib": "play",
       "prints": [
+        {
+          "id": "6303",
+          "title": "Dhill Sample",
+          "stream_url": "https://play.onestream.today/stream/page/6303"
+        },
+        {
+          "id": "6302",
+          "title": "Dhill Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/6302"
+        },
+        {
+          "id": "6301",
+          "title": "Dhill Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/6301"
+        },
+        {
+          "id": "6300",
+          "title": "Dhill Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/6300"
+        },
         {
           "id": "6299",
           "title": "Dhill Part - 1",
@@ -937,85 +1036,6 @@
           "id": "4571",
           "title": "Dreams Single Part LQ",
           "stream_url": "https://play.onestream.today/stream/page/4571"
-        }
-      ]
-    },
-    {
-      "id": "4523",
-      "title": "Aadukalam",
-      "raw_title": "Aadukalam Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYTM1MWI2ZDQtMTlmYy00YjRiLTk2OGYtM2YzYzEwMGIyMGU5XkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "8.1",
-      "genres": "Action, Drama, Romance",
-      "runtime": "160 min",
-      "released": "14 Jan 2011",
-      "year": "2011",
-      "plot": "Falling in love with Irene as well as refusing to obey his boss Pettaikaran in a rooster fight complicates Karuppu's life.",
-      "director": "Vetrimaaran",
-      "actors": "Dhanush, Taapsee Pannu, Jayabalan",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "4523",
-          "title": "Aadukalam Sample",
-          "stream_url": "https://play.onestream.today/stream/page/4523"
-        },
-        {
-          "id": "4522",
-          "title": "Aadukalam Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/4522"
-        },
-        {
-          "id": "4521",
-          "title": "Aadukalam Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/4521"
-        },
-        {
-          "id": "4520",
-          "title": "Aadukalam Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/4520"
-        },
-        {
-          "id": "4519",
-          "title": "Aadukalam Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/4519"
-        },
-        {
-          "id": "4517",
-          "title": "Aadukalam Sample",
-          "stream_url": "https://play.onestream.today/stream/page/4517"
-        },
-        {
-          "id": "4516",
-          "title": "Aadukalam Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/4516"
-        },
-        {
-          "id": "4515",
-          "title": "Aadukalam Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/4515"
-        },
-        {
-          "id": "4514",
-          "title": "Aadukalam Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/4514"
-        },
-        {
-          "id": "4513",
-          "title": "Aadukalam Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/4513"
-        },
-        {
-          "id": "4511",
-          "title": "Aadukalam Single Part LQ",
-          "stream_url": "https://play.onestream.today/stream/page/4511"
-        },
-        {
-          "id": "4509",
-          "title": "Aadukalam",
-          "stream_url": "https://play.onestream.today/stream/page/4509"
         }
       ]
     }

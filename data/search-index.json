@@ -1,6 +1,67 @@
 [
   {
-    "id": "6299",
+    "id": "6349",
+    "t": "Kaasi",
+    "y": "2004",
+    "r": "6.2",
+    "p": "https://m.media-amazon.com/images/M/MV5BNjc1OTg1OWQtZGFkYi00ZWRhLWJkYzAtNWVmNWIxMmMxODIxXkEyXkFqcGdeQXVyOTk3NTc2MzE@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Romance",
+    "pts": [
+      "6349"
+    ]
+  },
+  {
+    "id": "6348",
+    "t": "Gemini",
+    "y": "2017",
+    "r": "5.4",
+    "p": "https://m.media-amazon.com/images/M/MV5BNjYxYzIyZmMtODViNy00NTgzLWIzNGUtMjRiNDRjYjlkNWIwXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Crime, Drama, Mystery",
+    "pts": [
+      "6348",
+      "6347",
+      "6346",
+      "6345",
+      "6344",
+      "6342",
+      "6341",
+      "6340",
+      "6339",
+      "6338",
+      "6336",
+      "6334"
+    ]
+  },
+  {
+    "id": "6318",
+    "t": "Dhool",
+    "y": "2003",
+    "r": "7.2",
+    "p": "https://m.media-amazon.com/images/M/MV5BYTRhYmI3YjgtMzQ2NC00NjIwLThkNjktYzc0MDYyYmZlOTUxXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Action, Comedy, Drama",
+    "pts": [
+      "6318",
+      "6317",
+      "6316",
+      "6315",
+      "6314",
+      "6312",
+      "6311",
+      "6310",
+      "6309",
+      "6308",
+      "6306",
+      "6304"
+    ]
+  },
+  {
+    "id": "6303",
     "t": "Dhill",
     "y": "2001",
     "r": "7.0",
@@ -9,6 +70,10 @@
     "l": "play",
     "g": "Action, Drama",
     "pts": [
+      "6303",
+      "6302",
+      "6301",
+      "6300",
       "6299",
       "6297",
       "6296",
@@ -2230,7 +2295,111 @@
     ]
   },
   {
-    "id": "41299",
+    "id": "41344",
+    "t": "Rings",
+    "y": "2017",
+    "r": "4.5",
+    "p": "https://m.media-amazon.com/images/M/MV5BYjUzYzhjNjQtOWEyMS00NjlkLWFiNDEtNGZiM2Y5Y2I2MzhiXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Drama, Horror, Mystery",
+    "pts": [
+      "41344",
+      "41343",
+      "41341",
+      "41340",
+      "41338",
+      "41337",
+      "41336",
+      "41335",
+      "41334"
+    ]
+  },
+  {
+    "id": "41331",
+    "t": "True Lies",
+    "y": "1994",
+    "r": "7.3",
+    "p": "https://m.media-amazon.com/images/M/MV5BYjU1ZjNhMjMtOTMxZS00MDc1LTlkNzQtZTdjNGQyYjQ4YTA4XkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Action, Comedy, Thriller",
+    "pts": [
+      "41331",
+      "41330",
+      "41328",
+      "41327",
+      "41325"
+    ]
+  },
+  {
+    "id": "41324",
+    "t": "Total Recall",
+    "y": "1990",
+    "r": "7.5",
+    "p": "https://m.media-amazon.com/images/M/MV5BZjRlMzBkOGMtMTA1Ny00ZWI4LTkzMDItOGVkNWJkN2E4ZTkwXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Action, Adventure, Sci-Fi",
+    "pts": [
+      "41324",
+      "41323",
+      "41321",
+      "41320",
+      "41318",
+      "39584",
+      "39583",
+      "39581",
+      "39580",
+      "39578",
+      "39577",
+      "39576",
+      "39574",
+      "39573",
+      "39571"
+    ]
+  },
+  {
+    "id": "41317",
+    "t": "The Terminator",
+    "y": "1984",
+    "r": "8.1",
+    "p": "https://m.media-amazon.com/images/M/MV5BZmE0YzIxM2QtMGNlMi00MjRmLWE3MWMtOWQzMGVjMmU0YTFmXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Action, Adventure, Sci-Fi",
+    "pts": [
+      "41317",
+      "41316",
+      "41314",
+      "41313",
+      "41311"
+    ]
+  },
+  {
+    "id": "41310",
+    "t": "The Expendables 3",
+    "y": "2014",
+    "r": "6.1",
+    "p": "https://m.media-amazon.com/images/M/MV5BODU5ODMyMzg2MV5BMl5BanBnXkFtZTgwMTA2MTcxMjE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Action, Adventure, Comedy",
+    "pts": [
+      "41310",
+      "41309",
+      "41307",
+      "41306",
+      "41304",
+      "39392",
+      "39391",
+      "39389",
+      "39388",
+      "39386"
+    ]
+  },
+  {
+    "id": "41303",
     "t": "The Expendables 2",
     "y": "2012",
     "r": "6.6",
@@ -2239,6 +2408,9 @@
     "l": "dub",
     "g": "Action, Adventure, Thriller",
     "pts": [
+      "41303",
+      "41302",
+      "41300",
       "41299",
       "41297",
       "39385",
@@ -3863,28 +4035,6 @@
     ]
   },
   {
-    "id": "39584",
-    "t": "Total Recall",
-    "y": "1990",
-    "r": "7.5",
-    "p": "https://m.media-amazon.com/images/M/MV5BZjRlMzBkOGMtMTA1Ny00ZWI4LTkzMDItOGVkNWJkN2E4ZTkwXkEyXkFqcGc@._V1_SX300.jpg",
-    "c": "Movie",
-    "l": "dub",
-    "g": "Action, Adventure, Sci-Fi",
-    "pts": [
-      "39584",
-      "39583",
-      "39581",
-      "39580",
-      "39578",
-      "39577",
-      "39576",
-      "39574",
-      "39573",
-      "39571"
-    ]
-  },
-  {
     "id": "39569",
     "t": "Wrath Of The Titans",
     "y": "2012",
@@ -4120,23 +4270,6 @@
       "39404",
       "39403",
       "39401"
-    ]
-  },
-  {
-    "id": "39392",
-    "t": "The Expendables 3",
-    "y": "2014",
-    "r": "6.1",
-    "p": "https://m.media-amazon.com/images/M/MV5BODU5ODMyMzg2MV5BMl5BanBnXkFtZTgwMTA2MTcxMjE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-    "c": "Movie",
-    "l": "dub",
-    "g": "Action, Adventure, Comedy",
-    "pts": [
-      "39392",
-      "39391",
-      "39389",
-      "39388",
-      "39386"
     ]
   },
   {
