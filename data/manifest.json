@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-07-27T02:05:10.020240Z",
+  "updated_at": "2026-07-28T01:50:44.562997Z",
   "stats": {
-    "tamil_count": 97,
+    "tamil_count": 99,
     "dubbed_count": 247,
-    "total_titles": 344,
+    "total_titles": 346,
     "play_pages": 5,
     "dub_pages": 11,
-    "last_movie_id": 6349,
-    "last_dubbed_id": 41349
+    "last_movie_id": 6399,
+    "last_dubbed_id": 41399
   },
   "genres": [
     "Action",
@@ -101,6 +101,40 @@
     1937
   ],
   "featured": [
+    {
+      "id": "6399",
+      "title": "King",
+      "raw_title": "King Part - 2",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "category": "Movie",
+      "rating": "9.0",
+      "genres": "Adventure, Drama, Fantasy",
+      "runtime": "201 min",
+      "released": "17 Dec 2003",
+      "year": "2003",
+      "plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "director": "Peter Jackson",
+      "actors": "Elijah Wood, Viggo Mortensen, Ian McKellen",
+      "language": "English, Quenya, Old English, Sindarin",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "6399",
+          "title": "King Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/6399"
+        },
+        {
+          "id": "6398",
+          "title": "King Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/6398"
+        },
+        {
+          "id": "6394",
+          "title": "King",
+          "stream_url": "https://play.onestream.today/stream/page/6394"
+        }
+      ]
+    },
     {
       "id": "6318",
       "title": "Dhool",
@@ -962,80 +996,6 @@
           "id": "4823",
           "title": "Yaaradi Nee Mohini Single Part LQ",
           "stream_url": "https://play.onestream.today/stream/page/4823"
-        }
-      ]
-    },
-    {
-      "id": "4583",
-      "title": "Dreams",
-      "raw_title": "Dreams Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZDkwYmVkNTgtMGYyOC00NTQzLTkyNmMtODcxM2RmZDg1MTA4XkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.7",
-      "genres": "Drama, Fantasy",
-      "runtime": "119 min",
-      "released": "24 Aug 1990",
-      "year": "1990",
-      "plot": "A collection of tales based upon eight of director Akira Kurosawa's recurring dreams.",
-      "director": "Akira Kurosawa, Ishirô Honda",
-      "actors": "Akira Terao, Mitsuko Baishô, Toshie Negishi",
-      "language": "Japanese, French, English",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "4583",
-          "title": "Dreams Sample",
-          "stream_url": "https://play.onestream.today/stream/page/4583"
-        },
-        {
-          "id": "4582",
-          "title": "Dreams Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/4582"
-        },
-        {
-          "id": "4581",
-          "title": "Dreams Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/4581"
-        },
-        {
-          "id": "4580",
-          "title": "Dreams Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/4580"
-        },
-        {
-          "id": "4579",
-          "title": "Dreams Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/4579"
-        },
-        {
-          "id": "4577",
-          "title": "Dreams Sample",
-          "stream_url": "https://play.onestream.today/stream/page/4577"
-        },
-        {
-          "id": "4576",
-          "title": "Dreams Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/4576"
-        },
-        {
-          "id": "4575",
-          "title": "Dreams Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/4575"
-        },
-        {
-          "id": "4574",
-          "title": "Dreams Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/4574"
-        },
-        {
-          "id": "4573",
-          "title": "Dreams Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/4573"
-        },
-        {
-          "id": "4571",
-          "title": "Dreams Single Part LQ",
-          "stream_url": "https://play.onestream.today/stream/page/4571"
         }
       ]
     }
