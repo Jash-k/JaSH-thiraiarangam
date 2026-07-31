@@ -1,5 +1,49 @@
 [
   {
+    "id": "38077",
+    "title": "Blade 2",
+    "raw_title": "Blade 2 (2002) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTM0OTEyMTUxNl5BMl5BanBnXkFtZTcwNTQ5MDQ1Ng@@._V1_SX300.jpg",
+    "category": "Series",
+    "rating": "6.6",
+    "genres": "Animation, Action, Adventure",
+    "runtime": "24 min",
+    "released": "24 Sep 2009",
+    "year": "2009",
+    "plot": "The sequel that follows Queen's Blade: The Exiled Virgin (2009). Countless powerful women from around the continent join a tournament called the Queen's Blade tournament to challenge one another and eventually try their skills at ...",
+    "director": "",
+    "actors": "Atsuko Tanaka, Dan Green, Jessica Calvello",
+    "language": "English, Japanese",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38077",
+        "title": "Blade 2 (2002) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38077"
+      },
+      {
+        "id": "38076",
+        "title": "Blade 2 (2002) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38076"
+      },
+      {
+        "id": "38074",
+        "title": "Blade 2 (2002) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38074"
+      },
+      {
+        "id": "38073",
+        "title": "Blade 2 (2002) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38073"
+      },
+      {
+        "id": "38071",
+        "title": "Blade 2 (2002)",
+        "stream_url": "https://dub.onestream.today/stream/video/38071"
+      }
+    ]
+  },
+  {
     "id": "38070",
     "title": "Blade",
     "raw_title": "Blade 1998 Sample (640x360)",
