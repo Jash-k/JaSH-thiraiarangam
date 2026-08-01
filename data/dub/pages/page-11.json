@@ -1,5 +1,68 @@
 [
   {
+    "id": "38084",
+    "title": "Blade 3",
+    "raw_title": "Blade 3 2004 Sample (640x360)",
+    "poster": "",
+    "category": "Movie",
+    "rating": "7.0",
+    "genres": "Animation, Adult, Adventure, Fantasy, Sci-Fi, Thriller",
+    "runtime": "45 min",
+    "released": "11 Apr 2003",
+    "year": "2001",
+    "plot": "In the near future, the earth is covered in a chemical smog and Dark Mother, evil villainess, leads a secret organization devoted to world domination. But there is a masked heroine named ...",
+    "director": "Masami Ôbari",
+    "actors": "Brigitte Flav, Shannon Conley, Brandy Delmar, Carrie Keranen",
+    "language": "Japanese",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38084",
+        "title": "Blade 3 2004 Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38084"
+      },
+      {
+        "id": "38083",
+        "title": "Blade 3 2004 HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38083"
+      },
+      {
+        "id": "38081",
+        "title": "Blade 3 2004 Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38081"
+      },
+      {
+        "id": "38080",
+        "title": "Blade 3 2004 HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38080"
+      }
+    ]
+  },
+  {
+    "id": "38078",
+    "title": "Blade Trinity",
+    "raw_title": "Blade Trinity (2004)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjE0Nzg2MzI3MF5BMl5BanBnXkFtZTYwMjExODQ3._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "5.8",
+    "genres": "Action, Horror, Sci-Fi",
+    "runtime": "113 min",
+    "released": "08 Dec 2004",
+    "year": "2004",
+    "plot": "Blade, now a wanted man by the FBI, must join forces with the Nightstalkers to face his most challenging enemy yet: Dracula.",
+    "director": "David S. Goyer",
+    "actors": "Wesley Snipes, Kris Kristofferson, Parker Posey",
+    "language": "English, Esperanto",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38078",
+        "title": "Blade Trinity (2004)",
+        "stream_url": "https://dub.onestream.today/stream/video/38078"
+      }
+    ]
+  },
+  {
     "id": "38077",
     "title": "Blade 2",
     "raw_title": "Blade 2 (2002) Sample (640x360)",

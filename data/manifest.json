@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-07-31T01:58:58.510713Z",
+  "updated_at": "2026-08-01T02:00:33.760275Z",
   "stats": {
-    "tamil_count": 109,
-    "dubbed_count": 250,
-    "total_titles": 359,
+    "tamil_count": 110,
+    "dubbed_count": 252,
+    "total_titles": 362,
     "play_pages": 5,
     "dub_pages": 11,
-    "last_movie_id": 6549,
-    "last_dubbed_id": 41549
+    "last_movie_id": 6599,
+    "last_dubbed_id": 41599
   },
   "genres": [
     "Action",
@@ -101,6 +101,55 @@
     1937
   ],
   "featured": [
+    {
+      "id": "6599",
+      "title": "Aarya",
+      "raw_title": "Aarya Part-4",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGQ3OGQ2ZjktODhlMy00YTg2LWIxOTEtYzI5Mjg3MGNkMDQzXkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Series",
+      "rating": "7.7",
+      "genres": "Action, Crime, Drama",
+      "runtime": "51 min",
+      "released": "19 Jun 2020",
+      "year": "2020",
+      "plot": "When her world suddenly turns upside down, will Aarya become the very thing she hated?How far will she go to survive and protect her family?",
+      "director": "",
+      "actors": "Sushmita Sen, Vikas Kumar, Virti Vaghani",
+      "language": "Hindi",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "6599",
+          "title": "Aarya Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/6599"
+        },
+        {
+          "id": "6598",
+          "title": "Aarya Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/6598"
+        },
+        {
+          "id": "6597",
+          "title": "Aarya Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/6597"
+        },
+        {
+          "id": "6596",
+          "title": "Aarya Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/6596"
+        },
+        {
+          "id": "6594",
+          "title": "Aarya Single Part LQ",
+          "stream_url": "https://play.onestream.today/stream/page/6594"
+        },
+        {
+          "id": "6592",
+          "title": "Aarya",
+          "stream_url": "https://play.onestream.today/stream/page/6592"
+        }
+      ]
+    },
     {
       "id": "6528",
       "title": "Sethu",
@@ -957,85 +1006,6 @@
           "id": "6170",
           "title": "Siva Manasula Sakthi Single Part Lq",
           "stream_url": "https://play.onestream.today/stream/page/6170"
-        }
-      ]
-    },
-    {
-      "id": "6122",
-      "title": "Raam",
-      "raw_title": "Raam Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzYwYTY3MzMtMzA1YS00ZDNmLTgzNzEtMWJhNjgwZDVjYjc0XkEyXkFqcGdeQXVyMTcyNDY1NDgw._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.8",
-      "genres": "Action, Crime, Drama",
-      "runtime": "154 min",
-      "released": "04 Mar 2005",
-      "year": "2005",
-      "plot": "Raam is falsely charged for killing his mother, and his neighbors are also called for interrogation. The combined efforts of Raam, his friends and the police lead to tracking down the real killer.",
-      "director": "Ameer Sultan",
-      "actors": "Jiiva, Saranya Ponvannan, Gajala",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "6122",
-          "title": "Raam Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6122"
-        },
-        {
-          "id": "6121",
-          "title": "Raam Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/6121"
-        },
-        {
-          "id": "6120",
-          "title": "Raam Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/6120"
-        },
-        {
-          "id": "6119",
-          "title": "Raam Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/6119"
-        },
-        {
-          "id": "6118",
-          "title": "Raam Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/6118"
-        },
-        {
-          "id": "6116",
-          "title": "Raam Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6116"
-        },
-        {
-          "id": "6115",
-          "title": "Raam Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/6115"
-        },
-        {
-          "id": "6114",
-          "title": "Raam Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/6114"
-        },
-        {
-          "id": "6113",
-          "title": "Raam Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/6113"
-        },
-        {
-          "id": "6112",
-          "title": "Raam Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/6112"
-        },
-        {
-          "id": "6110",
-          "title": "Raam Single Part Lq",
-          "stream_url": "https://play.onestream.today/stream/page/6110"
-        },
-        {
-          "id": "6108",
-          "title": "Raam",
-          "stream_url": "https://play.onestream.today/stream/page/6108"
         }
       ]
     }

@@ -1,8 +1,57 @@
 [
   {
-    "id": "6549",
+    "id": "6599",
+    "title": "Aarya",
+    "raw_title": "Aarya Part-4",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZGQ3OGQ2ZjktODhlMy00YTg2LWIxOTEtYzI5Mjg3MGNkMDQzXkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Series",
+    "rating": "7.7",
+    "genres": "Action, Crime, Drama",
+    "runtime": "51 min",
+    "released": "19 Jun 2020",
+    "year": "2020",
+    "plot": "When her world suddenly turns upside down, will Aarya become the very thing she hated?How far will she go to survive and protect her family?",
+    "director": "",
+    "actors": "Sushmita Sen, Vikas Kumar, Virti Vaghani",
+    "language": "Hindi",
+    "lib": "play",
+    "prints": [
+      {
+        "id": "6599",
+        "title": "Aarya Part-4",
+        "stream_url": "https://play.onestream.today/stream/page/6599"
+      },
+      {
+        "id": "6598",
+        "title": "Aarya Part-3",
+        "stream_url": "https://play.onestream.today/stream/page/6598"
+      },
+      {
+        "id": "6597",
+        "title": "Aarya Part-2",
+        "stream_url": "https://play.onestream.today/stream/page/6597"
+      },
+      {
+        "id": "6596",
+        "title": "Aarya Part-1",
+        "stream_url": "https://play.onestream.today/stream/page/6596"
+      },
+      {
+        "id": "6594",
+        "title": "Aarya Single Part LQ",
+        "stream_url": "https://play.onestream.today/stream/page/6594"
+      },
+      {
+        "id": "6592",
+        "title": "Aarya",
+        "stream_url": "https://play.onestream.today/stream/page/6592"
+      }
+    ]
+  },
+  {
+    "id": "6558",
     "title": "Ullasam",
-    "raw_title": "Ullasam Part - 2",
+    "raw_title": "Ullasam Sample",
     "poster": "https://m.media-amazon.com/images/M/MV5BNTg5OTY5MTgtMzEzMy00ZWFiLWFmYzItNzA2NDZkNjRmY2FiXkEyXkFqcGdeQXVyMjkxNzQ1NDI@._V1_SX300.jpg",
     "category": "Movie",
     "rating": "4.7",
@@ -16,6 +65,46 @@
     "language": "Malayalam",
     "lib": "play",
     "prints": [
+      {
+        "id": "6558",
+        "title": "Ullasam Sample",
+        "stream_url": "https://play.onestream.today/stream/page/6558"
+      },
+      {
+        "id": "6557",
+        "title": "Ullasam Part - 4",
+        "stream_url": "https://play.onestream.today/stream/page/6557"
+      },
+      {
+        "id": "6556",
+        "title": "Ullasam Part - 3",
+        "stream_url": "https://play.onestream.today/stream/page/6556"
+      },
+      {
+        "id": "6555",
+        "title": "Ullasam Part - 2",
+        "stream_url": "https://play.onestream.today/stream/page/6555"
+      },
+      {
+        "id": "6554",
+        "title": "Ullasam Part - 1",
+        "stream_url": "https://play.onestream.today/stream/page/6554"
+      },
+      {
+        "id": "6552",
+        "title": "Ullasam Sample",
+        "stream_url": "https://play.onestream.today/stream/page/6552"
+      },
+      {
+        "id": "6551",
+        "title": "Ullasam Part - 4",
+        "stream_url": "https://play.onestream.today/stream/page/6551"
+      },
+      {
+        "id": "6550",
+        "title": "Ullasam Part - 3",
+        "stream_url": "https://play.onestream.today/stream/page/6550"
+      },
       {
         "id": "6549",
         "title": "Ullasam Part - 2",
