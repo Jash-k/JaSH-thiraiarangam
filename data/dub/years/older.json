@@ -1,8 +1,8 @@
 [
   {
-    "id": "41599",
+    "id": "41608",
     "title": "Babe",
-    "raw_title": "Babe (1995) Part-2",
+    "raw_title": "Babe (1995) Single Part (640x360)",
     "poster": "https://m.media-amazon.com/images/M/MV5BODYxZWZiMTgtMjJhOC00OTE1LTk0MmQtMGFiOGY3ZTAwZGRjXkEyXkFqcGc@._V1_SX300.jpg",
     "category": "Movie",
     "rating": "6.9",
@@ -16,6 +16,41 @@
     "language": "English",
     "lib": "dub",
     "prints": [
+      {
+        "id": "41608",
+        "title": "Babe (1995) Single Part (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/41608"
+      },
+      {
+        "id": "41607",
+        "title": "Babe (1995) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/41607"
+      },
+      {
+        "id": "41605",
+        "title": "Babe (1995) Single Part (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/41605"
+      },
+      {
+        "id": "41604",
+        "title": "Babe (1995) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/41604"
+      },
+      {
+        "id": "41602",
+        "title": "Babe (1995) Sample",
+        "stream_url": "https://dub.onestream.today/stream/video/41602"
+      },
+      {
+        "id": "41601",
+        "title": "Babe (1995) Part-4",
+        "stream_url": "https://dub.onestream.today/stream/video/41601"
+      },
+      {
+        "id": "41600",
+        "title": "Babe (1995) Part-3",
+        "stream_url": "https://dub.onestream.today/stream/video/41600"
+      },
       {
         "id": "41599",
         "title": "Babe (1995) Part-2",
