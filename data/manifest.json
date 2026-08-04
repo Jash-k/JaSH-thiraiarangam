@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-08-03T01:59:33.568658Z",
+  "updated_at": "2026-08-04T01:46:08.358169Z",
   "stats": {
-    "tamil_count": 112,
+    "tamil_count": 114,
     "dubbed_count": 253,
-    "total_titles": 365,
+    "total_titles": 367,
     "play_pages": 5,
     "dub_pages": 11,
-    "last_movie_id": 6699,
-    "last_dubbed_id": 41699
+    "last_movie_id": 6749,
+    "last_dubbed_id": 41749
   },
   "genres": [
     "Action",
@@ -101,6 +101,85 @@
     1937
   ],
   "featured": [
+    {
+      "id": "6726",
+      "title": "Guru",
+      "raw_title": "Guru Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDgzMjliNDAtMGJkNy00ZTUzLWIyMTAtNWZkNmY2MDNiZjE3XkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.7",
+      "genres": "Drama",
+      "runtime": "166 min",
+      "released": "12 Jan 2007",
+      "year": "2007",
+      "plot": "A villager, Gurukant Desai, arrives in Bombay 1958, and rises from its streets to become the GURU, the biggest tycoon in Indian history.",
+      "director": "Mani Ratnam",
+      "actors": "Mithun Chakraborty, Abhishek Bachchan, Aishwarya Rai Bachchan",
+      "language": "Hindi",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "6726",
+          "title": "Guru Sample",
+          "stream_url": "https://play.onestream.today/stream/page/6726"
+        },
+        {
+          "id": "6725",
+          "title": "Guru Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/6725"
+        },
+        {
+          "id": "6724",
+          "title": "Guru Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/6724"
+        },
+        {
+          "id": "6723",
+          "title": "Guru Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/6723"
+        },
+        {
+          "id": "6722",
+          "title": "Guru Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/6722"
+        },
+        {
+          "id": "6720",
+          "title": "Guru Sample",
+          "stream_url": "https://play.onestream.today/stream/page/6720"
+        },
+        {
+          "id": "6719",
+          "title": "Guru Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/6719"
+        },
+        {
+          "id": "6718",
+          "title": "Guru Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/6718"
+        },
+        {
+          "id": "6717",
+          "title": "Guru Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/6717"
+        },
+        {
+          "id": "6716",
+          "title": "Guru Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/6716"
+        },
+        {
+          "id": "6714",
+          "title": "Guru Single Part LQ",
+          "stream_url": "https://play.onestream.today/stream/page/6714"
+        },
+        {
+          "id": "6712",
+          "title": "Guru",
+          "stream_url": "https://play.onestream.today/stream/page/6712"
+        }
+      ]
+    },
     {
       "id": "6651",
       "title": "Anbe Sivam",
@@ -962,85 +1041,6 @@
           "id": "6274",
           "title": "Deiva Thirumagal",
           "stream_url": "https://play.onestream.today/stream/page/6274"
-        }
-      ]
-    },
-    {
-      "id": "6258",
-      "title": "Anniyan",
-      "raw_title": "Anniyan (2005) Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNTRlM2Y1MjQtNzkyMS00YTI4LWIzMDktMTMyY2U4NmI2N2U2XkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "8.3",
-      "genres": "Action, Crime, Drama",
-      "runtime": "181 min",
-      "released": "17 Jun 2005",
-      "year": "2005",
-      "plot": "Ramanujam, who suffers from multiple personality disorder, works as a lawyer by day and a vigilante at night, using tips from the 'Garuda Purana' as his tools to punish various antisocial elements.",
-      "director": "S. Shankar",
-      "actors": "Vikram, Sada, Prakash Raj",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "6258",
-          "title": "Anniyan (2005) Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6258"
-        },
-        {
-          "id": "6257",
-          "title": "Anniyan (2005) Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/6257"
-        },
-        {
-          "id": "6256",
-          "title": "Anniyan (2005) Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/6256"
-        },
-        {
-          "id": "6255",
-          "title": "Anniyan (2005) Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/6255"
-        },
-        {
-          "id": "6254",
-          "title": "Anniyan (2005) Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/6254"
-        },
-        {
-          "id": "6252",
-          "title": "Anniyan (2005) Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6252"
-        },
-        {
-          "id": "6251",
-          "title": "Anniyan (2005) Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/6251"
-        },
-        {
-          "id": "6250",
-          "title": "Anniyan (2005) Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/6250"
-        },
-        {
-          "id": "6249",
-          "title": "Anniyan (2005) Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/6249"
-        },
-        {
-          "id": "6248",
-          "title": "Anniyan (2005) Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/6248"
-        },
-        {
-          "id": "6246",
-          "title": "Anniyan (2005) Single Part Lq",
-          "stream_url": "https://play.onestream.today/stream/page/6246"
-        },
-        {
-          "id": "6244",
-          "title": "Anniyan",
-          "stream_url": "https://play.onestream.today/stream/page/6244"
         }
       ]
     }
