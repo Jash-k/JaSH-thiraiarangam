@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-08-11T01:05:15.705993Z",
+  "updated_at": "2026-08-12T01:12:16.728514Z",
   "stats": {
     "tamil_count": 129,
-    "dubbed_count": 259,
-    "total_titles": 388,
+    "dubbed_count": 260,
+    "total_titles": 389,
     "play_pages": 6,
     "dub_pages": 11,
-    "last_movie_id": 7099,
-    "last_dubbed_id": 42099
+    "last_movie_id": 7149,
+    "last_dubbed_id": 42149
   },
   "genres": [
     "Action",
