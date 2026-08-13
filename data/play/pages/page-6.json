@@ -1,5 +1,84 @@
 [
   {
+    "id": "3530",
+    "title": "Chandralekha",
+    "raw_title": "Chandralekha Sample",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTRlODEwNDYtMmU4Ni00NjQ4LWFjYjMtYTQxODM0MzhkOTYwXkEyXkFqcGdeQXVyNTI0NzU5ODc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "7.6",
+    "genres": "Comedy, Romance",
+    "runtime": "172 min",
+    "released": "04 Sep 1997",
+    "year": "1997",
+    "plot": "An unemployed man saves a rich woman and takes her to the hospital where her relatives mistake him as her husband. He plays along as he needs money to repay a loan.",
+    "director": "Priyadarshan",
+    "actors": "Mohanlal, Sukanya, Pooja Batra",
+    "language": "Malayalam",
+    "lib": "play",
+    "prints": [
+      {
+        "id": "3530",
+        "title": "Chandralekha Sample",
+        "stream_url": "https://play.onestream.today/stream/page/3530"
+      },
+      {
+        "id": "3529",
+        "title": "Chandralekha Part-4",
+        "stream_url": "https://play.onestream.today/stream/page/3529"
+      },
+      {
+        "id": "3528",
+        "title": "Chandralekha Part-3",
+        "stream_url": "https://play.onestream.today/stream/page/3528"
+      },
+      {
+        "id": "3527",
+        "title": "Chandralekha Part-2",
+        "stream_url": "https://play.onestream.today/stream/page/3527"
+      },
+      {
+        "id": "3526",
+        "title": "Chandralekha Part-1",
+        "stream_url": "https://play.onestream.today/stream/page/3526"
+      },
+      {
+        "id": "3524",
+        "title": "Chandralekha Sample",
+        "stream_url": "https://play.onestream.today/stream/page/3524"
+      },
+      {
+        "id": "3523",
+        "title": "Chandralekha Part-4",
+        "stream_url": "https://play.onestream.today/stream/page/3523"
+      },
+      {
+        "id": "3522",
+        "title": "Chandralekha Part-3",
+        "stream_url": "https://play.onestream.today/stream/page/3522"
+      },
+      {
+        "id": "3521",
+        "title": "Chandralekha Part-2",
+        "stream_url": "https://play.onestream.today/stream/page/3521"
+      },
+      {
+        "id": "3520",
+        "title": "Chandralekha Part-1",
+        "stream_url": "https://play.onestream.today/stream/page/3520"
+      },
+      {
+        "id": "3518",
+        "title": "Chandralekha Single Part LQ",
+        "stream_url": "https://play.onestream.today/stream/page/3518"
+      },
+      {
+        "id": "3516",
+        "title": "Chandralekha",
+        "stream_url": "https://play.onestream.today/stream/page/3516"
+      }
+    ]
+  },
+  {
     "id": "3515",
     "title": "Bhagavathi",
     "raw_title": "Bhagavathi Sample",
