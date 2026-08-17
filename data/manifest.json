@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-08-16T00:48:09.580514Z",
+  "updated_at": "2026-08-17T00:46:37.637893Z",
   "stats": {
-    "tamil_count": 132,
-    "dubbed_count": 266,
-    "total_titles": 398,
+    "tamil_count": 134,
+    "dubbed_count": 267,
+    "total_titles": 401,
     "play_pages": 6,
     "dub_pages": 12,
-    "last_movie_id": 7349,
-    "last_dubbed_id": 42349
+    "last_movie_id": 7399,
+    "last_dubbed_id": 42399
   },
   "genres": [
     "Action",
@@ -102,6 +102,80 @@
     1937
   ],
   "featured": [
+    {
+      "id": "7379",
+      "title": "Pasanga 2",
+      "raw_title": "Pasanga 2 DVDRip Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWI4YzRlNTktZTNlMy00NDAwLWExMTgtYTdiNmQ1ODk5OWE0XkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.3",
+      "genres": "Drama",
+      "runtime": "127 min",
+      "released": "24 Dec 2015",
+      "year": "2015",
+      "plot": "It focuses on the issue of Attention Deficit Hyperactive Disorder (ADHD) among children, and the impact of the disorder on their lives and people around them.",
+      "director": "Pandiraj",
+      "actors": "Suriya, Amala Paul, Nishesh",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "7379",
+          "title": "Pasanga 2 DVDRip Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7379"
+        },
+        {
+          "id": "7378",
+          "title": "Pasanga 2 DVDRip Single Part LQ",
+          "stream_url": "https://play.onestream.today/stream/page/7378"
+        },
+        {
+          "id": "7376",
+          "title": "Pasanga 2 DVDRip Single Part LQ",
+          "stream_url": "https://play.onestream.today/stream/page/7376"
+        },
+        {
+          "id": "7374",
+          "title": "Pasanga 2 DVDRip Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7374"
+        },
+        {
+          "id": "7373",
+          "title": "Pasanga 2 DVDRip Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/7373"
+        },
+        {
+          "id": "7372",
+          "title": "Pasanga 2 DVDRip Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/7372"
+        },
+        {
+          "id": "7371",
+          "title": "Pasanga 2 DVDRip Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/7371"
+        },
+        {
+          "id": "7369",
+          "title": "Pasanga 2 DVDRip Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7369"
+        },
+        {
+          "id": "7368",
+          "title": "Pasanga 2 DVDRip Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/7368"
+        },
+        {
+          "id": "7367",
+          "title": "Pasanga 2 DVDRip Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/7367"
+        },
+        {
+          "id": "7366",
+          "title": "Pasanga 2 DVDRip Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/7366"
+        }
+      ]
+    },
     {
       "id": "7096",
       "title": "Oru Naal Iravil",
@@ -943,80 +1017,6 @@
           "id": "6424",
           "title": "Pithamagan",
           "stream_url": "https://play.onestream.today/stream/page/6424"
-        }
-      ]
-    },
-    {
-      "id": "6408",
-      "title": "King",
-      "raw_title": "King Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-      "category": "Movie",
-      "rating": "9.0",
-      "genres": "Adventure, Drama, Fantasy",
-      "runtime": "201 min",
-      "released": "17 Dec 2003",
-      "year": "2003",
-      "plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-      "director": "Peter Jackson",
-      "actors": "Elijah Wood, Viggo Mortensen, Ian McKellen",
-      "language": "English, Quenya, Old English, Sindarin",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "6408",
-          "title": "King Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6408"
-        },
-        {
-          "id": "6407",
-          "title": "King Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/6407"
-        },
-        {
-          "id": "6406",
-          "title": "King Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/6406"
-        },
-        {
-          "id": "6405",
-          "title": "King Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/6405"
-        },
-        {
-          "id": "6404",
-          "title": "King Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/6404"
-        },
-        {
-          "id": "6402",
-          "title": "King Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6402"
-        },
-        {
-          "id": "6401",
-          "title": "King Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/6401"
-        },
-        {
-          "id": "6400",
-          "title": "King Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/6400"
-        },
-        {
-          "id": "6399",
-          "title": "King Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/6399"
-        },
-        {
-          "id": "6398",
-          "title": "King Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/6398"
-        },
-        {
-          "id": "6394",
-          "title": "King",
-          "stream_url": "https://play.onestream.today/stream/page/6394"
         }
       ]
     }

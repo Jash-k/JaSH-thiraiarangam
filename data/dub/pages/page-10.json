@@ -1,5 +1,49 @@
 [
   {
+    "id": "38468",
+    "title": "Fist Of Fury",
+    "raw_title": "Fist Of Fury (1972) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZDAxMWZjMTgtNDdkMC00YmI5LWFkNzYtOTA0NDMwNjE2Y2MzXkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "7.2",
+    "genres": "Action, Drama, Romance",
+    "runtime": "107 min",
+    "released": "09 Sep 1972",
+    "year": "1972",
+    "plot": "During the Japanese occupation of Shanghai, the star pupil of a recently-deceased martial arts teacher battles a Japanese dojo which seeks the demise of his master's fighting school.",
+    "director": "Wei Lo",
+    "actors": "Bruce Lee, Nora Miao, James Tien",
+    "language": "Mandarin, Cantonese, English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38468",
+        "title": "Fist Of Fury (1972) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38468"
+      },
+      {
+        "id": "38467",
+        "title": "Fist Of Fury (1972) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38467"
+      },
+      {
+        "id": "38465",
+        "title": "Fist Of Fury (1972) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38465"
+      },
+      {
+        "id": "38464",
+        "title": "Fist Of Fury (1972) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38464"
+      },
+      {
+        "id": "38462",
+        "title": "Fist Of Fury (1972)",
+        "stream_url": "https://dub.onestream.today/stream/video/38462"
+      }
+    ]
+  },
+  {
     "id": "38461",
     "title": "Fantasy Mission Force",
     "raw_title": "Fantasy Mission Force (1983) Sample (640x360)",
@@ -1058,50 +1102,6 @@
         "id": "38260",
         "title": "The Fast and The Furious (2001)",
         "stream_url": "https://dub.onestream.today/stream/video/38260"
-      }
-    ]
-  },
-  {
-    "id": "38245",
-    "title": "Fast And Furious",
-    "raw_title": "Fast and Furious (2009) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMjAyNTQ1NjA3Ml5BMl5BanBnXkFtZTgwOTIyNjIxMzE@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "6.1",
-    "genres": "Comedy, Crime, Mystery",
-    "runtime": "73 min",
-    "released": "06 Oct 1939",
-    "year": "1939",
-    "plot": "Rare book dealers Joel and Garda take a summertime jaunt to the seashore where he becomes involved in a beauty pageant as investor and judge - much to her chagrin.",
-    "director": "Busby Berkeley",
-    "actors": "Franchot Tone, Ann Sothern, Ruth Hussey",
-    "language": "English",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38245",
-        "title": "Fast and Furious (2009) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38245"
-      },
-      {
-        "id": "38244",
-        "title": "Fast and Furious (2009) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38244"
-      },
-      {
-        "id": "38242",
-        "title": "Fast and Furious (2009) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38242"
-      },
-      {
-        "id": "38241",
-        "title": "Fast and Furious (2009) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38241"
-      },
-      {
-        "id": "38239",
-        "title": "Fast and Furious (2009)",
-        "stream_url": "https://dub.onestream.today/stream/video/38239"
       }
     ]
   }
