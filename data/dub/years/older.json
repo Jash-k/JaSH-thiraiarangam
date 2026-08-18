@@ -1,5 +1,143 @@
 [
   {
+    "id": "42432",
+    "title": "Jaws 3",
+    "raw_title": "Jaws 3 (1983) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYmY3YWZiMTAtZGYyYy00ODc3LTk5NjQtY2RhN2QwNzE2ZGI3XkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "3.7",
+    "genres": "Adventure, Horror, Thriller",
+    "runtime": "99 min",
+    "released": "22 Jul 1983",
+    "year": "1983",
+    "plot": "A giant thirty-five-foot shark becomes trapped in a SeaWorld theme park and it's up to the sons of police chief Brody to rescue everyone.",
+    "director": "Joe Alves",
+    "actors": "Dennis Quaid, Bess Armstrong, Simon MacCorkindale",
+    "language": "English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "42432",
+        "title": "Jaws 3 (1983) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/42432"
+      },
+      {
+        "id": "42431",
+        "title": "Jaws 3 (1983) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/42431"
+      },
+      {
+        "id": "42429",
+        "title": "Jaws 3 (1983) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/42429"
+      },
+      {
+        "id": "42428",
+        "title": "Jaws 3 (1983) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/42428"
+      },
+      {
+        "id": "42426",
+        "title": "Jaws 3 (1983) Sample",
+        "stream_url": "https://dub.onestream.today/stream/video/42426"
+      },
+      {
+        "id": "42425",
+        "title": "Jaws 3 (1983) Part-4",
+        "stream_url": "https://dub.onestream.today/stream/video/42425"
+      },
+      {
+        "id": "42424",
+        "title": "Jaws 3 (1983) Part-3",
+        "stream_url": "https://dub.onestream.today/stream/video/42424"
+      },
+      {
+        "id": "42423",
+        "title": "Jaws 3 (1983) Part-2",
+        "stream_url": "https://dub.onestream.today/stream/video/42423"
+      },
+      {
+        "id": "42422",
+        "title": "Jaws 3 (1983) Part-1",
+        "stream_url": "https://dub.onestream.today/stream/video/42422"
+      },
+      {
+        "id": "42420",
+        "title": "Jaws 3 (1983)",
+        "stream_url": "https://dub.onestream.today/stream/video/42420"
+      }
+    ]
+  },
+  {
+    "id": "42419",
+    "title": "Jaws 2",
+    "raw_title": "Jaws 2 (1978) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzAxN2Q5Y2UtMDBkZS00MGQwLWIyZDEtYTgyNGRlZmZiNjI2XkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "5.8",
+    "genres": "Adventure, Horror, Thriller",
+    "runtime": "116 min",
+    "released": "16 Jun 1978",
+    "year": "1978",
+    "plot": "Police chief Brody must protect the citizens of Amity after a second monstrous shark begins terrorizing the waters.",
+    "director": "Jeannot Szwarc",
+    "actors": "Roy Scheider, Lorraine Gary, Murray Hamilton",
+    "language": "English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "42419",
+        "title": "Jaws 2 (1978) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/42419"
+      },
+      {
+        "id": "42418",
+        "title": "Jaws 2 (1978) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/42418"
+      },
+      {
+        "id": "42416",
+        "title": "Jaws 2 (1978) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/42416"
+      },
+      {
+        "id": "42415",
+        "title": "Jaws 2 (1978) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/42415"
+      },
+      {
+        "id": "42413",
+        "title": "Jaws 2 (1978) Sample",
+        "stream_url": "https://dub.onestream.today/stream/video/42413"
+      },
+      {
+        "id": "42412",
+        "title": "Jaws 2 (1978) Part-4",
+        "stream_url": "https://dub.onestream.today/stream/video/42412"
+      },
+      {
+        "id": "42411",
+        "title": "Jaws 2 (1978) Part-3",
+        "stream_url": "https://dub.onestream.today/stream/video/42411"
+      },
+      {
+        "id": "42410",
+        "title": "Jaws 2 (1978) Part-2",
+        "stream_url": "https://dub.onestream.today/stream/video/42410"
+      },
+      {
+        "id": "42409",
+        "title": "Jaws 2 (1978) Part-1",
+        "stream_url": "https://dub.onestream.today/stream/video/42409"
+      },
+      {
+        "id": "42407",
+        "title": "Jaws 2 (1978)",
+        "stream_url": "https://dub.onestream.today/stream/video/42407"
+      }
+    ]
+  },
+  {
     "id": "42366",
     "title": "Dragon Crusaders",
     "raw_title": "Dragon Crusaders (2011) Sample (640x360)",
