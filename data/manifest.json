@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-08-18T00:45:57.852288Z",
+  "updated_at": "2026-08-19T00:46:45.502325Z",
   "stats": {
-    "tamil_count": 135,
-    "dubbed_count": 269,
-    "total_titles": 404,
+    "tamil_count": 136,
+    "dubbed_count": 271,
+    "total_titles": 407,
     "play_pages": 6,
     "dub_pages": 12,
-    "last_movie_id": 7449,
-    "last_dubbed_id": 42449
+    "last_movie_id": 7499,
+    "last_dubbed_id": 42499
   },
   "genres": [
     "Action",
@@ -103,6 +103,85 @@
     1937
   ],
   "featured": [
+    {
+      "id": "7485",
+      "title": "Annamalai",
+      "raw_title": "Annamalai Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTdiOGQzN2QtMzdjNS00ZTkzLWEwYTktZWJlMzUyZjRlMzVkXkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.7",
+      "genres": "Action, Comedy, Drama",
+      "runtime": "164 min",
+      "released": "27 Jun 1992",
+      "year": "1992",
+      "plot": "A class-divided friendship goes through highs and lows through several decades.",
+      "director": "Suresh Krishna",
+      "actors": "Rajinikanth, Sarath Babu, Khushbu Sundar",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "7485",
+          "title": "Annamalai Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7485"
+        },
+        {
+          "id": "7484",
+          "title": "Annamalai Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/7484"
+        },
+        {
+          "id": "7483",
+          "title": "Annamalai Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/7483"
+        },
+        {
+          "id": "7482",
+          "title": "Annamalai Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/7482"
+        },
+        {
+          "id": "7481",
+          "title": "Annamalai Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/7481"
+        },
+        {
+          "id": "7479",
+          "title": "Annamalai Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7479"
+        },
+        {
+          "id": "7478",
+          "title": "Annamalai Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/7478"
+        },
+        {
+          "id": "7477",
+          "title": "Annamalai Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/7477"
+        },
+        {
+          "id": "7476",
+          "title": "Annamalai Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/7476"
+        },
+        {
+          "id": "7475",
+          "title": "Annamalai Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/7475"
+        },
+        {
+          "id": "7473",
+          "title": "Annamalai Single Part Lq",
+          "stream_url": "https://play.onestream.today/stream/page/7473"
+        },
+        {
+          "id": "7471",
+          "title": "Annamalai",
+          "stream_url": "https://play.onestream.today/stream/page/7471"
+        }
+      ]
+    },
     {
       "id": "7379",
       "title": "Pasanga 2",
@@ -939,85 +1018,6 @@
           "id": "6439",
           "title": "Pudhiya Mannargal",
           "stream_url": "https://play.onestream.today/stream/page/6439"
-        }
-      ]
-    },
-    {
-      "id": "6438",
-      "title": "Pithamagan",
-      "raw_title": "Pithamagan Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmY5NjI3ZjktOTY2NS00OTQwLTllMzktYmE2OGFkYjkwOGMyXkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "8.3",
-      "genres": "Action, Drama",
-      "runtime": "139 min",
-      "released": "24 Oct 2003",
-      "year": "2003",
-      "plot": "Chittan, a social outcast, has grown up in a cemetery. A drug dealer finds him a job in a cannabis farm. In prison, he meets a conman, Shakti. This friendship transforms him from his stony existence.",
-      "director": "Bala",
-      "actors": "Vikram, Suriya, Laila",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "6438",
-          "title": "Pithamagan Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6438"
-        },
-        {
-          "id": "6437",
-          "title": "Pithamagan Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/6437"
-        },
-        {
-          "id": "6436",
-          "title": "Pithamagan Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/6436"
-        },
-        {
-          "id": "6435",
-          "title": "Pithamagan Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/6435"
-        },
-        {
-          "id": "6434",
-          "title": "Pithamagan Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/6434"
-        },
-        {
-          "id": "6432",
-          "title": "Pithamagan Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6432"
-        },
-        {
-          "id": "6431",
-          "title": "Pithamagan Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/6431"
-        },
-        {
-          "id": "6430",
-          "title": "Pithamagan Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/6430"
-        },
-        {
-          "id": "6429",
-          "title": "Pithamagan Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/6429"
-        },
-        {
-          "id": "6428",
-          "title": "Pithamagan Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/6428"
-        },
-        {
-          "id": "6426",
-          "title": "Pithamagan Single Part Lq",
-          "stream_url": "https://play.onestream.today/stream/page/6426"
-        },
-        {
-          "id": "6424",
-          "title": "Pithamagan",
-          "stream_url": "https://play.onestream.today/stream/page/6424"
         }
       ]
     }
