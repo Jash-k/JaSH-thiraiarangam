@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-08-19T00:46:45.502325Z",
+  "updated_at": "2026-08-20T00:46:37.736773Z",
   "stats": {
-    "tamil_count": 136,
-    "dubbed_count": 271,
-    "total_titles": 407,
+    "tamil_count": 139,
+    "dubbed_count": 272,
+    "total_titles": 411,
     "play_pages": 6,
     "dub_pages": 12,
-    "last_movie_id": 7499,
-    "last_dubbed_id": 42499
+    "last_movie_id": 7549,
+    "last_dubbed_id": 42549
   },
   "genres": [
     "Action",
@@ -38,6 +38,7 @@
     "Thriller"
   ],
   "years": [
+    2026,
     2025,
     2023,
     2022,
@@ -87,6 +88,7 @@
     1978,
     1977,
     1976,
+    1975,
     1974,
     1973,
     1972,
@@ -103,6 +105,164 @@
     1937
   ],
   "featured": [
+    {
+      "id": "7545",
+      "title": "Arunachalam",
+      "raw_title": "Arunachalam Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDIzZjY5ZmEtOGE0MS00YzA0LTg0YjYtNDQxMzgyODA1ZmI5XkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.5",
+      "genres": "Action, Comedy, Drama",
+      "runtime": "165 min",
+      "released": "10 Apr 1997",
+      "year": "1997",
+      "plot": "The movie revolves around Arunachalam (Rajini), who is the son of the VIP of a village who finds out about his past but destiny has its own play.",
+      "director": "Sundar C.",
+      "actors": "Rajinikanth, Soundarya, Rambha",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "7545",
+          "title": "Arunachalam Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7545"
+        },
+        {
+          "id": "7544",
+          "title": "Arunachalam Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/7544"
+        },
+        {
+          "id": "7543",
+          "title": "Arunachalam Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/7543"
+        },
+        {
+          "id": "7542",
+          "title": "Arunachalam Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/7542"
+        },
+        {
+          "id": "7541",
+          "title": "Arunachalam Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/7541"
+        },
+        {
+          "id": "7539",
+          "title": "Arunachalam Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7539"
+        },
+        {
+          "id": "7538",
+          "title": "Arunachalam Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/7538"
+        },
+        {
+          "id": "7537",
+          "title": "Arunachalam Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/7537"
+        },
+        {
+          "id": "7536",
+          "title": "Arunachalam Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/7536"
+        },
+        {
+          "id": "7535",
+          "title": "Arunachalam Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/7535"
+        },
+        {
+          "id": "7533",
+          "title": "Arunachalam Single Part Lq",
+          "stream_url": "https://play.onestream.today/stream/page/7533"
+        },
+        {
+          "id": "7531",
+          "title": "Arunachalam",
+          "stream_url": "https://play.onestream.today/stream/page/7531"
+        }
+      ]
+    },
+    {
+      "id": "7515",
+      "title": "Apoorva Raagangal",
+      "raw_title": "Apoorva Raagangal Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2I2N2U4NGQtYzcxYy00N2Y5LWI5OWYtYmI1YzljMmQ5Mzg1XkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.6",
+      "genres": "Drama, Romance",
+      "runtime": "144 min",
+      "released": "15 Aug 1975",
+      "year": "1975",
+      "plot": "Drama and melodrama follow two relationships involving single parents.",
+      "director": "K. Balachander",
+      "actors": "Kamal Haasan, Major Sundarrajan, Srividya",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "7515",
+          "title": "Apoorva Raagangal Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7515"
+        },
+        {
+          "id": "7514",
+          "title": "Apoorva Raagangal Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/7514"
+        },
+        {
+          "id": "7513",
+          "title": "Apoorva Raagangal Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/7513"
+        },
+        {
+          "id": "7512",
+          "title": "Apoorva Raagangal Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/7512"
+        },
+        {
+          "id": "7511",
+          "title": "Apoorva Raagangal Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/7511"
+        },
+        {
+          "id": "7509",
+          "title": "Apoorva Raagangal Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7509"
+        },
+        {
+          "id": "7508",
+          "title": "Apoorva Raagangal Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/7508"
+        },
+        {
+          "id": "7507",
+          "title": "Apoorva Raagangal Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/7507"
+        },
+        {
+          "id": "7506",
+          "title": "Apoorva Raagangal Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/7506"
+        },
+        {
+          "id": "7505",
+          "title": "Apoorva Raagangal Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/7505"
+        },
+        {
+          "id": "7503",
+          "title": "Apoorva Raagangal Single Part LQ",
+          "stream_url": "https://play.onestream.today/stream/page/7503"
+        },
+        {
+          "id": "7501",
+          "title": "Apoorva Raagangal",
+          "stream_url": "https://play.onestream.today/stream/page/7501"
+        }
+      ]
+    },
     {
       "id": "7485",
       "title": "Annamalai",
@@ -860,164 +1020,6 @@
           "id": "6499",
           "title": "Samurai",
           "stream_url": "https://play.onestream.today/stream/page/6499"
-        }
-      ]
-    },
-    {
-      "id": "6498",
-      "title": "Saamy",
-      "raw_title": "Saamy Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZWYwOTI3NWYtMmIzMi00YWNiLTk2OGYtYzVjZGVmNWZhNzJjXkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.3",
-      "genres": "Action, Drama",
-      "runtime": "150 min",
-      "released": "01 May 2003",
-      "year": "2003",
-      "plot": "A cop takes bribes from politicians and goons. He rethinks his life choices after he meets a girl.",
-      "director": "Hari",
-      "actors": "Vikram, Trisha Krishnan, Kota Srinivasa Rao",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "6498",
-          "title": "Saamy Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6498"
-        },
-        {
-          "id": "6497",
-          "title": "Saamy Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/6497"
-        },
-        {
-          "id": "6496",
-          "title": "Saamy Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/6496"
-        },
-        {
-          "id": "6495",
-          "title": "Saamy Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/6495"
-        },
-        {
-          "id": "6494",
-          "title": "Saamy Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/6494"
-        },
-        {
-          "id": "6492",
-          "title": "Saamy Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6492"
-        },
-        {
-          "id": "6491",
-          "title": "Saamy Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/6491"
-        },
-        {
-          "id": "6490",
-          "title": "Saamy Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/6490"
-        },
-        {
-          "id": "6489",
-          "title": "Saamy Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/6489"
-        },
-        {
-          "id": "6488",
-          "title": "Saamy Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/6488"
-        },
-        {
-          "id": "6486",
-          "title": "Saamy Single Part Lq",
-          "stream_url": "https://play.onestream.today/stream/page/6486"
-        },
-        {
-          "id": "6484",
-          "title": "Saamy",
-          "stream_url": "https://play.onestream.today/stream/page/6484"
-        }
-      ]
-    },
-    {
-      "id": "6453",
-      "title": "Pudhiya Mannargal",
-      "raw_title": "Pudhiya Mannargal Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BODI4OWQ1ZGYtY2UzNS00YWEwLWIwOGUtMjczNTFkMjEyYmJjXkEyXkFqcGdeQXVyMTEzNzg0Mjkx._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.1",
-      "genres": "Drama",
-      "runtime": "165 min",
-      "released": "02 Dec 1994",
-      "year": "1994",
-      "plot": "Sathyamurti, Vidya and four others are college friends. When one of their friends is killed by the CM, Vidya witnesses the murder. Later, she commits suicide after being raped for going to the police.",
-      "director": "Vikraman",
-      "actors": "S.S. Chandran, Manager Cheena, Dhamu",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "6453",
-          "title": "Pudhiya Mannargal Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6453"
-        },
-        {
-          "id": "6452",
-          "title": "Pudhiya Mannargal Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/6452"
-        },
-        {
-          "id": "6451",
-          "title": "Pudhiya Mannargal Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/6451"
-        },
-        {
-          "id": "6450",
-          "title": "Pudhiya Mannargal Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/6450"
-        },
-        {
-          "id": "6449",
-          "title": "Pudhiya Mannargal Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/6449"
-        },
-        {
-          "id": "6447",
-          "title": "Pudhiya Mannargal Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6447"
-        },
-        {
-          "id": "6446",
-          "title": "Pudhiya Mannargal Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/6446"
-        },
-        {
-          "id": "6445",
-          "title": "Pudhiya Mannargal Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/6445"
-        },
-        {
-          "id": "6444",
-          "title": "Pudhiya Mannargal Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/6444"
-        },
-        {
-          "id": "6443",
-          "title": "Pudhiya Mannargal Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/6443"
-        },
-        {
-          "id": "6441",
-          "title": "Pudhiya Mannargal Single Part Lq",
-          "stream_url": "https://play.onestream.today/stream/page/6441"
-        },
-        {
-          "id": "6439",
-          "title": "Pudhiya Mannargal",
-          "stream_url": "https://play.onestream.today/stream/page/6439"
         }
       ]
     }

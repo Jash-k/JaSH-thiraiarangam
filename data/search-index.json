@@ -1,5 +1,77 @@
 [
   {
+    "id": "7545",
+    "t": "Arunachalam",
+    "y": "1997",
+    "r": "7.5",
+    "p": "https://m.media-amazon.com/images/M/MV5BMDIzZjY5ZmEtOGE0MS00YzA0LTg0YjYtNDQxMzgyODA1ZmI5XkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Action, Comedy, Drama",
+    "pts": [
+      "7545",
+      "7544",
+      "7543",
+      "7542",
+      "7541",
+      "7539",
+      "7538",
+      "7537",
+      "7536",
+      "7535",
+      "7533",
+      "7531"
+    ]
+  },
+  {
+    "id": "7530",
+    "t": "Arasan",
+    "y": "2026",
+    "r": "",
+    "p": "https://m.media-amazon.com/images/M/MV5BZjRmMmUyZWYtY2Y4Ny00MjJiLWFjNmYtNWU1OGNhZDVlOTc4XkEyXkFqcGc@._V1_QL75_UY562_CR3,0,380,562_.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Action, Crime, Drama",
+    "pts": [
+      "7530",
+      "7529",
+      "7528",
+      "7527",
+      "7526",
+      "7524",
+      "7523",
+      "7522",
+      "7521",
+      "7520",
+      "7518",
+      "7516"
+    ]
+  },
+  {
+    "id": "7515",
+    "t": "Apoorva Raagangal",
+    "y": "1975",
+    "r": "7.6",
+    "p": "https://m.media-amazon.com/images/M/MV5BN2I2N2U4NGQtYzcxYy00N2Y5LWI5OWYtYmI1YzljMmQ5Mzg1XkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Drama, Romance",
+    "pts": [
+      "7515",
+      "7514",
+      "7513",
+      "7512",
+      "7511",
+      "7509",
+      "7508",
+      "7507",
+      "7506",
+      "7505",
+      "7503",
+      "7501"
+    ]
+  },
+  {
     "id": "7485",
     "t": "Annamalai",
     "y": "1992",
@@ -3217,7 +3289,28 @@
     ]
   },
   {
-    "id": "42499",
+    "id": "42549",
+    "t": "Vertical Limit",
+    "y": "2000",
+    "r": "6.0",
+    "p": "https://m.media-amazon.com/images/M/MV5BMTIzODIxNjY4NF5BMl5BanBnXkFtZTYwMjE2NDg2._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Action, Adventure, Drama",
+    "pts": [
+      "42549",
+      "42547",
+      "42546",
+      "42544",
+      "42543",
+      "42542",
+      "42541",
+      "42540",
+      "42538"
+    ]
+  },
+  {
+    "id": "42505",
     "t": "Shutter Island",
     "y": "2010",
     "r": "8.2",
@@ -3226,6 +3319,10 @@
     "l": "dub",
     "g": "Drama, Mystery, Thriller",
     "pts": [
+      "42505",
+      "42504",
+      "42502",
+      "42501",
       "42499",
       "42498",
       "42497",
