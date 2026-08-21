@@ -1,5 +1,72 @@
 [
   {
+    "id": "7599",
+    "t": "Baasha",
+    "y": "1995",
+    "r": "8.3",
+    "p": "https://m.media-amazon.com/images/M/MV5BZWE4M2RlZTEtNGM0YS00NWIxLWFjNDEtOWJkMzY0MDQ0NTgwXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Action, Crime, Drama",
+    "pts": [
+      "7599",
+      "7598",
+      "7597",
+      "7596",
+      "7595",
+      "7593",
+      "7591"
+    ]
+  },
+  {
+    "id": "7590",
+    "t": "Avargal",
+    "y": "1977",
+    "r": "6.8",
+    "p": "https://m.media-amazon.com/images/M/MV5BM2UwOWMzYWMtMTIwZS00MDYyLTk3OWItZDlmYTBkZDA2YjkyXkEyXkFqcGdeQXVyODEzOTQwNTY@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Drama",
+    "pts": [
+      "7590",
+      "7589",
+      "7588",
+      "7587",
+      "7586",
+      "7584",
+      "7583",
+      "7582",
+      "7581",
+      "7580",
+      "7578",
+      "7576"
+    ]
+  },
+  {
+    "id": "7575",
+    "t": "Aval Appadithan",
+    "y": "2013",
+    "r": "",
+    "p": "https://m.media-amazon.com/images/M/MV5BYzEzYWJiNmUtNDYzMS00ZGNjLWFjMTktN2MzMjc4OWUyMzdjXkEyXkFqcGdeQXVyODE1OTg3NDc@._V1_SX300.jpg",
+    "c": "Series",
+    "l": "play",
+    "g": "Drama",
+    "pts": [
+      "7575",
+      "7574",
+      "7573",
+      "7572",
+      "7571",
+      "7569",
+      "7568",
+      "7567",
+      "7566",
+      "7565",
+      "7563",
+      "7561"
+    ]
+  },
+  {
     "id": "7545",
     "t": "Arunachalam",
     "y": "1997",
@@ -3289,7 +3356,83 @@
     ]
   },
   {
-    "id": "42549",
+    "id": "42599",
+    "t": "Universal Soldier Regeneration",
+    "y": "2009",
+    "r": "5.3",
+    "p": "https://m.media-amazon.com/images/M/MV5BZmI3NWQzZjEtYzU3Yi00MzRmLWE3OWEtMjViZjY4MmQ2Yjg5XkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Action, Adventure, Sci-Fi",
+    "pts": [
+      "42599",
+      "42598",
+      "42597",
+      "42596",
+      "42594"
+    ]
+  },
+  {
+    "id": "42593",
+    "t": "Universal Soldier",
+    "y": "1992",
+    "r": "6.1",
+    "p": "https://m.media-amazon.com/images/M/MV5BYTdmYzQ1YzYtMjFlYi00NGU2LWE2YTEtZDljMWNmYzBhMzFhXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Action, Sci-Fi",
+    "pts": [
+      "42593",
+      "42592",
+      "42590",
+      "42589",
+      "42587",
+      "42586",
+      "42585",
+      "42584",
+      "42583",
+      "42581"
+    ]
+  },
+  {
+    "id": "42579",
+    "t": "The Fate Of The Furious",
+    "y": "2017",
+    "r": "6.6",
+    "p": "https://m.media-amazon.com/images/M/MV5BMjMxODI2NDM5Nl5BMl5BanBnXkFtZTgwNjgzOTk1MTI@._V1_QL75_UX380_CR0,20,380,562_.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Action, Crime, Thriller",
+    "pts": [
+      "42579",
+      "42577",
+      "42576",
+      "42575",
+      "42574",
+      "42572",
+      "42571",
+      "42569",
+      "42568",
+      "42566",
+      "42565",
+      "40959",
+      "40957",
+      "40956",
+      "40955",
+      "40954",
+      "40952",
+      "40951",
+      "40950",
+      "40949",
+      "40948",
+      "40946",
+      "40945",
+      "40943",
+      "40942"
+    ]
+  },
+  {
+    "id": "42550",
     "t": "Vertical Limit",
     "y": "2000",
     "r": "6.0",
@@ -3298,6 +3441,7 @@
     "l": "dub",
     "g": "Action, Adventure, Drama",
     "pts": [
+      "42550",
       "42549",
       "42547",
       "42546",
@@ -4375,32 +4519,6 @@
       "41035",
       "41034",
       "41032"
-    ]
-  },
-  {
-    "id": "40959",
-    "t": "The Fate Of The Furious",
-    "y": "2017",
-    "r": "6.6",
-    "p": "https://m.media-amazon.com/images/M/MV5BMjMxODI2NDM5Nl5BMl5BanBnXkFtZTgwNjgzOTk1MTI@._V1_QL75_UX380_CR0,20,380,562_.jpg",
-    "c": "Movie",
-    "l": "dub",
-    "g": "Action, Crime, Thriller",
-    "pts": [
-      "40959",
-      "40957",
-      "40956",
-      "40955",
-      "40954",
-      "40952",
-      "40951",
-      "40950",
-      "40949",
-      "40948",
-      "40946",
-      "40945",
-      "40943",
-      "40942"
     ]
   },
   {

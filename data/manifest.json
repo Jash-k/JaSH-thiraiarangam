@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-08-20T00:46:37.736773Z",
+  "updated_at": "2026-08-21T00:49:26.172886Z",
   "stats": {
-    "tamil_count": 139,
-    "dubbed_count": 272,
-    "total_titles": 411,
+    "tamil_count": 142,
+    "dubbed_count": 274,
+    "total_titles": 416,
     "play_pages": 6,
     "dub_pages": 12,
-    "last_movie_id": 7549,
-    "last_dubbed_id": 42549
+    "last_movie_id": 7599,
+    "last_dubbed_id": 42599
   },
   "genres": [
     "Action",
@@ -105,6 +105,60 @@
     1937
   ],
   "featured": [
+    {
+      "id": "7599",
+      "title": "Baasha",
+      "raw_title": "Baasha Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWE4M2RlZTEtNGM0YS00NWIxLWFjNDEtOWJkMzY0MDQ0NTgwXkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "8.3",
+      "genres": "Action, Crime, Drama",
+      "runtime": "145 min",
+      "released": "15 Jan 1995",
+      "year": "1995",
+      "plot": "An auto driver, Manikam, desperately tries to hide his dark underworld side to keep his promise to his father.",
+      "director": "Suresh Krishna",
+      "actors": "Rajinikanth, Nagma, Raghuvaran",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "7599",
+          "title": "Baasha Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7599"
+        },
+        {
+          "id": "7598",
+          "title": "Baasha Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/7598"
+        },
+        {
+          "id": "7597",
+          "title": "Baasha Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/7597"
+        },
+        {
+          "id": "7596",
+          "title": "Baasha Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/7596"
+        },
+        {
+          "id": "7595",
+          "title": "Baasha Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/7595"
+        },
+        {
+          "id": "7593",
+          "title": "Baasha Single Part Lq",
+          "stream_url": "https://play.onestream.today/stream/page/7593"
+        },
+        {
+          "id": "7591",
+          "title": "Baasha",
+          "stream_url": "https://play.onestream.today/stream/page/7591"
+        }
+      ]
+    },
     {
       "id": "7545",
       "title": "Arunachalam",
@@ -941,85 +995,6 @@
           "id": "6514",
           "title": "Sethu",
           "stream_url": "https://play.onestream.today/stream/page/6514"
-        }
-      ]
-    },
-    {
-      "id": "6513",
-      "title": "Samurai",
-      "raw_title": "Samurai Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzkyNzQ1Mzc0NV5BMl5BanBnXkFtZTcwODg3MzUzMw@@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.8",
-      "genres": "Action, Drama",
-      "runtime": "154 min",
-      "released": "05 Dec 2003",
-      "year": "2003",
-      "plot": "In 19th century Japan, Nathan Algren, a US army captain, is hired by the Japanese emperor to train his army in the modern warfare techniques. Captain Algren finds himself trapped in a struggle between two eras and two worlds.",
-      "director": "Edward Zwick",
-      "actors": "Tom Cruise, Ken Watanabe, Billy Connolly",
-      "language": "English, Japanese, Spanish, Danish",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "6513",
-          "title": "Samurai Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6513"
-        },
-        {
-          "id": "6512",
-          "title": "Samurai Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/6512"
-        },
-        {
-          "id": "6511",
-          "title": "Samurai Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/6511"
-        },
-        {
-          "id": "6510",
-          "title": "Samurai Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/6510"
-        },
-        {
-          "id": "6509",
-          "title": "Samurai Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/6509"
-        },
-        {
-          "id": "6507",
-          "title": "Samurai Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6507"
-        },
-        {
-          "id": "6506",
-          "title": "Samurai Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/6506"
-        },
-        {
-          "id": "6505",
-          "title": "Samurai Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/6505"
-        },
-        {
-          "id": "6504",
-          "title": "Samurai Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/6504"
-        },
-        {
-          "id": "6503",
-          "title": "Samurai Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/6503"
-        },
-        {
-          "id": "6501",
-          "title": "Samurai Single Part Lq",
-          "stream_url": "https://play.onestream.today/stream/page/6501"
-        },
-        {
-          "id": "6499",
-          "title": "Samurai",
-          "stream_url": "https://play.onestream.today/stream/page/6499"
         }
       ]
     }
