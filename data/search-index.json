@@ -1,6 +1,53 @@
 [
   {
-    "id": "7649",
+    "id": "7680",
+    "t": "Chandramukhi",
+    "y": "2005",
+    "r": "7.2",
+    "p": "https://m.media-amazon.com/images/M/MV5BMjM0ODE4NTctNTY5YS00ZWU2LTg3ZGItYjcyMjI3NGI1N2NkXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Action, Comedy, Drama",
+    "pts": [
+      "7680",
+      "7679",
+      "7678",
+      "7677",
+      "7676",
+      "7674",
+      "7673",
+      "7672",
+      "7671",
+      "7670",
+      "7668"
+    ]
+  },
+  {
+    "id": "7665",
+    "t": "Bloodstone",
+    "y": "1988",
+    "r": "4.6",
+    "p": "https://m.media-amazon.com/images/M/MV5BNWRmNDY5ODAtYmE1Ni00NzVhLWEyZGYtN2M1M2EzMjVkZjQ2XkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Action, Adventure, Comedy",
+    "pts": [
+      "7665",
+      "7664",
+      "7663",
+      "7662",
+      "7661",
+      "7659",
+      "7658",
+      "7657",
+      "7656",
+      "7655",
+      "7653",
+      "7651"
+    ]
+  },
+  {
+    "id": "7650",
     "t": "Billa",
     "y": "2007",
     "r": "7.3",
@@ -9,6 +56,7 @@
     "l": "play",
     "g": "Action, Crime, Thriller",
     "pts": [
+      "7650",
       "7649",
       "7648",
       "7647",
@@ -3429,6 +3477,57 @@
       "3071",
       "3069",
       "3067"
+    ]
+  },
+  {
+    "id": "42692",
+    "t": "Saint Dracula",
+    "y": "2012",
+    "r": "2.4",
+    "p": "https://m.media-amazon.com/images/M/MV5BMTM1ODEwMDIyNF5BMl5BanBnXkFtZTcwNzM0NDk3Nw@@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Horror, Romance, Thriller",
+    "pts": [
+      "42692",
+      "42691",
+      "42689",
+      "42688",
+      "42680"
+    ]
+  },
+  {
+    "id": "42679",
+    "t": "Dracula Untold",
+    "y": "2014",
+    "r": "6.2",
+    "p": "https://m.media-amazon.com/images/M/MV5BMTkzNzI1OTI4N15BMl5BanBnXkFtZTgwNTQ2NzEwMjE@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Action, Drama, Fantasy",
+    "pts": [
+      "42679",
+      "42678",
+      "42676",
+      "42675",
+      "42667"
+    ]
+  },
+  {
+    "id": "42666",
+    "t": "Dracula",
+    "y": "1992",
+    "r": "7.4",
+    "p": "https://m.media-amazon.com/images/M/MV5BMmVhNzhlMzMtYjJkNy00ODU4LWJmMjUtYzdlMGI3MTQ3YzBhXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Fantasy, Horror, Romance",
+    "pts": [
+      "42666",
+      "42665",
+      "42663",
+      "42662",
+      "42654"
     ]
   },
   {

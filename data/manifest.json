@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-08-22T00:46:46.998391Z",
+  "updated_at": "2026-08-23T00:50:13.205874Z",
   "stats": {
-    "tamil_count": 145,
-    "dubbed_count": 275,
-    "total_titles": 420,
+    "tamil_count": 147,
+    "dubbed_count": 278,
+    "total_titles": 425,
     "play_pages": 7,
     "dub_pages": 12,
-    "last_movie_id": 7649,
-    "last_dubbed_id": 42649
+    "last_movie_id": 7699,
+    "last_dubbed_id": 42699
   },
   "genres": [
     "Action",
@@ -106,9 +106,83 @@
   ],
   "featured": [
     {
-      "id": "7649",
+      "id": "7680",
+      "title": "Chandramukhi",
+      "raw_title": "Chandramukhi Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjM0ODE4NTctNTY5YS00ZWU2LTg3ZGItYjcyMjI3NGI1N2NkXkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.2",
+      "genres": "Action, Comedy, Drama",
+      "runtime": "166 min",
+      "released": "14 Apr 2005",
+      "year": "2005",
+      "plot": "Creepy happenings in an abandoned mansion are attributed to the ghost of an ancient courtesan, back for revenge.",
+      "director": "P. Vasu",
+      "actors": "Rajinikanth, Jyotika, Prabhu",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "7680",
+          "title": "Chandramukhi Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7680"
+        },
+        {
+          "id": "7679",
+          "title": "Chandramukhi Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/7679"
+        },
+        {
+          "id": "7678",
+          "title": "Chandramukhi Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/7678"
+        },
+        {
+          "id": "7677",
+          "title": "Chandramukhi Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/7677"
+        },
+        {
+          "id": "7676",
+          "title": "Chandramukhi Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/7676"
+        },
+        {
+          "id": "7674",
+          "title": "Chandramukhi Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7674"
+        },
+        {
+          "id": "7673",
+          "title": "Chandramukhi Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/7673"
+        },
+        {
+          "id": "7672",
+          "title": "Chandramukhi Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/7672"
+        },
+        {
+          "id": "7671",
+          "title": "Chandramukhi Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/7671"
+        },
+        {
+          "id": "7670",
+          "title": "Chandramukhi Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/7670"
+        },
+        {
+          "id": "7668",
+          "title": "Chandramukhi Single Part Lq",
+          "stream_url": "https://play.onestream.today/stream/page/7668"
+        }
+      ]
+    },
+    {
+      "id": "7650",
       "title": "Billa",
-      "raw_title": "Billa Part-4",
+      "raw_title": "Billa Sample",
       "poster": "https://m.media-amazon.com/images/M/MV5BMTczZDQwMmEtODJlMC00MTY2LTkzMjQtYmNlNWMzN2I3YjE5XkEyXkFqcGc@._V1_SX300.jpg",
       "category": "Movie",
       "rating": "7.3",
@@ -122,6 +196,11 @@
       "language": "Tamil",
       "lib": "play",
       "prints": [
+        {
+          "id": "7650",
+          "title": "Billa Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7650"
+        },
         {
           "id": "7649",
           "title": "Billa Part-4",
@@ -936,85 +1015,6 @@
           "id": "6637",
           "title": "Anbe Sivam",
           "stream_url": "https://play.onestream.today/stream/page/6637"
-        }
-      ]
-    },
-    {
-      "id": "6606",
-      "title": "Aarya",
-      "raw_title": "Aarya Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZGQ3OGQ2ZjktODhlMy00YTg2LWIxOTEtYzI5Mjg3MGNkMDQzXkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Series",
-      "rating": "7.7",
-      "genres": "Action, Crime, Drama",
-      "runtime": "51 min",
-      "released": "19 Jun 2020",
-      "year": "2020",
-      "plot": "When her world suddenly turns upside down, will Aarya become the very thing she hated?How far will she go to survive and protect her family?",
-      "director": "",
-      "actors": "Sushmita Sen, Vikas Kumar, Virti Vaghani",
-      "language": "Hindi",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "6606",
-          "title": "Aarya Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6606"
-        },
-        {
-          "id": "6605",
-          "title": "Aarya Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/6605"
-        },
-        {
-          "id": "6604",
-          "title": "Aarya Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/6604"
-        },
-        {
-          "id": "6603",
-          "title": "Aarya Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/6603"
-        },
-        {
-          "id": "6602",
-          "title": "Aarya Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/6602"
-        },
-        {
-          "id": "6600",
-          "title": "Aarya Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6600"
-        },
-        {
-          "id": "6599",
-          "title": "Aarya Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/6599"
-        },
-        {
-          "id": "6598",
-          "title": "Aarya Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/6598"
-        },
-        {
-          "id": "6597",
-          "title": "Aarya Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/6597"
-        },
-        {
-          "id": "6596",
-          "title": "Aarya Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/6596"
-        },
-        {
-          "id": "6594",
-          "title": "Aarya Single Part LQ",
-          "stream_url": "https://play.onestream.today/stream/page/6594"
-        },
-        {
-          "id": "6592",
-          "title": "Aarya",
-          "stream_url": "https://play.onestream.today/stream/page/6592"
         }
       ]
     }
