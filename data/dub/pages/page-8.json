@@ -1,5 +1,93 @@
 [
   {
+    "id": "39065",
+    "title": "Scooby Doo",
+    "raw_title": "Scooby Doo (2002) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZWY2YWM1NzItMTM4OC00OWExLTkxZGItNzNmYzI4MmFiYjVmXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+    "category": "Series",
+    "rating": "7.9",
+    "genres": "Animation, Adventure, Comedy",
+    "runtime": "22 min",
+    "released": "13 Sep 1969",
+    "year": "1969",
+    "plot": "Four teenage friends, Fred Jones, Daphne Blake, Velma Dinkley, and Shaggy Rogers, along with their talking dog, Scooby-Doo, travel around in their van, The Mystery Machine, solving strange, spooky, and hilariously kooky mysteries.",
+    "director": "",
+    "actors": "Don Messick, Casey Kasem, Nicole Jaffe",
+    "language": "English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "39065",
+        "title": "Scooby Doo (2002) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39065"
+      },
+      {
+        "id": "39064",
+        "title": "Scooby Doo (2002) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39064"
+      },
+      {
+        "id": "39062",
+        "title": "Scooby Doo (2002) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39062"
+      },
+      {
+        "id": "39061",
+        "title": "Scooby Doo (2002) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39061"
+      },
+      {
+        "id": "39059",
+        "title": "Scooby Doo (2002)",
+        "stream_url": "https://dub.onestream.today/stream/video/39059"
+      }
+    ]
+  },
+  {
+    "id": "39050",
+    "title": "The Chronicles Of Riddick",
+    "raw_title": "The Chronicles Of Riddick (2004) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjJkZGI1MTktNmNiMS00NTE5LTkyY2EtZjkyMDZjMzdhZTJjXkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "6.6",
+    "genres": "Action, Adventure, Sci-Fi",
+    "runtime": "119 min",
+    "released": "11 Jun 2004",
+    "year": "2004",
+    "plot": "The wanted criminal Richard Bruno Riddick arrives on a planet called Helion Prime and finds himself up against an invading empire called the Necromongers, an army that plans to convert or kill all humans in the universe.",
+    "director": "David Twohy",
+    "actors": "Vin Diesel, Judi Dench, Colm Feore",
+    "language": "English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "39050",
+        "title": "The Chronicles Of Riddick (2004) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39050"
+      },
+      {
+        "id": "39049",
+        "title": "The Chronicles Of Riddick (2004) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/39049"
+      },
+      {
+        "id": "39047",
+        "title": "The Chronicles Of Riddick (2004) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39047"
+      },
+      {
+        "id": "39046",
+        "title": "The Chronicles Of Riddick (2004) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/39046"
+      },
+      {
+        "id": "39044",
+        "title": "The Chronicles Of Riddick (2004)",
+        "stream_url": "https://dub.onestream.today/stream/video/39044"
+      }
+    ]
+  },
+  {
     "id": "39043",
     "title": "Riddick",
     "raw_title": "Riddick (2013) Sample (640x360)",
@@ -964,94 +1052,6 @@
         "id": "38796",
         "title": "Men In Black 3 (2012)",
         "stream_url": "https://dub.onestream.today/stream/video/38796"
-      }
-    ]
-  },
-  {
-    "id": "38788",
-    "title": "Men In Black",
-    "raw_title": "Men In Black (1997) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BZmQ0YTdhYzEtMjIxZC00MGFiLTlmNjktZmFlOWE2M2QxOTRhXkEyXkFqcGc@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "7.3",
-    "genres": "Action, Adventure, Comedy",
-    "runtime": "98 min",
-    "released": "02 Jul 1997",
-    "year": "1997",
-    "plot": "James, an NYC cop, is hired by Agent K of a secret government agency that monitors extraterrestrial life on Earth. Together, they must recover an item that has been stolen by an intergalactic villain.",
-    "director": "Barry Sonnenfeld",
-    "actors": "Tommy Lee Jones, Will Smith, Linda Fiorentino",
-    "language": "English, Spanish",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38788",
-        "title": "Men In Black (1997) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38788"
-      },
-      {
-        "id": "38787",
-        "title": "Men In Black (1997) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38787"
-      },
-      {
-        "id": "38785",
-        "title": "Men In Black (1997) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38785"
-      },
-      {
-        "id": "38784",
-        "title": "Men In Black (1997) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38784"
-      },
-      {
-        "id": "38782",
-        "title": "Men In Black (1997)",
-        "stream_url": "https://dub.onestream.today/stream/video/38782"
-      }
-    ]
-  },
-  {
-    "id": "38780",
-    "title": "Madagascar Escape 2 Africa",
-    "raw_title": "Madagascar Escape 2 Africa (2008) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMjExMDA4NDcwMl5BMl5BanBnXkFtZTcwODAxNTQ3MQ@@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "6.7",
-    "genres": "Animation, Adventure, Comedy",
-    "runtime": "89 min",
-    "released": "07 Nov 2008",
-    "year": "2008",
-    "plot": "The Madagascar animals fly back to New York City, but crash-land on an African nature reserve in Kenya, where they meet others of their own kind, and Alex especially discovers his royal heritage as prince of a lion pride.",
-    "director": "Eric Darnell, Tom McGrath",
-    "actors": "Ben Stiller, Chris Rock, David Schwimmer",
-    "language": "English",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38780",
-        "title": "Madagascar Escape 2 Africa (2008) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38780"
-      },
-      {
-        "id": "38779",
-        "title": "Madagascar Escape 2 Africa (2008) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38779"
-      },
-      {
-        "id": "38777",
-        "title": "Madagascar Escape 2 Africa (2008) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38777"
-      },
-      {
-        "id": "38776",
-        "title": "Madagascar Escape 2 Africa (2008) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38776"
-      },
-      {
-        "id": "38774",
-        "title": "Madagascar Escape 2 Africa (2008)",
-        "stream_url": "https://dub.onestream.today/stream/video/38774"
       }
     ]
   }
