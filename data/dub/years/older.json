@@ -1,8 +1,47 @@
 [
   {
-    "id": "42796",
+    "id": "42820",
+    "title": "Bedtime Stories",
+    "raw_title": "Bedtime Stories (2008) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjA5Njk5MTUxNF5BMl5BanBnXkFtZTcwMDI3MTg5MQ@@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "6.0",
+    "genres": "Adventure, Comedy, Family",
+    "runtime": "99 min",
+    "released": "25 Dec 2008",
+    "year": "2008",
+    "plot": "A hotel handyman's life changes when the lavish bedtime stories he tells his niece and nephew start to magically come true.",
+    "director": "Adam Shankman",
+    "actors": "Adam Sandler, Keri Russell, Courteney Cox",
+    "language": "English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "42820",
+        "title": "Bedtime Stories (2008) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/42820"
+      },
+      {
+        "id": "42819",
+        "title": "Bedtime Stories (2008) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/42819"
+      },
+      {
+        "id": "42817",
+        "title": "Bedtime Stories (2008) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/42817"
+      },
+      {
+        "id": "42816",
+        "title": "Bedtime Stories (2008) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/42816"
+      }
+    ]
+  },
+  {
+    "id": "42808",
     "title": "Deep Blue Sea",
-    "raw_title": "Deep Blue Sea (1999)",
+    "raw_title": "Deep Blue Sea (1999) Sample (640x360)",
     "poster": "https://m.media-amazon.com/images/M/MV5BMTM5OTUyYWYtMGE2OS00ODEzLTk0ZjctZmQ5NzFlNWQ3OTAxXkEyXkFqcGc@._V1_SX300.jpg",
     "category": "Movie",
     "rating": "5.9",
@@ -16,6 +55,26 @@
     "language": "English, Spanish",
     "lib": "dub",
     "prints": [
+      {
+        "id": "42808",
+        "title": "Deep Blue Sea (1999) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/42808"
+      },
+      {
+        "id": "42807",
+        "title": "Deep Blue Sea (1999) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/42807"
+      },
+      {
+        "id": "42805",
+        "title": "Deep Blue Sea (1999) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/42805"
+      },
+      {
+        "id": "42804",
+        "title": "Deep Blue Sea (1999) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/42804"
+      },
       {
         "id": "42796",
         "title": "Deep Blue Sea (1999)",
