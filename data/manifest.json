@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-08-27T05:57:41.133307Z",
+  "updated_at": "2026-08-28T08:09:30.782676Z",
   "stats": {
-    "tamil_count": 153,
-    "dubbed_count": 283,
-    "total_titles": 436,
+    "tamil_count": 155,
+    "dubbed_count": 284,
+    "total_titles": 439,
     "play_pages": 7,
     "dub_pages": 12,
-    "last_movie_id": 7899,
-    "last_dubbed_id": 42899
+    "last_movie_id": 7949,
+    "last_dubbed_id": 42949
   },
   "genres": [
     "Action",
@@ -105,6 +105,85 @@
     1937
   ],
   "featured": [
+    {
+      "id": "7920",
+      "title": "Maaveeran",
+      "raw_title": "Maaveeran Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGMxMGZmZDItMjY5NC00OTVhLWE2MWEtNzJiZTU1NzI1MTllXkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.4",
+      "genres": "Action, Comedy, Drama",
+      "runtime": "163 min",
+      "released": "14 Jul 2023",
+      "year": "2023",
+      "plot": "A cowardly cartoonist starts being 'controlled' by a cartoon action figure, and takes on a corrupt politician.",
+      "director": "Madonne Ashwin",
+      "actors": "Sivakarthikeyan, Aditi Shankar, Mysskin",
+      "language": "Tamil, Telugu",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "7920",
+          "title": "Maaveeran Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7920"
+        },
+        {
+          "id": "7919",
+          "title": "Maaveeran Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/7919"
+        },
+        {
+          "id": "7918",
+          "title": "Maaveeran Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/7918"
+        },
+        {
+          "id": "7917",
+          "title": "Maaveeran Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/7917"
+        },
+        {
+          "id": "7916",
+          "title": "Maaveeran Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/7916"
+        },
+        {
+          "id": "7914",
+          "title": "Maaveeran Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7914"
+        },
+        {
+          "id": "7913",
+          "title": "Maaveeran Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/7913"
+        },
+        {
+          "id": "7912",
+          "title": "Maaveeran Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/7912"
+        },
+        {
+          "id": "7911",
+          "title": "Maaveeran Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/7911"
+        },
+        {
+          "id": "7910",
+          "title": "Maaveeran Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/7910"
+        },
+        {
+          "id": "7908",
+          "title": "Maaveeran Single Part LQ",
+          "stream_url": "https://play.onestream.today/stream/page/7908"
+        },
+        {
+          "id": "7906",
+          "title": "Maaveeran",
+          "stream_url": "https://play.onestream.today/stream/page/7906"
+        }
+      ]
+    },
     {
       "id": "7830",
       "title": "Johnny",
@@ -936,85 +1015,6 @@
           "id": "6802",
           "title": "Minnale",
           "stream_url": "https://play.onestream.today/stream/page/6802"
-        }
-      ]
-    },
-    {
-      "id": "6726",
-      "title": "Guru",
-      "raw_title": "Guru Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDgzMjliNDAtMGJkNy00ZTUzLWIyMTAtNWZkNmY2MDNiZjE3XkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.7",
-      "genres": "Drama",
-      "runtime": "166 min",
-      "released": "12 Jan 2007",
-      "year": "2007",
-      "plot": "A villager, Gurukant Desai, arrives in Bombay 1958, and rises from its streets to become the GURU, the biggest tycoon in Indian history.",
-      "director": "Mani Ratnam",
-      "actors": "Mithun Chakraborty, Abhishek Bachchan, Aishwarya Rai Bachchan",
-      "language": "Hindi",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "6726",
-          "title": "Guru Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6726"
-        },
-        {
-          "id": "6725",
-          "title": "Guru Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/6725"
-        },
-        {
-          "id": "6724",
-          "title": "Guru Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/6724"
-        },
-        {
-          "id": "6723",
-          "title": "Guru Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/6723"
-        },
-        {
-          "id": "6722",
-          "title": "Guru Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/6722"
-        },
-        {
-          "id": "6720",
-          "title": "Guru Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6720"
-        },
-        {
-          "id": "6719",
-          "title": "Guru Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/6719"
-        },
-        {
-          "id": "6718",
-          "title": "Guru Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/6718"
-        },
-        {
-          "id": "6717",
-          "title": "Guru Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/6717"
-        },
-        {
-          "id": "6716",
-          "title": "Guru Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/6716"
-        },
-        {
-          "id": "6714",
-          "title": "Guru Single Part LQ",
-          "stream_url": "https://play.onestream.today/stream/page/6714"
-        },
-        {
-          "id": "6712",
-          "title": "Guru",
-          "stream_url": "https://play.onestream.today/stream/page/6712"
         }
       ]
     }

@@ -1,5 +1,49 @@
 [
   {
+    "id": "42932",
+    "title": "Collateral",
+    "raw_title": "Collateral (2004) Single Part (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjE3NjM5OTMxMV5BMl5BanBnXkFtZTcwOTIzMTQyMw@@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "7.5",
+    "genres": "Action, Crime, Drama",
+    "runtime": "120 min",
+    "released": "06 Aug 2004",
+    "year": "2004",
+    "plot": "A cab driver finds himself the hostage of an engaging contract killer as he makes his rounds from hit to hit during one night in Los Angeles.",
+    "director": "Michael Mann",
+    "actors": "Tom Cruise, Jamie Foxx, Jada Pinkett Smith",
+    "language": "English, Spanish, French, Korean",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "42932",
+        "title": "Collateral (2004) Single Part (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/42932"
+      },
+      {
+        "id": "42931",
+        "title": "Collateral (2004) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/42931"
+      },
+      {
+        "id": "42929",
+        "title": "Collateral (2004) Single Part (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/42929"
+      },
+      {
+        "id": "42928",
+        "title": "Collateral (2004) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/42928"
+      },
+      {
+        "id": "42920",
+        "title": "Collateral (2004)",
+        "stream_url": "https://dub.onestream.today/stream/video/42920"
+      }
+    ]
+  },
+  {
     "id": "42820",
     "title": "Bedtime Stories",
     "raw_title": "Bedtime Stories (2008) Sample (640x360)",
