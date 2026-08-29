@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-08-28T08:09:30.782676Z",
+  "updated_at": "2026-08-29T04:57:32.301241Z",
   "stats": {
-    "tamil_count": 155,
-    "dubbed_count": 284,
-    "total_titles": 439,
+    "tamil_count": 156,
+    "dubbed_count": 290,
+    "total_titles": 446,
     "play_pages": 7,
-    "dub_pages": 12,
-    "last_movie_id": 7949,
-    "last_dubbed_id": 42949
+    "dub_pages": 13,
+    "last_movie_id": 7999,
+    "last_dubbed_id": 42999
   },
   "genres": [
     "Action",
@@ -105,6 +105,85 @@
     1937
   ],
   "featured": [
+    {
+      "id": "7966",
+      "title": "Mannan",
+      "raw_title": "Mannan Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzQ1YWNmMGMtNTY0OS00ZDVmLWE5MWItZGVlMjY1MjlkMDVlXkEyXkFqcGdeQXVyOTk3NTc2MzE@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.2",
+      "genres": "Action, Comedy, Drama",
+      "runtime": "154 min",
+      "released": "14 Jan 1992",
+      "year": "1992",
+      "plot": "Mannan is a 1992 Indian Tamil-language film directed by P. Vasu. The film stars Rajinikanth, Vijayashanti, Kushboo, Manorama, Pandari Bai, Goundamani, and Visu. It is a remake of the 1986 Kannada film Anuraga Aralithu.",
+      "director": "P. Vasu",
+      "actors": "Rajinikanth, Vijayashanti, Khushbu Sundar",
+      "language": "Tamil, Hindi",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "7966",
+          "title": "Mannan Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7966"
+        },
+        {
+          "id": "7965",
+          "title": "Mannan Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/7965"
+        },
+        {
+          "id": "7964",
+          "title": "Mannan Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/7964"
+        },
+        {
+          "id": "7963",
+          "title": "Mannan Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/7963"
+        },
+        {
+          "id": "7962",
+          "title": "Mannan Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/7962"
+        },
+        {
+          "id": "7960",
+          "title": "Mannan Sample",
+          "stream_url": "https://play.onestream.today/stream/page/7960"
+        },
+        {
+          "id": "7959",
+          "title": "Mannan Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/7959"
+        },
+        {
+          "id": "7958",
+          "title": "Mannan Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/7958"
+        },
+        {
+          "id": "7957",
+          "title": "Mannan Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/7957"
+        },
+        {
+          "id": "7956",
+          "title": "Mannan Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/7956"
+        },
+        {
+          "id": "7954",
+          "title": "Mannan Single Part Lq",
+          "stream_url": "https://play.onestream.today/stream/page/7954"
+        },
+        {
+          "id": "7952",
+          "title": "Mannan",
+          "stream_url": "https://play.onestream.today/stream/page/7952"
+        }
+      ]
+    },
     {
       "id": "7920",
       "title": "Maaveeran",
@@ -956,65 +1035,6 @@
           "id": "6817",
           "title": "Nala Damayanthi",
           "stream_url": "https://play.onestream.today/stream/page/6817"
-        }
-      ]
-    },
-    {
-      "id": "6816",
-      "title": "Minnale",
-      "raw_title": "Minnale Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZTkyZTE3MzktMTlmMy00ZGE5LWJkZGEtMmU3YzhlNGJlM2E0XkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.6",
-      "genres": "Comedy, Drama, Musical",
-      "runtime": "171 min",
-      "released": "02 Feb 2001",
-      "year": "2001",
-      "plot": "A young girl is torn between an obsessive lover and a mild-mannered suitor.",
-      "director": "Gautham Vasudev Menon",
-      "actors": "Madhavan, Reema Sen, Abbas",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "6816",
-          "title": "Minnale Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6816"
-        },
-        {
-          "id": "6813",
-          "title": "Minnale Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/6813"
-        },
-        {
-          "id": "6812",
-          "title": "Minnale Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/6812"
-        },
-        {
-          "id": "6810",
-          "title": "Minnale Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6810"
-        },
-        {
-          "id": "6807",
-          "title": "Minnale Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/6807"
-        },
-        {
-          "id": "6806",
-          "title": "Minnale Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/6806"
-        },
-        {
-          "id": "6804",
-          "title": "Minnale Single Part LQ",
-          "stream_url": "https://play.onestream.today/stream/page/6804"
-        },
-        {
-          "id": "6802",
-          "title": "Minnale",
-          "stream_url": "https://play.onestream.today/stream/page/6802"
         }
       ]
     }
