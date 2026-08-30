@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-08-29T04:57:32.301241Z",
+  "updated_at": "2026-08-30T02:40:07.233462Z",
   "stats": {
-    "tamil_count": 156,
-    "dubbed_count": 290,
-    "total_titles": 446,
+    "tamil_count": 159,
+    "dubbed_count": 293,
+    "total_titles": 452,
     "play_pages": 7,
     "dub_pages": 13,
-    "last_movie_id": 7999,
-    "last_dubbed_id": 42999
+    "last_movie_id": 8049,
+    "last_dubbed_id": 43049
   },
   "genres": [
     "Action",
@@ -35,7 +35,8 @@
     "Short",
     "Sport",
     "Talk-Show",
-    "Thriller"
+    "Thriller",
+    "War"
   ],
   "years": [
     2026,
@@ -105,6 +106,164 @@
     1937
   ],
   "featured": [
+    {
+      "id": "8041",
+      "title": "Muthu",
+      "raw_title": "Muthu Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjM1NWVjOWMtMDhlMC00ZTkzLWI1N2UtNGJhNTJhYTA5ZjdiXkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.5",
+      "genres": "Action, Comedy, Drama",
+      "runtime": "156 min",
+      "released": "23 Oct 1995",
+      "year": "1995",
+      "plot": "The movie is about a loyal servant, Muthu (Rajni), working for Zamindar Malayasimman (Sarath Babu) and the cunning plans by the uncle of Malasimman to capture the whole wealth which uncovers some mystery about Muthu.",
+      "director": "K.S. Ravikumar",
+      "actors": "Rajinikanth, Meena, Sarath Babu",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "8041",
+          "title": "Muthu Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8041"
+        },
+        {
+          "id": "8040",
+          "title": "Muthu Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/8040"
+        },
+        {
+          "id": "8039",
+          "title": "Muthu Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/8039"
+        },
+        {
+          "id": "8038",
+          "title": "Muthu Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/8038"
+        },
+        {
+          "id": "8037",
+          "title": "Muthu Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/8037"
+        },
+        {
+          "id": "8035",
+          "title": "Muthu Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8035"
+        },
+        {
+          "id": "8034",
+          "title": "Muthu Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/8034"
+        },
+        {
+          "id": "8033",
+          "title": "Muthu Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/8033"
+        },
+        {
+          "id": "8032",
+          "title": "Muthu Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/8032"
+        },
+        {
+          "id": "8031",
+          "title": "Muthu Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/8031"
+        },
+        {
+          "id": "8029",
+          "title": "Muthu Single Part Lq",
+          "stream_url": "https://play.onestream.today/stream/page/8029"
+        },
+        {
+          "id": "8027",
+          "title": "Muthu",
+          "stream_url": "https://play.onestream.today/stream/page/8027"
+        }
+      ]
+    },
+    {
+      "id": "8026",
+      "title": "Mullum Malarum",
+      "raw_title": "Mullum Malarum Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjhlMjBjODctOTAyNy00NGVmLWI4ZmYtZGZmOWI0MDE3NzgyXkEyXkFqcGdeQXVyOTk3NTc2MzE@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "8.3",
+      "genres": "Drama",
+      "runtime": "143 min",
+      "released": "15 Aug 1978",
+      "year": "1978",
+      "plot": "A boorish villager butts heads with a newly appointed engineer from the city.",
+      "director": "J. Mahendran",
+      "actors": "Rajinikanth, Sarath Babu, Jayalakshmi",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "8026",
+          "title": "Mullum Malarum Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8026"
+        },
+        {
+          "id": "8025",
+          "title": "Mullum Malarum Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/8025"
+        },
+        {
+          "id": "8024",
+          "title": "Mullum Malarum Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/8024"
+        },
+        {
+          "id": "8023",
+          "title": "Mullum Malarum Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/8023"
+        },
+        {
+          "id": "8022",
+          "title": "Mullum Malarum Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/8022"
+        },
+        {
+          "id": "8020",
+          "title": "Mullum Malarum Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8020"
+        },
+        {
+          "id": "8019",
+          "title": "Mullum Malarum Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/8019"
+        },
+        {
+          "id": "8018",
+          "title": "Mullum Malarum Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/8018"
+        },
+        {
+          "id": "8017",
+          "title": "Mullum Malarum Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/8017"
+        },
+        {
+          "id": "8016",
+          "title": "Mullum Malarum Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/8016"
+        },
+        {
+          "id": "8014",
+          "title": "Mullum Malarum Single Part LQ",
+          "stream_url": "https://play.onestream.today/stream/page/8014"
+        },
+        {
+          "id": "8012",
+          "title": "Mullum Malarum",
+          "stream_url": "https://play.onestream.today/stream/page/8012"
+        }
+      ]
+    },
     {
       "id": "7966",
       "title": "Mannan",
@@ -882,159 +1041,6 @@
           "id": "7366",
           "title": "Pasanga 2 DVDRip Part-1",
           "stream_url": "https://play.onestream.today/stream/page/7366"
-        }
-      ]
-    },
-    {
-      "id": "7096",
-      "title": "Oru Naal Iravil",
-      "raw_title": "Oru Naal Iravil Dvdrip Single Part LQ",
-      "poster": "https://m.media-amazon.com/images/M/MV5BM2YzZTYyNWUtMWNjNi00YmVhLTlkNjQtZDcxZGVkN2UwMDQ0XkEyXkFqcGdeQXVyODk1MzE5NDA@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.0",
-      "genres": "Drama, Thriller",
-      "runtime": "134 min",
-      "released": "20 Nov 2015",
-      "year": "2015",
-      "plot": "A man gets into trouble when he picks up a call girl.",
-      "director": "Anthony",
-      "actors": "Sathyaraj, Yugi Sethu, Varun Kamal",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "7096",
-          "title": "Oru Naal Iravil Dvdrip Single Part LQ",
-          "stream_url": "https://play.onestream.today/stream/page/7096"
-        },
-        {
-          "id": "7094",
-          "title": "Oru Naal Iravil Dvdrip Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7094"
-        },
-        {
-          "id": "7093",
-          "title": "Oru Naal Iravil Dvdrip Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/7093"
-        },
-        {
-          "id": "7092",
-          "title": "Oru Naal Iravil Dvdrip Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/7092"
-        },
-        {
-          "id": "7091",
-          "title": "Oru Naal Iravil Dvdrip Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/7091"
-        },
-        {
-          "id": "7090",
-          "title": "Oru Naal Iravil Dvdrip Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/7090"
-        },
-        {
-          "id": "7088",
-          "title": "Oru Naal Iravil Dvdrip Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7088"
-        },
-        {
-          "id": "7087",
-          "title": "Oru Naal Iravil Dvdrip Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/7087"
-        },
-        {
-          "id": "7086",
-          "title": "Oru Naal Iravil Dvdrip Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/7086"
-        },
-        {
-          "id": "7085",
-          "title": "Oru Naal Iravil Dvdrip Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/7085"
-        },
-        {
-          "id": "7084",
-          "title": "Oru Naal Iravil Dvdrip Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/7084"
-        }
-      ]
-    },
-    {
-      "id": "6831",
-      "title": "Nala Damayanthi",
-      "raw_title": "Nala Damayanthi Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzQ2ZjYxZjYtNDM2My00NzY0LTg2YmItN2I3Njk0Njg3YmQyXkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.0",
-      "genres": "Comedy",
-      "runtime": "138 min",
-      "released": "12 Jun 2003",
-      "year": "2003",
-      "plot": "A village cook Ramji (Madhavan) goes to Australia to become a chef at a multi-millionaire Indian's home. Unfortunately, the millionaire dies of indigestion the day Ramji arrives, leaving him jobless with an expired visa. Desperate...",
-      "director": "Mouli",
-      "actors": "Madhavan, Geethu Mohandas, Shrutika Arjun",
-      "language": "Tamil, English",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "6831",
-          "title": "Nala Damayanthi Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6831"
-        },
-        {
-          "id": "6830",
-          "title": "Nala Damayanthi Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/6830"
-        },
-        {
-          "id": "6829",
-          "title": "Nala Damayanthi Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/6829"
-        },
-        {
-          "id": "6828",
-          "title": "Nala Damayanthi Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/6828"
-        },
-        {
-          "id": "6827",
-          "title": "Nala Damayanthi Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/6827"
-        },
-        {
-          "id": "6825",
-          "title": "Nala Damayanthi Sample",
-          "stream_url": "https://play.onestream.today/stream/page/6825"
-        },
-        {
-          "id": "6824",
-          "title": "Nala Damayanthi Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/6824"
-        },
-        {
-          "id": "6823",
-          "title": "Nala Damayanthi Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/6823"
-        },
-        {
-          "id": "6822",
-          "title": "Nala Damayanthi Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/6822"
-        },
-        {
-          "id": "6821",
-          "title": "Nala Damayanthi Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/6821"
-        },
-        {
-          "id": "6819",
-          "title": "Nala Damayanthi Single Part LQ",
-          "stream_url": "https://play.onestream.today/stream/page/6819"
-        },
-        {
-          "id": "6817",
-          "title": "Nala Damayanthi",
-          "stream_url": "https://play.onestream.today/stream/page/6817"
         }
       ]
     }
