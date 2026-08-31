@@ -1,8 +1,146 @@
 [
   {
-    "id": "43049",
+    "id": "43084",
+    "title": "Gremlins 2 The New Batch",
+    "raw_title": "Gremlins 2 The New Batch (1990) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZWI2ZTI2ZjAtOWYyZS00ZmY2LWE4ZDYtNTdmNWMwZTFjNzZhXkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "6.5",
+    "genres": "Comedy, Fantasy, Horror",
+    "runtime": "106 min",
+    "released": "15 Jun 1990",
+    "year": "1990",
+    "plot": "The Gremlins are back, and this time, they've taken control of a New York City media mogul's high-tech skyscraper.",
+    "director": "Joe Dante",
+    "actors": "Zach Galligan, Phoebe Cates, Howie Mandel",
+    "language": "English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "43084",
+        "title": "Gremlins 2 The New Batch (1990) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/43084"
+      },
+      {
+        "id": "43083",
+        "title": "Gremlins 2 The New Batch (1990) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/43083"
+      },
+      {
+        "id": "43081",
+        "title": "Gremlins 2 The New Batch (1990) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/43081"
+      },
+      {
+        "id": "43080",
+        "title": "Gremlins 2 The New Batch (1990) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/43080"
+      },
+      {
+        "id": "43078",
+        "title": "Gremlins 2 The New Batch (1990) Sample",
+        "stream_url": "https://dub.onestream.today/stream/video/43078"
+      },
+      {
+        "id": "43077",
+        "title": "Gremlins 2 The New Batch (1990) Part-4",
+        "stream_url": "https://dub.onestream.today/stream/video/43077"
+      },
+      {
+        "id": "43076",
+        "title": "Gremlins 2 The New Batch (1990) Part-3",
+        "stream_url": "https://dub.onestream.today/stream/video/43076"
+      },
+      {
+        "id": "43075",
+        "title": "Gremlins 2 The New Batch (1990) Part-2",
+        "stream_url": "https://dub.onestream.today/stream/video/43075"
+      },
+      {
+        "id": "43074",
+        "title": "Gremlins 2 The New Batch (1990) Part-1",
+        "stream_url": "https://dub.onestream.today/stream/video/43074"
+      },
+      {
+        "id": "43072",
+        "title": "Gremlins 2 The New Batch (1990)",
+        "stream_url": "https://dub.onestream.today/stream/video/43072"
+      }
+    ]
+  },
+  {
+    "id": "43071",
+    "title": "Gremlins",
+    "raw_title": "Gremlins (1984) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYmMzMmIxNzYtYjk3OS00NjBiLTkxNDQtODU3ZDNjN2RiMTIxXkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "7.3",
+    "genres": "Comedy, Fantasy, Horror",
+    "runtime": "106 min",
+    "released": "08 Jun 1984",
+    "year": "1984",
+    "plot": "After receiving an exotic small animal as a Christmas gift, a young man inadvertently breaks three important rules concerning his new pet, which unleashes a horde of malevolently mischievous creatures on a small town.",
+    "director": "Joe Dante",
+    "actors": "Zach Galligan, Phoebe Cates, Hoyt Axton",
+    "language": "English, Spanish",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "43071",
+        "title": "Gremlins (1984) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/43071"
+      },
+      {
+        "id": "43070",
+        "title": "Gremlins (1984) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/43070"
+      },
+      {
+        "id": "43068",
+        "title": "Gremlins (1984) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/43068"
+      },
+      {
+        "id": "43067",
+        "title": "Gremlins (1984) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/43067"
+      },
+      {
+        "id": "43065",
+        "title": "Gremlins (1984) Sample",
+        "stream_url": "https://dub.onestream.today/stream/video/43065"
+      },
+      {
+        "id": "43064",
+        "title": "Gremlins (1984) Part-4",
+        "stream_url": "https://dub.onestream.today/stream/video/43064"
+      },
+      {
+        "id": "43063",
+        "title": "Gremlins (1984) Part-3",
+        "stream_url": "https://dub.onestream.today/stream/video/43063"
+      },
+      {
+        "id": "43062",
+        "title": "Gremlins (1984) Part-2",
+        "stream_url": "https://dub.onestream.today/stream/video/43062"
+      },
+      {
+        "id": "43061",
+        "title": "Gremlins (1984) Part-1",
+        "stream_url": "https://dub.onestream.today/stream/video/43061"
+      },
+      {
+        "id": "43059",
+        "title": "Gremlins (1984)",
+        "stream_url": "https://dub.onestream.today/stream/video/43059"
+      }
+    ]
+  },
+  {
+    "id": "43057",
     "title": "Born To Defense",
-    "raw_title": "Born to Defense (1986) Part-3",
+    "raw_title": "Born to Defense (1986) Sample (640x360)",
     "poster": "https://m.media-amazon.com/images/M/MV5BOTE4OTFkYzQtOTU0MC00MmVmLWIzZTItNTA5NDgyYTM3OTE0XkEyXkFqcGc@._V1_SX300.jpg",
     "category": "Movie",
     "rating": "5.7",
@@ -16,6 +154,36 @@
     "language": "English, Cantonese",
     "lib": "dub",
     "prints": [
+      {
+        "id": "43057",
+        "title": "Born to Defense (1986) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/43057"
+      },
+      {
+        "id": "43056",
+        "title": "Born to Defense (1986) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/43056"
+      },
+      {
+        "id": "43054",
+        "title": "Born to Defense (1986) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/43054"
+      },
+      {
+        "id": "43053",
+        "title": "Born to Defense (1986) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/43053"
+      },
+      {
+        "id": "43051",
+        "title": "Born to Defense (1986) Sample",
+        "stream_url": "https://dub.onestream.today/stream/video/43051"
+      },
+      {
+        "id": "43050",
+        "title": "Born to Defense (1986) Part-4",
+        "stream_url": "https://dub.onestream.today/stream/video/43050"
+      },
       {
         "id": "43049",
         "title": "Born to Defense (1986) Part-3",

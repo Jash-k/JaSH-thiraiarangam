@@ -1,6 +1,54 @@
 [
   {
-    "id": "8049",
+    "id": "8086",
+    "t": "Naan Sigappu Manithan",
+    "y": "2014",
+    "r": "6.5",
+    "p": "https://m.media-amazon.com/images/M/MV5BYTFiNmI0MzEtOGIzZi00MzcxLWI1OTEtYjViMDM0MGE0ZWFjXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Action, Crime, Drama",
+    "pts": [
+      "8086",
+      "8085",
+      "8084",
+      "8083",
+      "8082",
+      "8080",
+      "8079",
+      "8078",
+      "8077",
+      "8076",
+      "8074",
+      "8072"
+    ]
+  },
+  {
+    "id": "8071",
+    "t": "Naan Mahaan Alla",
+    "y": "2010",
+    "r": "7.1",
+    "p": "https://m.media-amazon.com/images/M/MV5BODczMDI5ZTQtODk2MS00ZjgxLWI1YWEtMDk4OWRkOTVjM2NkXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Action, Crime, Drama",
+    "pts": [
+      "8071",
+      "8070",
+      "8069",
+      "8068",
+      "8067",
+      "8065",
+      "8064",
+      "8063",
+      "8062",
+      "8061",
+      "8059",
+      "8057"
+    ]
+  },
+  {
+    "id": "8056",
     "t": "Naan Adimai Illai",
     "y": "1986",
     "r": "6.0",
@@ -9,6 +57,12 @@
     "l": "play",
     "g": "Action",
     "pts": [
+      "8056",
+      "8055",
+      "8054",
+      "8053",
+      "8052",
+      "8050",
       "8049",
       "8048",
       "8047",
@@ -3775,7 +3829,51 @@
     ]
   },
   {
-    "id": "43049",
+    "id": "43084",
+    "t": "Gremlins 2 The New Batch",
+    "y": "1990",
+    "r": "6.5",
+    "p": "https://m.media-amazon.com/images/M/MV5BZWI2ZTI2ZjAtOWYyZS00ZmY2LWE4ZDYtNTdmNWMwZTFjNzZhXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Comedy, Fantasy, Horror",
+    "pts": [
+      "43084",
+      "43083",
+      "43081",
+      "43080",
+      "43078",
+      "43077",
+      "43076",
+      "43075",
+      "43074",
+      "43072"
+    ]
+  },
+  {
+    "id": "43071",
+    "t": "Gremlins",
+    "y": "1984",
+    "r": "7.3",
+    "p": "https://m.media-amazon.com/images/M/MV5BYmMzMmIxNzYtYjk3OS00NjBiLTkxNDQtODU3ZDNjN2RiMTIxXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Comedy, Fantasy, Horror",
+    "pts": [
+      "43071",
+      "43070",
+      "43068",
+      "43067",
+      "43065",
+      "43064",
+      "43063",
+      "43062",
+      "43061",
+      "43059"
+    ]
+  },
+  {
+    "id": "43057",
     "t": "Born To Defense",
     "y": "1988",
     "r": "5.7",
@@ -3784,6 +3882,12 @@
     "l": "dub",
     "g": "Action, War",
     "pts": [
+      "43057",
+      "43056",
+      "43054",
+      "43053",
+      "43051",
+      "43050",
       "43049",
       "43048",
       "43047"

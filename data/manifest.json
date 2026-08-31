@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-08-30T02:40:07.233462Z",
+  "updated_at": "2026-08-31T02:34:26.578389Z",
   "stats": {
-    "tamil_count": 159,
-    "dubbed_count": 293,
-    "total_titles": 452,
+    "tamil_count": 161,
+    "dubbed_count": 295,
+    "total_titles": 456,
     "play_pages": 7,
     "dub_pages": 13,
-    "last_movie_id": 8049,
-    "last_dubbed_id": 43049
+    "last_movie_id": 8099,
+    "last_dubbed_id": 43099
   },
   "genres": [
     "Action",
@@ -106,6 +106,85 @@
     1937
   ],
   "featured": [
+    {
+      "id": "8071",
+      "title": "Naan Mahaan Alla",
+      "raw_title": "Naan Mahaan Alla Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODczMDI5ZTQtODk2MS00ZjgxLWI1YWEtMDk4OWRkOTVjM2NkXkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.1",
+      "genres": "Action, Crime, Drama",
+      "runtime": "132 min",
+      "released": "20 Aug 2010",
+      "year": "2010",
+      "plot": "A playful young man leads a very happy life, but everything changes when his father witnesses a heinous crime.",
+      "director": "Suseenthiran",
+      "actors": "Karthi, Kajal Aggarwal, V. Jayaprakash",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "8071",
+          "title": "Naan Mahaan Alla Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8071"
+        },
+        {
+          "id": "8070",
+          "title": "Naan Mahaan Alla Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/8070"
+        },
+        {
+          "id": "8069",
+          "title": "Naan Mahaan Alla Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/8069"
+        },
+        {
+          "id": "8068",
+          "title": "Naan Mahaan Alla Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/8068"
+        },
+        {
+          "id": "8067",
+          "title": "Naan Mahaan Alla Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/8067"
+        },
+        {
+          "id": "8065",
+          "title": "Naan Mahaan Alla Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8065"
+        },
+        {
+          "id": "8064",
+          "title": "Naan Mahaan Alla Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/8064"
+        },
+        {
+          "id": "8063",
+          "title": "Naan Mahaan Alla Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/8063"
+        },
+        {
+          "id": "8062",
+          "title": "Naan Mahaan Alla Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/8062"
+        },
+        {
+          "id": "8061",
+          "title": "Naan Mahaan Alla Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/8061"
+        },
+        {
+          "id": "8059",
+          "title": "Naan Mahaan Alla Single Part LQ",
+          "stream_url": "https://play.onestream.today/stream/page/8059"
+        },
+        {
+          "id": "8057",
+          "title": "Naan Mahaan Alla",
+          "stream_url": "https://play.onestream.today/stream/page/8057"
+        }
+      ]
+    },
     {
       "id": "8041",
       "title": "Muthu",
@@ -967,80 +1046,6 @@
           "id": "7471",
           "title": "Annamalai",
           "stream_url": "https://play.onestream.today/stream/page/7471"
-        }
-      ]
-    },
-    {
-      "id": "7379",
-      "title": "Pasanga 2",
-      "raw_title": "Pasanga 2 DVDRip Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMWI4YzRlNTktZTNlMy00NDAwLWExMTgtYTdiNmQ1ODk5OWE0XkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.3",
-      "genres": "Drama",
-      "runtime": "127 min",
-      "released": "24 Dec 2015",
-      "year": "2015",
-      "plot": "It focuses on the issue of Attention Deficit Hyperactive Disorder (ADHD) among children, and the impact of the disorder on their lives and people around them.",
-      "director": "Pandiraj",
-      "actors": "Suriya, Amala Paul, Nishesh",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "7379",
-          "title": "Pasanga 2 DVDRip Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7379"
-        },
-        {
-          "id": "7378",
-          "title": "Pasanga 2 DVDRip Single Part LQ",
-          "stream_url": "https://play.onestream.today/stream/page/7378"
-        },
-        {
-          "id": "7376",
-          "title": "Pasanga 2 DVDRip Single Part LQ",
-          "stream_url": "https://play.onestream.today/stream/page/7376"
-        },
-        {
-          "id": "7374",
-          "title": "Pasanga 2 DVDRip Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7374"
-        },
-        {
-          "id": "7373",
-          "title": "Pasanga 2 DVDRip Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/7373"
-        },
-        {
-          "id": "7372",
-          "title": "Pasanga 2 DVDRip Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/7372"
-        },
-        {
-          "id": "7371",
-          "title": "Pasanga 2 DVDRip Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/7371"
-        },
-        {
-          "id": "7369",
-          "title": "Pasanga 2 DVDRip Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7369"
-        },
-        {
-          "id": "7368",
-          "title": "Pasanga 2 DVDRip Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/7368"
-        },
-        {
-          "id": "7367",
-          "title": "Pasanga 2 DVDRip Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/7367"
-        },
-        {
-          "id": "7366",
-          "title": "Pasanga 2 DVDRip Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/7366"
         }
       ]
     }

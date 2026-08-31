@@ -1,5 +1,93 @@
 [
   {
+    "id": "38934",
+    "title": "Planet Of The Apes",
+    "raw_title": "Planet Of The Apes (2001) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjczODRhOTQtZjdkYi00MmM2LTg1ZmEtZDQ3YjA5MDJhODNhXkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "5.7",
+    "genres": "Action, Adventure, Sci-Fi",
+    "runtime": "120 min",
+    "released": "27 Jul 2001",
+    "year": "2001",
+    "plot": "In 2029, an Air Force astronaut crash-lands on a mysterious planet where evolved, talking apes dominate a race of primitive humans.",
+    "director": "Tim Burton",
+    "actors": "Mark Wahlberg, Helena Bonham Carter, Tim Roth",
+    "language": "English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38934",
+        "title": "Planet Of The Apes (2001) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38934"
+      },
+      {
+        "id": "38933",
+        "title": "Planet Of The Apes (2001) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38933"
+      },
+      {
+        "id": "38931",
+        "title": "Planet Of The Apes (2001) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38931"
+      },
+      {
+        "id": "38930",
+        "title": "Planet Of The Apes (2001) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38930"
+      },
+      {
+        "id": "38928",
+        "title": "Planet Of The Apes (2001)",
+        "stream_url": "https://dub.onestream.today/stream/video/38928"
+      }
+    ]
+  },
+  {
+    "id": "38927",
+    "title": "Dawn Of The Planet Of The Apes",
+    "raw_title": "Dawn Of The Planet Of The Apes (2014) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNWNjYzQ4ZGItZTg1My00NTM2LTg1NDUtYThjOTQwMTYyNjU1XkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "7.6",
+    "genres": "Action, Adventure, Drama",
+    "runtime": "130 min",
+    "released": "11 Jul 2014",
+    "year": "2014",
+    "plot": "The fragile peace between apes and humans is threatened as mistrust and betrayal threaten to plunge both tribes into a war for dominance over the Earth.",
+    "director": "Matt Reeves",
+    "actors": "Gary Oldman, Keri Russell, Andy Serkis",
+    "language": "English, American Sign ",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "38927",
+        "title": "Dawn Of The Planet Of The Apes (2014) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38927"
+      },
+      {
+        "id": "38926",
+        "title": "Dawn Of The Planet Of The Apes (2014) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/38926"
+      },
+      {
+        "id": "38924",
+        "title": "Dawn Of The Planet Of The Apes (2014) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38924"
+      },
+      {
+        "id": "38923",
+        "title": "Dawn Of The Planet Of The Apes (2014) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/38923"
+      },
+      {
+        "id": "38921",
+        "title": "Dawn Of The Planet Of The Apes (2014)",
+        "stream_url": "https://dub.onestream.today/stream/video/38921"
+      }
+    ]
+  },
+  {
     "id": "38890",
     "title": "Ong Bak 3",
     "raw_title": "Ong Bak 3 (2010) Sample (640x360)",
@@ -959,94 +1047,6 @@
         "id": "38701",
         "title": "The Lost World Jurassic Park (1997)",
         "stream_url": "https://dub.onestream.today/stream/video/38701"
-      }
-    ]
-  },
-  {
-    "id": "38700",
-    "title": "Jurassic Park Iii",
-    "raw_title": "Jurassic Park Iii (2001) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BN2FmMjhlZDYtNmYyMy00NTdjLTlhYzYtZWNlMDY2MmUzOGM2XkEyXkFqcGc@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "6.0",
-    "genres": "Action, Adventure, Sci-Fi",
-    "runtime": "92 min",
-    "released": "18 Jul 2001",
-    "year": "2001",
-    "plot": "A decidedly odd couple with ulterior motives convince Dr. Grant to go to Isla Sorna for a holiday, but their unexpected landing startles the island's new inhabitants.",
-    "director": "Joe Johnston",
-    "actors": "Sam Neill, William H. Macy, Téa Leoni",
-    "language": "English, Spanish",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38700",
-        "title": "Jurassic Park Iii (2001) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38700"
-      },
-      {
-        "id": "38699",
-        "title": "Jurassic Park Iii (2001) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38699"
-      },
-      {
-        "id": "38697",
-        "title": "Jurassic Park Iii (2001) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38697"
-      },
-      {
-        "id": "38696",
-        "title": "Jurassic Park Iii (2001) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38696"
-      },
-      {
-        "id": "38694",
-        "title": "Jurassic Park Iii (2001)",
-        "stream_url": "https://dub.onestream.today/stream/video/38694"
-      }
-    ]
-  },
-  {
-    "id": "38693",
-    "title": "Jurassic Park",
-    "raw_title": "Jurassic Park (1993) Sample (640x360)",
-    "poster": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg",
-    "category": "Movie",
-    "rating": "8.2",
-    "genres": "Action, Adventure, Sci-Fi",
-    "runtime": "127 min",
-    "released": "11 Jun 1993",
-    "year": "1993",
-    "plot": "An industrialist invites some experts to visit his theme park of cloned dinosaurs. After a power failure, the creatures run loose, putting everyone's lives, including his grandchildren's, in danger.",
-    "director": "Steven Spielberg",
-    "actors": "Sam Neill, Laura Dern, Jeff Goldblum",
-    "language": "English, Spanish",
-    "lib": "dub",
-    "prints": [
-      {
-        "id": "38693",
-        "title": "Jurassic Park (1993) Sample (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38693"
-      },
-      {
-        "id": "38692",
-        "title": "Jurassic Park (1993) HD (640x360)",
-        "stream_url": "https://dub.onestream.today/stream/video/38692"
-      },
-      {
-        "id": "38690",
-        "title": "Jurassic Park (1993) Sample (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38690"
-      },
-      {
-        "id": "38689",
-        "title": "Jurassic Park (1993) HD (480x320)",
-        "stream_url": "https://dub.onestream.today/stream/video/38689"
-      },
-      {
-        "id": "38687",
-        "title": "Jurassic Park (1993)",
-        "stream_url": "https://dub.onestream.today/stream/video/38687"
       }
     ]
   }
