@@ -1,5 +1,163 @@
 [
   {
+    "id": "3725",
+    "title": "Love Today",
+    "raw_title": "Love Today Sample",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYzEyNzQ0MDEtMzVhZS00ZjE4LWIwZDQtNTNhNTY2NDAwNmE3XkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "8.0",
+    "genres": "Comedy, Drama, Romance",
+    "runtime": "154 min",
+    "released": "04 Nov 2022",
+    "year": "2022",
+    "plot": "Two young lovers, who are made to exchange their phones for a day and what happens due to that.",
+    "director": "Pradeep Ranganathan",
+    "actors": "Pradeep Ranganathan, Ivana, Yogi Babu",
+    "language": "Tamil",
+    "lib": "play",
+    "prints": [
+      {
+        "id": "3725",
+        "title": "Love Today Sample",
+        "stream_url": "https://play.onestream.today/stream/page/3725"
+      },
+      {
+        "id": "3724",
+        "title": "Love Today Part-4",
+        "stream_url": "https://play.onestream.today/stream/page/3724"
+      },
+      {
+        "id": "3723",
+        "title": "Love Today Part-3",
+        "stream_url": "https://play.onestream.today/stream/page/3723"
+      },
+      {
+        "id": "3722",
+        "title": "Love Today Part-2",
+        "stream_url": "https://play.onestream.today/stream/page/3722"
+      },
+      {
+        "id": "3721",
+        "title": "Love Today Part-1",
+        "stream_url": "https://play.onestream.today/stream/page/3721"
+      },
+      {
+        "id": "3719",
+        "title": "Love Today Sample",
+        "stream_url": "https://play.onestream.today/stream/page/3719"
+      },
+      {
+        "id": "3718",
+        "title": "Love Today Part-4",
+        "stream_url": "https://play.onestream.today/stream/page/3718"
+      },
+      {
+        "id": "3717",
+        "title": "Love Today Part-3",
+        "stream_url": "https://play.onestream.today/stream/page/3717"
+      },
+      {
+        "id": "3716",
+        "title": "Love Today Part-2",
+        "stream_url": "https://play.onestream.today/stream/page/3716"
+      },
+      {
+        "id": "3715",
+        "title": "Love Today Part-1",
+        "stream_url": "https://play.onestream.today/stream/page/3715"
+      },
+      {
+        "id": "3713",
+        "title": "Love Today Single Part LQ",
+        "stream_url": "https://play.onestream.today/stream/page/3713"
+      },
+      {
+        "id": "3711",
+        "title": "Love Today",
+        "stream_url": "https://play.onestream.today/stream/page/3711"
+      }
+    ]
+  },
+  {
+    "id": "3710",
+    "title": "Kushi",
+    "raw_title": "Kushi Sample",
+    "poster": "https://m.media-amazon.com/images/M/MV5BY2Q1YzlhODEtNWRiZS00ZGJkLWJlMzgtMTE2NmIyYzg5ODg1XkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "5.4",
+    "genres": "Comedy, Drama, Romance",
+    "runtime": "163 min",
+    "released": "01 Sep 2023",
+    "year": "2023",
+    "plot": "Raised in an atheist household, a young man falls in love with the daughter of his father's arch-rival, a devout Hindu leader.",
+    "director": "Shiva Nirvana",
+    "actors": "Samantha Ruth Prabhu, Vijay Deverakonda, Murli Sharma",
+    "language": "Telugu",
+    "lib": "play",
+    "prints": [
+      {
+        "id": "3710",
+        "title": "Kushi Sample",
+        "stream_url": "https://play.onestream.today/stream/page/3710"
+      },
+      {
+        "id": "3709",
+        "title": "Kushi Part-4",
+        "stream_url": "https://play.onestream.today/stream/page/3709"
+      },
+      {
+        "id": "3708",
+        "title": "Kushi Part-3",
+        "stream_url": "https://play.onestream.today/stream/page/3708"
+      },
+      {
+        "id": "3707",
+        "title": "Kushi Part-2",
+        "stream_url": "https://play.onestream.today/stream/page/3707"
+      },
+      {
+        "id": "3706",
+        "title": "Kushi Part-1",
+        "stream_url": "https://play.onestream.today/stream/page/3706"
+      },
+      {
+        "id": "3704",
+        "title": "Kushi Sample",
+        "stream_url": "https://play.onestream.today/stream/page/3704"
+      },
+      {
+        "id": "3703",
+        "title": "Kushi Part-4",
+        "stream_url": "https://play.onestream.today/stream/page/3703"
+      },
+      {
+        "id": "3702",
+        "title": "Kushi Part-3",
+        "stream_url": "https://play.onestream.today/stream/page/3702"
+      },
+      {
+        "id": "3701",
+        "title": "Kushi Part-2",
+        "stream_url": "https://play.onestream.today/stream/page/3701"
+      },
+      {
+        "id": "3700",
+        "title": "Kushi Part-1",
+        "stream_url": "https://play.onestream.today/stream/page/3700"
+      },
+      {
+        "id": "3698",
+        "title": "Kushi Single Part LQ",
+        "stream_url": "https://play.onestream.today/stream/page/3698"
+      },
+      {
+        "id": "3696",
+        "title": "Kushi",
+        "stream_url": "https://play.onestream.today/stream/page/3696"
+      }
+    ]
+  },
+  {
     "id": "3695",
     "title": "Kuruvi",
     "raw_title": "Kuruvi Sample",
