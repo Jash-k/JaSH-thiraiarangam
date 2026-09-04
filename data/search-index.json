@@ -1,6 +1,68 @@
 [
   {
-    "id": "8249",
+    "id": "8299",
+    "t": "Ranga",
+    "y": "2022",
+    "r": "",
+    "p": "https://m.media-amazon.com/images/M/MV5BMzA1Y2YyYjEtYzZiOS00NTA1LTg1ZTQtYzQ0YTQ2N2ZmOWY2XkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Action, Thriller",
+    "pts": [
+      "8299",
+      "8297"
+    ]
+  },
+  {
+    "id": "8296",
+    "t": "Ram Robert Rahim",
+    "y": "1980",
+    "r": "6.1",
+    "p": "https://m.media-amazon.com/images/M/MV5BNGY3NWJhMjEtOWExZC00Mzg2LWIxNTMtOGQ3ZjkyMjE2ODBjXkEyXkFqcGdeQXVyOTk3NTc2MzE@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Action, Comedy, Drama",
+    "pts": [
+      "8296",
+      "8295",
+      "8294",
+      "8293",
+      "8292",
+      "8290",
+      "8289",
+      "8288",
+      "8287",
+      "8286",
+      "8284",
+      "8282"
+    ]
+  },
+  {
+    "id": "8281",
+    "t": "Raja Chinna Roja",
+    "y": "1989",
+    "r": "6.9",
+    "p": "https://m.media-amazon.com/images/M/MV5BNWQ0MzI5ZDgtMjAxMS00ZDcyLTkwZjctZTVkOGFjZGY1NDBhXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Action, Comedy, Drama",
+    "pts": [
+      "8281",
+      "8280",
+      "8279",
+      "8278",
+      "8277",
+      "8275",
+      "8274",
+      "8273",
+      "8272",
+      "8271",
+      "8269",
+      "8267"
+    ]
+  },
+  {
+    "id": "8251",
     "t": "Priya",
     "y": "1981",
     "r": "7.4",
@@ -9,6 +71,8 @@
     "l": "play",
     "g": "Drama, Romance",
     "pts": [
+      "8251",
+      "8250",
       "8249",
       "8248",
       "8247",
@@ -3971,7 +4035,45 @@
     ]
   },
   {
-    "id": "43249",
+    "id": "43291",
+    "t": "Hancock",
+    "y": "2008",
+    "r": "6.4",
+    "p": "https://m.media-amazon.com/images/M/MV5BMTgyMzc4ODU3NV5BMl5BanBnXkFtZTcwNjk5Mzc1MQ@@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Action, Comedy, Drama",
+    "pts": [
+      "43291",
+      "43290",
+      "43288",
+      "43287",
+      "43267"
+    ]
+  },
+  {
+    "id": "43279",
+    "t": "Immortals",
+    "y": "2011",
+    "r": "6.0",
+    "p": "https://m.media-amazon.com/images/M/MV5BMTMzMjA2MjA2N15BMl5BanBnXkFtZTcwMTkwNTc5Ng@@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Action, Drama, Fantasy",
+    "pts": [
+      "43279",
+      "43278",
+      "43276",
+      "43275",
+      "43273",
+      "43272",
+      "43271",
+      "43270",
+      "43269"
+    ]
+  },
+  {
+    "id": "43253",
     "t": "Cats And Dogs",
     "y": "1932",
     "r": "5.7",
@@ -3980,6 +4082,9 @@
     "l": "dub",
     "g": "Animation, Short",
     "pts": [
+      "43253",
+      "43252",
+      "43250",
       "43249",
       "43241"
     ]
