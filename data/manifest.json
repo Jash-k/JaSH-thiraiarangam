@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-09-04T02:12:16.734778Z",
+  "updated_at": "2026-09-05T02:12:50.108705Z",
   "stats": {
-    "tamil_count": 170,
+    "tamil_count": 172,
     "dubbed_count": 301,
-    "total_titles": 471,
+    "total_titles": 473,
     "play_pages": 8,
     "dub_pages": 13,
-    "last_movie_id": 8299,
-    "last_dubbed_id": 43299
+    "last_movie_id": 8349,
+    "last_dubbed_id": 43349
   },
   "genres": [
     "Action",
@@ -107,6 +107,55 @@
     1932
   ],
   "featured": [
+    {
+      "id": "8349",
+      "title": "Sivaji",
+      "raw_title": "Sivaji Part - 4",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmVlOTZmNWYtMDNlNC00MzE2LWFkN2MtYjJhOGNhNGUwMjk3XkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.5",
+      "genres": "Action, Crime, Drama",
+      "runtime": "188 min",
+      "released": "15 Jun 2007",
+      "year": "2007",
+      "plot": "A software engineer comes to India in order to serve the nation and invest in its welfare. A few corrupt officials and politicians try to stop him while he tries to do good for the poor.",
+      "director": "S. Shankar",
+      "actors": "Rajinikanth, Shriya Saran, Suman",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "8349",
+          "title": "Sivaji Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/8349"
+        },
+        {
+          "id": "8348",
+          "title": "Sivaji Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/8348"
+        },
+        {
+          "id": "8347",
+          "title": "Sivaji Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/8347"
+        },
+        {
+          "id": "8346",
+          "title": "Sivaji Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/8346"
+        },
+        {
+          "id": "8344",
+          "title": "Sivaji Single Part Lq",
+          "stream_url": "https://play.onestream.today/stream/page/8344"
+        },
+        {
+          "id": "8342",
+          "title": "Sivaji",
+          "stream_url": "https://play.onestream.today/stream/page/8342"
+        }
+      ]
+    },
     {
       "id": "8071",
       "title": "Naan Mahaan Alla",
@@ -968,85 +1017,6 @@
           "id": "7501",
           "title": "Apoorva Raagangal",
           "stream_url": "https://play.onestream.today/stream/page/7501"
-        }
-      ]
-    },
-    {
-      "id": "7485",
-      "title": "Annamalai",
-      "raw_title": "Annamalai Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYTdiOGQzN2QtMzdjNS00ZTkzLWEwYTktZWJlMzUyZjRlMzVkXkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.7",
-      "genres": "Action, Comedy, Drama",
-      "runtime": "164 min",
-      "released": "27 Jun 1992",
-      "year": "1992",
-      "plot": "A class-divided friendship goes through highs and lows through several decades.",
-      "director": "Suresh Krishna",
-      "actors": "Rajinikanth, Sarath Babu, Khushbu Sundar",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "7485",
-          "title": "Annamalai Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7485"
-        },
-        {
-          "id": "7484",
-          "title": "Annamalai Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/7484"
-        },
-        {
-          "id": "7483",
-          "title": "Annamalai Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/7483"
-        },
-        {
-          "id": "7482",
-          "title": "Annamalai Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/7482"
-        },
-        {
-          "id": "7481",
-          "title": "Annamalai Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/7481"
-        },
-        {
-          "id": "7479",
-          "title": "Annamalai Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7479"
-        },
-        {
-          "id": "7478",
-          "title": "Annamalai Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/7478"
-        },
-        {
-          "id": "7477",
-          "title": "Annamalai Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/7477"
-        },
-        {
-          "id": "7476",
-          "title": "Annamalai Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/7476"
-        },
-        {
-          "id": "7475",
-          "title": "Annamalai Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/7475"
-        },
-        {
-          "id": "7473",
-          "title": "Annamalai Single Part Lq",
-          "stream_url": "https://play.onestream.today/stream/page/7473"
-        },
-        {
-          "id": "7471",
-          "title": "Annamalai",
-          "stream_url": "https://play.onestream.today/stream/page/7471"
         }
       ]
     }
