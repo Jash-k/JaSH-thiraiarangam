@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-09-06T02:08:24.913865Z",
+  "updated_at": "2026-09-07T02:05:44.826872Z",
   "stats": {
-    "tamil_count": 173,
-    "dubbed_count": 303,
-    "total_titles": 476,
+    "tamil_count": 175,
+    "dubbed_count": 306,
+    "total_titles": 481,
     "play_pages": 8,
     "dub_pages": 13,
-    "last_movie_id": 8399,
-    "last_dubbed_id": 43399
+    "last_movie_id": 8449,
+    "last_dubbed_id": 43449
   },
   "genres": [
     "Action",
@@ -107,6 +107,139 @@
     1932
   ],
   "featured": [
+    {
+      "id": "8448",
+      "title": "Thambikku Entha Ooru",
+      "raw_title": "Thambikku Entha Ooru Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDAzYTU4NTktM2M2ZS00MTZkLThlOTQtZjRhMWUyMmRmOGU3XkEyXkFqcGdeQXVyOTk3NTc2MzE@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.1",
+      "genres": "Action, Drama, Romance",
+      "runtime": "165 min",
+      "released": "20 Apr 1984",
+      "year": "1984",
+      "plot": "An arrogant spoiled brat learns the value of hard work and discipline after spending a year in his father's friend's village.",
+      "director": "Rajasekar",
+      "actors": "Rajinikanth, Madhavi, Sulakshana",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "8448",
+          "title": "Thambikku Entha Ooru Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8448"
+        },
+        {
+          "id": "8447",
+          "title": "Thambikku Entha Ooru Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/8447"
+        },
+        {
+          "id": "8446",
+          "title": "Thambikku Entha Ooru Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/8446"
+        },
+        {
+          "id": "8445",
+          "title": "Thambikku Entha Ooru Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/8445"
+        },
+        {
+          "id": "8444",
+          "title": "Thambikku Entha Ooru Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/8444"
+        },
+        {
+          "id": "8442",
+          "title": "Thambikku Entha Ooru Single Part LQ",
+          "stream_url": "https://play.onestream.today/stream/page/8442"
+        },
+        {
+          "id": "8440",
+          "title": "Thambikku Entha Ooru",
+          "stream_url": "https://play.onestream.today/stream/page/8440"
+        }
+      ]
+    },
+    {
+      "id": "8439",
+      "title": "Thalapathi",
+      "raw_title": "Thalapathi Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzIwZDlkOTEtZjI1Zi00ZGRmLWI2NDEtMjBmM2FjNGMxODEzXkEyXkFqcGdeQXVyMTY1MzAyNjU4._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "8.5",
+      "genres": "Action, Crime, Drama",
+      "runtime": "157 min",
+      "released": "25 Nov 1991",
+      "year": "1991",
+      "plot": "An orphan named Surya raised in a slum befriends a good crime boss named Devaraj and works for him. Their existence is threatened when a new honest district collector arrives.",
+      "director": "Mani Ratnam",
+      "actors": "Rajinikanth, Mammootty, Shobana",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "8439",
+          "title": "Thalapathi Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8439"
+        },
+        {
+          "id": "8438",
+          "title": "Thalapathi Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/8438"
+        },
+        {
+          "id": "8437",
+          "title": "Thalapathi Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/8437"
+        },
+        {
+          "id": "8436",
+          "title": "Thalapathi Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/8436"
+        },
+        {
+          "id": "8435",
+          "title": "Thalapathi Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/8435"
+        },
+        {
+          "id": "8433",
+          "title": "Thalapathi Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8433"
+        },
+        {
+          "id": "8432",
+          "title": "Thalapathi Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/8432"
+        },
+        {
+          "id": "8431",
+          "title": "Thalapathi Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/8431"
+        },
+        {
+          "id": "8430",
+          "title": "Thalapathi Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/8430"
+        },
+        {
+          "id": "8429",
+          "title": "Thalapathi Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/8429"
+        },
+        {
+          "id": "8427",
+          "title": "Thalapathi Single Part Lq",
+          "stream_url": "https://play.onestream.today/stream/page/8427"
+        },
+        {
+          "id": "8425",
+          "title": "Thalapathi",
+          "stream_url": "https://play.onestream.today/stream/page/8425"
+        }
+      ]
+    },
     {
       "id": "8356",
       "title": "Sivaji",
@@ -889,164 +1022,6 @@
           "id": "7591",
           "title": "Baasha",
           "stream_url": "https://play.onestream.today/stream/page/7591"
-        }
-      ]
-    },
-    {
-      "id": "7545",
-      "title": "Arunachalam",
-      "raw_title": "Arunachalam Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMDIzZjY5ZmEtOGE0MS00YzA0LTg0YjYtNDQxMzgyODA1ZmI5XkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.5",
-      "genres": "Action, Comedy, Drama",
-      "runtime": "165 min",
-      "released": "10 Apr 1997",
-      "year": "1997",
-      "plot": "The movie revolves around Arunachalam (Rajini), who is the son of the VIP of a village who finds out about his past but destiny has its own play.",
-      "director": "Sundar C.",
-      "actors": "Rajinikanth, Soundarya, Rambha",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "7545",
-          "title": "Arunachalam Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7545"
-        },
-        {
-          "id": "7544",
-          "title": "Arunachalam Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/7544"
-        },
-        {
-          "id": "7543",
-          "title": "Arunachalam Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/7543"
-        },
-        {
-          "id": "7542",
-          "title": "Arunachalam Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/7542"
-        },
-        {
-          "id": "7541",
-          "title": "Arunachalam Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/7541"
-        },
-        {
-          "id": "7539",
-          "title": "Arunachalam Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7539"
-        },
-        {
-          "id": "7538",
-          "title": "Arunachalam Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/7538"
-        },
-        {
-          "id": "7537",
-          "title": "Arunachalam Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/7537"
-        },
-        {
-          "id": "7536",
-          "title": "Arunachalam Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/7536"
-        },
-        {
-          "id": "7535",
-          "title": "Arunachalam Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/7535"
-        },
-        {
-          "id": "7533",
-          "title": "Arunachalam Single Part Lq",
-          "stream_url": "https://play.onestream.today/stream/page/7533"
-        },
-        {
-          "id": "7531",
-          "title": "Arunachalam",
-          "stream_url": "https://play.onestream.today/stream/page/7531"
-        }
-      ]
-    },
-    {
-      "id": "7515",
-      "title": "Apoorva Raagangal",
-      "raw_title": "Apoorva Raagangal Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BN2I2N2U4NGQtYzcxYy00N2Y5LWI5OWYtYmI1YzljMmQ5Mzg1XkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.6",
-      "genres": "Drama, Romance",
-      "runtime": "144 min",
-      "released": "15 Aug 1975",
-      "year": "1975",
-      "plot": "Drama and melodrama follow two relationships involving single parents.",
-      "director": "K. Balachander",
-      "actors": "Kamal Haasan, Major Sundarrajan, Srividya",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "7515",
-          "title": "Apoorva Raagangal Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7515"
-        },
-        {
-          "id": "7514",
-          "title": "Apoorva Raagangal Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/7514"
-        },
-        {
-          "id": "7513",
-          "title": "Apoorva Raagangal Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/7513"
-        },
-        {
-          "id": "7512",
-          "title": "Apoorva Raagangal Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/7512"
-        },
-        {
-          "id": "7511",
-          "title": "Apoorva Raagangal Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/7511"
-        },
-        {
-          "id": "7509",
-          "title": "Apoorva Raagangal Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7509"
-        },
-        {
-          "id": "7508",
-          "title": "Apoorva Raagangal Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/7508"
-        },
-        {
-          "id": "7507",
-          "title": "Apoorva Raagangal Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/7507"
-        },
-        {
-          "id": "7506",
-          "title": "Apoorva Raagangal Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/7506"
-        },
-        {
-          "id": "7505",
-          "title": "Apoorva Raagangal Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/7505"
-        },
-        {
-          "id": "7503",
-          "title": "Apoorva Raagangal Single Part LQ",
-          "stream_url": "https://play.onestream.today/stream/page/7503"
-        },
-        {
-          "id": "7501",
-          "title": "Apoorva Raagangal",
-          "stream_url": "https://play.onestream.today/stream/page/7501"
         }
       ]
     }
