@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-09-13T02:19:57.349548Z",
+  "updated_at": "2026-09-14T02:37:54.827662Z",
   "stats": {
-    "tamil_count": 185,
+    "tamil_count": 187,
     "dubbed_count": 319,
-    "total_titles": 504,
+    "total_titles": 506,
     "play_pages": 8,
     "dub_pages": 14,
-    "last_movie_id": 8749,
-    "last_dubbed_id": 43749
+    "last_movie_id": 8799,
+    "last_dubbed_id": 43799
   },
   "genres": [
     "Action",
@@ -107,6 +107,75 @@
     1932
   ],
   "featured": [
+    {
+      "id": "8799",
+      "title": "Gentleman",
+      "raw_title": "Gentleman Part-3",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTRhMzdhMGEtOTQzZi00OGU0LWEyOTctYjllZDdkMjMwYTA5XkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.8",
+      "genres": "Action, Drama, Thriller",
+      "runtime": "160 min",
+      "released": "30 Jul 1993",
+      "year": "1993",
+      "plot": "Due to a past tragedy , a small business owner by day becomes modern day Robin Hood by night takes from the rich to provide education for the poor.",
+      "director": "S. Shankar",
+      "actors": "Arjun Sarja, Madhoo, Subhasri",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "8799",
+          "title": "Gentleman Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/8799"
+        },
+        {
+          "id": "8798",
+          "title": "Gentleman Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/8798"
+        },
+        {
+          "id": "8797",
+          "title": "Gentleman Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/8797"
+        },
+        {
+          "id": "8795",
+          "title": "Gentleman Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8795"
+        },
+        {
+          "id": "8794",
+          "title": "Gentleman Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/8794"
+        },
+        {
+          "id": "8793",
+          "title": "Gentleman Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/8793"
+        },
+        {
+          "id": "8792",
+          "title": "Gentleman Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/8792"
+        },
+        {
+          "id": "8791",
+          "title": "Gentleman Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/8791"
+        },
+        {
+          "id": "8789",
+          "title": "Gentleman Single Part LQ",
+          "stream_url": "https://play.onestream.today/stream/page/8789"
+        },
+        {
+          "id": "8787",
+          "title": "Gentleman",
+          "stream_url": "https://play.onestream.today/stream/page/8787"
+        }
+      ]
+    },
     {
       "id": "8514",
       "title": "Thillu Mullu",
@@ -968,85 +1037,6 @@
           "id": "7668",
           "title": "Chandramukhi Single Part Lq",
           "stream_url": "https://play.onestream.today/stream/page/7668"
-        }
-      ]
-    },
-    {
-      "id": "7650",
-      "title": "Billa",
-      "raw_title": "Billa Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTczZDQwMmEtODJlMC00MTY2LTkzMjQtYmNlNWMzN2I3YjE5XkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.3",
-      "genres": "Action, Crime, Thriller",
-      "runtime": "130 min",
-      "released": "14 Dec 2007",
-      "year": "2007",
-      "plot": "A cop chases international gangster Billa and happens to be the only one to see him die. He places Velu, Billa's lookalike, inside the gang to get information. But Velu is framed for killing the cop.",
-      "director": "Vishnuvardhan",
-      "actors": "Ajith Kumar, Nayanthara, Rahman",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "7650",
-          "title": "Billa Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7650"
-        },
-        {
-          "id": "7649",
-          "title": "Billa Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/7649"
-        },
-        {
-          "id": "7648",
-          "title": "Billa Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/7648"
-        },
-        {
-          "id": "7647",
-          "title": "Billa Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/7647"
-        },
-        {
-          "id": "7646",
-          "title": "Billa Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/7646"
-        },
-        {
-          "id": "7644",
-          "title": "Billa Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7644"
-        },
-        {
-          "id": "7643",
-          "title": "Billa Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/7643"
-        },
-        {
-          "id": "7642",
-          "title": "Billa Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/7642"
-        },
-        {
-          "id": "7641",
-          "title": "Billa Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/7641"
-        },
-        {
-          "id": "7640",
-          "title": "Billa Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/7640"
-        },
-        {
-          "id": "7638",
-          "title": "Billa Single Part LQ",
-          "stream_url": "https://play.onestream.today/stream/page/7638"
-        },
-        {
-          "id": "7636",
-          "title": "Billa",
-          "stream_url": "https://play.onestream.today/stream/page/7636"
         }
       ]
     }
