@@ -1,6 +1,92 @@
 [
   {
-    "id": "8799",
+    "id": "8849",
+    "t": "Jaihind 2",
+    "y": "2014",
+    "r": "5.1",
+    "p": "https://m.media-amazon.com/images/M/MV5BOGNjNDM3NTgtNDY0ZC00ZDQwLThlYTMtNjNjY2M0NmEwNjU2XkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Action",
+    "pts": [
+      "8849",
+      "8847"
+    ]
+  },
+  {
+    "id": "8846",
+    "t": "Jai Hind",
+    "y": "1994",
+    "r": "7.2",
+    "p": "https://m.media-amazon.com/images/M/MV5BODQyOTMwYzAtYTdlOC00ODM4LWI3NTctYTUzMTNjMGE2NjMzXkEyXkFqcGdeQXVyMTEzNzg0Mjkx._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Action",
+    "pts": [
+      "8846",
+      "8845",
+      "8844",
+      "8843",
+      "8842",
+      "8840",
+      "8839",
+      "8838",
+      "8837",
+      "8836",
+      "8834",
+      "8832"
+    ]
+  },
+  {
+    "id": "8831",
+    "t": "Gokulam",
+    "y": "1993",
+    "r": "",
+    "p": "https://m.media-amazon.com/images/M/MV5BNWRkM2QzZWEtMTBiMy00NzViLTg3ZmMtODU4MTk5ODg2Mjk5XkEyXkFqcGdeQXVyMTEzNzg0Mjkx._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Drama",
+    "pts": [
+      "8831",
+      "8830",
+      "8829",
+      "8828",
+      "8827",
+      "8825",
+      "8824",
+      "8823",
+      "8822",
+      "8821",
+      "8819",
+      "8817"
+    ]
+  },
+  {
+    "id": "8816",
+    "t": "Giri",
+    "y": "2004",
+    "r": "",
+    "p": "https://m.media-amazon.com/images/M/MV5BOWE0NDAxNjAtYTJiYy00MzVmLTljNDktYWIzM2NhNGMwY2EzXkEyXkFqcGdeQXVyOTk3NTc2MzE@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "play",
+    "g": "Action, Comedy",
+    "pts": [
+      "8816",
+      "8815",
+      "8814",
+      "8813",
+      "8812",
+      "8810",
+      "8809",
+      "8808",
+      "8807",
+      "8806",
+      "8804",
+      "8802"
+    ]
+  },
+  {
+    "id": "8801",
     "t": "Gentleman",
     "y": "1993",
     "r": "7.8",
@@ -9,6 +95,8 @@
     "l": "play",
     "g": "Action, Drama, Thriller",
     "pts": [
+      "8801",
+      "8800",
       "8799",
       "8798",
       "8797",
@@ -4442,6 +4530,75 @@
       "3071",
       "3069",
       "3067"
+    ]
+  },
+  {
+    "id": "43847",
+    "t": "Cut",
+    "y": "2000",
+    "r": "4.3",
+    "p": "https://m.media-amazon.com/images/M/MV5BMTlmZTBjNTEtNDE5MC00YjRkLTlmZTMtNWQ2OTlkMzg4OTkxXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Comedy, Horror, Mystery",
+    "pts": [
+      "43847",
+      "43846",
+      "43844",
+      "43843",
+      "43841",
+      "43840",
+      "43839",
+      "43838",
+      "43837",
+      "43834"
+    ]
+  },
+  {
+    "id": "43835",
+    "t": "Duma",
+    "y": "2005",
+    "r": "7.1",
+    "p": "https://m.media-amazon.com/images/M/MV5BYmIyMzU3MTgtYmNhNS00ODdhLTg4YTQtYmZhMmJkNTZhMTQwXkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Adventure, Drama, Family",
+    "pts": [
+      "43835"
+    ]
+  },
+  {
+    "id": "43833",
+    "t": "The Lair Of The White Worm",
+    "y": "1988",
+    "r": "6.0",
+    "p": "https://m.media-amazon.com/images/M/MV5BNTU5NDkyYzQtZTgwYy00MTJjLWExM2EtZGM0ZDFiNTVmYzA4XkEyXkFqcGc@._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Comedy, Horror",
+    "pts": [
+      "43833",
+      "43832",
+      "43830",
+      "43829",
+      "43821"
+    ]
+  },
+  {
+    "id": "43820",
+    "t": "Vanquisher",
+    "y": "2011",
+    "r": "3.9",
+    "p": "https://m.media-amazon.com/images/M/MV5BMjllYjMyZjctMjM0OC00MDY5LTk3OGYtNzI4ZjQ5NmY0OGZjXkEyXkFqcGdeQXVyMTQ3NDc4ODc2._V1_SX300.jpg",
+    "c": "Movie",
+    "l": "dub",
+    "g": "Action, Adventure, Sci-Fi",
+    "pts": [
+      "43820",
+      "43819",
+      "43817",
+      "43816",
+      "43808"
     ]
   },
   {

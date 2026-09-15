@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-09-14T02:37:54.827662Z",
+  "updated_at": "2026-09-15T02:42:03.891445Z",
   "stats": {
-    "tamil_count": 187,
-    "dubbed_count": 319,
-    "total_titles": 506,
+    "tamil_count": 191,
+    "dubbed_count": 323,
+    "total_titles": 514,
     "play_pages": 8,
     "dub_pages": 14,
-    "last_movie_id": 8799,
-    "last_dubbed_id": 43799
+    "last_movie_id": 8849,
+    "last_dubbed_id": 43849
   },
   "genres": [
     "Action",
@@ -108,9 +108,88 @@
   ],
   "featured": [
     {
-      "id": "8799",
+      "id": "8846",
+      "title": "Jai Hind",
+      "raw_title": "Jai Hind Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODQyOTMwYzAtYTdlOC00ODM4LWI3NTctYTUzMTNjMGE2NjMzXkEyXkFqcGdeQXVyMTEzNzg0Mjkx._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.2",
+      "genres": "Action",
+      "runtime": "",
+      "released": "20 May 1994",
+      "year": "1994",
+      "plot": "Following the death of his brother in a terrorist attack, Bharath, a policeman, promises to his mother that he will resign. But spurred by patriotism, he sets out to capture the terrorists.",
+      "director": "Arjun Sarja",
+      "actors": "Arjun Sarja, Ranjitha, Goundamani",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "8846",
+          "title": "Jai Hind Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8846"
+        },
+        {
+          "id": "8845",
+          "title": "Jai Hind Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/8845"
+        },
+        {
+          "id": "8844",
+          "title": "Jai Hind Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/8844"
+        },
+        {
+          "id": "8843",
+          "title": "Jai Hind Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/8843"
+        },
+        {
+          "id": "8842",
+          "title": "Jai Hind Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/8842"
+        },
+        {
+          "id": "8840",
+          "title": "Jai Hind Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8840"
+        },
+        {
+          "id": "8839",
+          "title": "Jai Hind Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/8839"
+        },
+        {
+          "id": "8838",
+          "title": "Jai Hind Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/8838"
+        },
+        {
+          "id": "8837",
+          "title": "Jai Hind Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/8837"
+        },
+        {
+          "id": "8836",
+          "title": "Jai Hind Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/8836"
+        },
+        {
+          "id": "8834",
+          "title": "Jai Hind Single Part LQ",
+          "stream_url": "https://play.onestream.today/stream/page/8834"
+        },
+        {
+          "id": "8832",
+          "title": "Jai Hind",
+          "stream_url": "https://play.onestream.today/stream/page/8832"
+        }
+      ]
+    },
+    {
+      "id": "8801",
       "title": "Gentleman",
-      "raw_title": "Gentleman Part-3",
+      "raw_title": "Gentleman Sample",
       "poster": "https://m.media-amazon.com/images/M/MV5BNTRhMzdhMGEtOTQzZi00OGU0LWEyOTctYjllZDdkMjMwYTA5XkEyXkFqcGc@._V1_SX300.jpg",
       "category": "Movie",
       "rating": "7.8",
@@ -124,6 +203,16 @@
       "language": "Tamil",
       "lib": "play",
       "prints": [
+        {
+          "id": "8801",
+          "title": "Gentleman Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8801"
+        },
+        {
+          "id": "8800",
+          "title": "Gentleman Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/8800"
+        },
         {
           "id": "8799",
           "title": "Gentleman Part-3",
@@ -963,80 +1052,6 @@
           "id": "7816",
           "title": "Johnny",
           "stream_url": "https://play.onestream.today/stream/page/7816"
-        }
-      ]
-    },
-    {
-      "id": "7680",
-      "title": "Chandramukhi",
-      "raw_title": "Chandramukhi Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjM0ODE4NTctNTY5YS00ZWU2LTg3ZGItYjcyMjI3NGI1N2NkXkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.2",
-      "genres": "Action, Comedy, Drama",
-      "runtime": "166 min",
-      "released": "14 Apr 2005",
-      "year": "2005",
-      "plot": "Creepy happenings in an abandoned mansion are attributed to the ghost of an ancient courtesan, back for revenge.",
-      "director": "P. Vasu",
-      "actors": "Rajinikanth, Jyotika, Prabhu",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "7680",
-          "title": "Chandramukhi Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7680"
-        },
-        {
-          "id": "7679",
-          "title": "Chandramukhi Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/7679"
-        },
-        {
-          "id": "7678",
-          "title": "Chandramukhi Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/7678"
-        },
-        {
-          "id": "7677",
-          "title": "Chandramukhi Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/7677"
-        },
-        {
-          "id": "7676",
-          "title": "Chandramukhi Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/7676"
-        },
-        {
-          "id": "7674",
-          "title": "Chandramukhi Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7674"
-        },
-        {
-          "id": "7673",
-          "title": "Chandramukhi Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/7673"
-        },
-        {
-          "id": "7672",
-          "title": "Chandramukhi Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/7672"
-        },
-        {
-          "id": "7671",
-          "title": "Chandramukhi Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/7671"
-        },
-        {
-          "id": "7670",
-          "title": "Chandramukhi Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/7670"
-        },
-        {
-          "id": "7668",
-          "title": "Chandramukhi Single Part Lq",
-          "stream_url": "https://play.onestream.today/stream/page/7668"
         }
       ]
     }
