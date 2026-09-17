@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-09-16T02:37:30.848931Z",
+  "updated_at": "2026-09-17T02:40:49.865328Z",
   "stats": {
-    "tamil_count": 192,
-    "dubbed_count": 324,
-    "total_titles": 516,
-    "play_pages": 8,
+    "tamil_count": 195,
+    "dubbed_count": 328,
+    "total_titles": 523,
+    "play_pages": 9,
     "dub_pages": 14,
-    "last_movie_id": 8899,
-    "last_dubbed_id": 43899
+    "last_movie_id": 8949,
+    "last_dubbed_id": 43949
   },
   "genres": [
     "Action",
@@ -101,12 +101,82 @@
     1964,
     1963,
     1962,
+    1960,
     1949,
     1939,
     1937,
     1932
   ],
   "featured": [
+    {
+      "id": "8949",
+      "title": "Kuruthipunal",
+      "raw_title": "Kuruthipunal Part-3",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZTczNDI1MjMtODQ0Yi00MDNjLWEzMTUtYTBiOGI3NDM4NzI4XkEyXkFqcGc@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "8.5",
+      "genres": "Action, Drama, Thriller",
+      "runtime": "143 min",
+      "released": "23 Oct 1995",
+      "year": "1995",
+      "plot": "Suave and scintillating, this fast-paced action thriller follows the adventures and investigations of a group of honest police officers, who go undercover to bring down a terror network.",
+      "director": "P.C. Sreeram",
+      "actors": "Kamal Haasan, Arjun Sarja, Nassar",
+      "language": "Tamil, Telugu",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "8949",
+          "title": "Kuruthipunal Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/8949"
+        },
+        {
+          "id": "8948",
+          "title": "Kuruthipunal Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/8948"
+        },
+        {
+          "id": "8947",
+          "title": "Kuruthipunal Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/8947"
+        },
+        {
+          "id": "8945",
+          "title": "Kuruthipunal Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8945"
+        },
+        {
+          "id": "8944",
+          "title": "Kuruthipunal Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/8944"
+        },
+        {
+          "id": "8943",
+          "title": "Kuruthipunal Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/8943"
+        },
+        {
+          "id": "8942",
+          "title": "Kuruthipunal Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/8942"
+        },
+        {
+          "id": "8941",
+          "title": "Kuruthipunal Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/8941"
+        },
+        {
+          "id": "8939",
+          "title": "Kuruthipunal Single Part LQ",
+          "stream_url": "https://play.onestream.today/stream/page/8939"
+        },
+        {
+          "id": "8937",
+          "title": "Kuruthipunal",
+          "stream_url": "https://play.onestream.today/stream/page/8937"
+        }
+      ]
+    },
     {
       "id": "8846",
       "title": "Jai Hind",
@@ -973,85 +1043,6 @@
           "id": "7906",
           "title": "Maaveeran",
           "stream_url": "https://play.onestream.today/stream/page/7906"
-        }
-      ]
-    },
-    {
-      "id": "7830",
-      "title": "Johnny",
-      "raw_title": "Johnny Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmIwNDMwYmEtZjlkYS00MTg0LTkzZGEtODE0MjhlZmZkMDBhXkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.1",
-      "genres": "Biography, Drama",
-      "runtime": "119 min",
-      "released": "23 Mar 2023",
-      "year": "2022",
-      "plot": "Love for the world and other people and about the fact that everyone deserves a second chance. When Patryk receives it from a priest Jan Kaczkowski does not even suspect how it will change his life.",
-      "director": "Daniel Jaroszek",
-      "actors": "Dawid Ogrodnik, Piotr Trojan, Beata Zygarlicka",
-      "language": "Polish",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "7830",
-          "title": "Johnny Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7830"
-        },
-        {
-          "id": "7829",
-          "title": "Johnny Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/7829"
-        },
-        {
-          "id": "7828",
-          "title": "Johnny Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/7828"
-        },
-        {
-          "id": "7827",
-          "title": "Johnny Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/7827"
-        },
-        {
-          "id": "7826",
-          "title": "Johnny Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/7826"
-        },
-        {
-          "id": "7824",
-          "title": "Johnny Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7824"
-        },
-        {
-          "id": "7823",
-          "title": "Johnny Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/7823"
-        },
-        {
-          "id": "7822",
-          "title": "Johnny Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/7822"
-        },
-        {
-          "id": "7821",
-          "title": "Johnny Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/7821"
-        },
-        {
-          "id": "7820",
-          "title": "Johnny Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/7820"
-        },
-        {
-          "id": "7818",
-          "title": "Johnny Single Part LQ",
-          "stream_url": "https://play.onestream.today/stream/page/7818"
-        },
-        {
-          "id": "7816",
-          "title": "Johnny",
-          "stream_url": "https://play.onestream.today/stream/page/7816"
         }
       ]
     }
