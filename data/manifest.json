@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-09-17T02:40:49.865328Z",
+  "updated_at": "2026-09-18T02:26:50.104898Z",
   "stats": {
-    "tamil_count": 195,
-    "dubbed_count": 328,
-    "total_titles": 523,
+    "tamil_count": 196,
+    "dubbed_count": 330,
+    "total_titles": 526,
     "play_pages": 9,
     "dub_pages": 14,
-    "last_movie_id": 8949,
-    "last_dubbed_id": 43949
+    "last_movie_id": 8999,
+    "last_dubbed_id": 43999
   },
   "genres": [
     "Action",
@@ -109,9 +109,9 @@
   ],
   "featured": [
     {
-      "id": "8949",
+      "id": "8951",
       "title": "Kuruthipunal",
-      "raw_title": "Kuruthipunal Part-3",
+      "raw_title": "Kuruthipunal Sample",
       "poster": "https://m.media-amazon.com/images/M/MV5BZTczNDI1MjMtODQ0Yi00MDNjLWEzMTUtYTBiOGI3NDM4NzI4XkEyXkFqcGc@._V1_SX300.jpg",
       "category": "Movie",
       "rating": "8.5",
@@ -125,6 +125,16 @@
       "language": "Tamil, Telugu",
       "lib": "play",
       "prints": [
+        {
+          "id": "8951",
+          "title": "Kuruthipunal Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8951"
+        },
+        {
+          "id": "8950",
+          "title": "Kuruthipunal Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/8950"
+        },
         {
           "id": "8949",
           "title": "Kuruthipunal Part-3",
