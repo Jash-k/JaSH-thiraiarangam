@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-09-19T02:29:17.358701Z",
+  "updated_at": "2026-09-20T02:38:41.829176Z",
   "stats": {
-    "tamil_count": 198,
-    "dubbed_count": 335,
-    "total_titles": 533,
+    "tamil_count": 202,
+    "dubbed_count": 338,
+    "total_titles": 540,
     "play_pages": 9,
-    "dub_pages": 14,
-    "last_movie_id": 9049,
-    "last_dubbed_id": 44049
+    "dub_pages": 15,
+    "last_movie_id": 9099,
+    "last_dubbed_id": 44099
   },
   "genres": [
     "Action",
@@ -108,6 +108,75 @@
     1932
   ],
   "featured": [
+    {
+      "id": "9099",
+      "title": "Sadhu",
+      "raw_title": "Sadhu (1994) Part-3",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTIyZDAxY2YtMjkwMC00ZjdhLThkMDAtNTU4OTk5NmQwNDNmXkEyXkFqcGdeQXVyMjM4MTU2MDg@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "7.0",
+      "genres": "Documentary, Adventure, Music",
+      "runtime": "90 min",
+      "released": "22 Aug 2013",
+      "year": "2012",
+      "plot": "A Sadhu. A holy man of Hinduism who has renounced all earthly possessions in order to retire to a grotto in the heart of the Himalayas. After eight years of living as a hermit, his meditations no longer satisfy him. In order to re...",
+      "director": "Gaël Métroz",
+      "actors": "Suraj Baba",
+      "language": "English, Hindi",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "9099",
+          "title": "Sadhu (1994) Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/9099"
+        },
+        {
+          "id": "9098",
+          "title": "Sadhu (1994) Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/9098"
+        },
+        {
+          "id": "9097",
+          "title": "Sadhu (1994) Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/9097"
+        },
+        {
+          "id": "9095",
+          "title": "Sadhu (1994) Sample",
+          "stream_url": "https://play.onestream.today/stream/page/9095"
+        },
+        {
+          "id": "9094",
+          "title": "Sadhu (1994) Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/9094"
+        },
+        {
+          "id": "9093",
+          "title": "Sadhu (1994) Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/9093"
+        },
+        {
+          "id": "9092",
+          "title": "Sadhu (1994) Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/9092"
+        },
+        {
+          "id": "9091",
+          "title": "Sadhu (1994) Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/9091"
+        },
+        {
+          "id": "9089",
+          "title": "Sadhu (1994) Single Part LQ",
+          "stream_url": "https://play.onestream.today/stream/page/9089"
+        },
+        {
+          "id": "9087",
+          "title": "Sadhu (1994)",
+          "stream_url": "https://play.onestream.today/stream/page/9087"
+        }
+      ]
+    },
     {
       "id": "9041",
       "title": "Mudhalvan",
@@ -741,6 +810,85 @@
       ]
     },
     {
+      "id": "8161",
+      "title": "Padayappa",
+      "raw_title": "Padayappa Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWU1YjczOTctYmY2Ny00NDM5LTg5M2UtMGM5ZTVkNzY2YzA1XkEyXkFqcGc@._V1_QL75_UX380_CR0,18,380,562_.jpg",
+      "category": "Movie",
+      "rating": "8.3",
+      "genres": "Action, Comedy, Drama",
+      "runtime": "181 min",
+      "released": "10 Apr 1999",
+      "year": "1999",
+      "plot": "The death of Padaiyappa's father destroys his family. But his luck changes, and he is able to lead a prosperous life, until his nemesis plots to ruin his happiness once more.",
+      "director": "K.S. Ravikumar",
+      "actors": "Sivaji Ganesan, Rajinikanth, Ramya Krishnan",
+      "language": "Tamil",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "8161",
+          "title": "Padayappa Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8161"
+        },
+        {
+          "id": "8160",
+          "title": "Padayappa Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/8160"
+        },
+        {
+          "id": "8159",
+          "title": "Padayappa Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/8159"
+        },
+        {
+          "id": "8158",
+          "title": "Padayappa Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/8158"
+        },
+        {
+          "id": "8157",
+          "title": "Padayappa Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/8157"
+        },
+        {
+          "id": "8155",
+          "title": "Padayappa Sample",
+          "stream_url": "https://play.onestream.today/stream/page/8155"
+        },
+        {
+          "id": "8154",
+          "title": "Padayappa Part - 4",
+          "stream_url": "https://play.onestream.today/stream/page/8154"
+        },
+        {
+          "id": "8153",
+          "title": "Padayappa Part - 3",
+          "stream_url": "https://play.onestream.today/stream/page/8153"
+        },
+        {
+          "id": "8152",
+          "title": "Padayappa Part - 2",
+          "stream_url": "https://play.onestream.today/stream/page/8152"
+        },
+        {
+          "id": "8151",
+          "title": "Padayappa Part - 1",
+          "stream_url": "https://play.onestream.today/stream/page/8151"
+        },
+        {
+          "id": "8149",
+          "title": "Padayappa Single Part Lq",
+          "stream_url": "https://play.onestream.today/stream/page/8149"
+        },
+        {
+          "id": "8147",
+          "title": "Padayappa",
+          "stream_url": "https://play.onestream.today/stream/page/8147"
+        }
+      ]
+    },
+    {
       "id": "8071",
       "title": "Naan Mahaan Alla",
       "raw_title": "Naan Mahaan Alla Sample",
@@ -895,164 +1043,6 @@
           "id": "8027",
           "title": "Muthu",
           "stream_url": "https://play.onestream.today/stream/page/8027"
-        }
-      ]
-    },
-    {
-      "id": "8026",
-      "title": "Mullum Malarum",
-      "raw_title": "Mullum Malarum Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZjhlMjBjODctOTAyNy00NGVmLWI4ZmYtZGZmOWI0MDE3NzgyXkEyXkFqcGdeQXVyOTk3NTc2MzE@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "8.3",
-      "genres": "Drama",
-      "runtime": "143 min",
-      "released": "15 Aug 1978",
-      "year": "1978",
-      "plot": "A boorish villager butts heads with a newly appointed engineer from the city.",
-      "director": "J. Mahendran",
-      "actors": "Rajinikanth, Sarath Babu, Jayalakshmi",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "8026",
-          "title": "Mullum Malarum Sample",
-          "stream_url": "https://play.onestream.today/stream/page/8026"
-        },
-        {
-          "id": "8025",
-          "title": "Mullum Malarum Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/8025"
-        },
-        {
-          "id": "8024",
-          "title": "Mullum Malarum Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/8024"
-        },
-        {
-          "id": "8023",
-          "title": "Mullum Malarum Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/8023"
-        },
-        {
-          "id": "8022",
-          "title": "Mullum Malarum Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/8022"
-        },
-        {
-          "id": "8020",
-          "title": "Mullum Malarum Sample",
-          "stream_url": "https://play.onestream.today/stream/page/8020"
-        },
-        {
-          "id": "8019",
-          "title": "Mullum Malarum Part-4",
-          "stream_url": "https://play.onestream.today/stream/page/8019"
-        },
-        {
-          "id": "8018",
-          "title": "Mullum Malarum Part-3",
-          "stream_url": "https://play.onestream.today/stream/page/8018"
-        },
-        {
-          "id": "8017",
-          "title": "Mullum Malarum Part-2",
-          "stream_url": "https://play.onestream.today/stream/page/8017"
-        },
-        {
-          "id": "8016",
-          "title": "Mullum Malarum Part-1",
-          "stream_url": "https://play.onestream.today/stream/page/8016"
-        },
-        {
-          "id": "8014",
-          "title": "Mullum Malarum Single Part LQ",
-          "stream_url": "https://play.onestream.today/stream/page/8014"
-        },
-        {
-          "id": "8012",
-          "title": "Mullum Malarum",
-          "stream_url": "https://play.onestream.today/stream/page/8012"
-        }
-      ]
-    },
-    {
-      "id": "7966",
-      "title": "Mannan",
-      "raw_title": "Mannan Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYzQ1YWNmMGMtNTY0OS00ZDVmLWE5MWItZGVlMjY1MjlkMDVlXkEyXkFqcGdeQXVyOTk3NTc2MzE@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.2",
-      "genres": "Action, Comedy, Drama",
-      "runtime": "154 min",
-      "released": "14 Jan 1992",
-      "year": "1992",
-      "plot": "Mannan is a 1992 Indian Tamil-language film directed by P. Vasu. The film stars Rajinikanth, Vijayashanti, Kushboo, Manorama, Pandari Bai, Goundamani, and Visu. It is a remake of the 1986 Kannada film Anuraga Aralithu.",
-      "director": "P. Vasu",
-      "actors": "Rajinikanth, Vijayashanti, Khushbu Sundar",
-      "language": "Tamil, Hindi",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "7966",
-          "title": "Mannan Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7966"
-        },
-        {
-          "id": "7965",
-          "title": "Mannan Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/7965"
-        },
-        {
-          "id": "7964",
-          "title": "Mannan Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/7964"
-        },
-        {
-          "id": "7963",
-          "title": "Mannan Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/7963"
-        },
-        {
-          "id": "7962",
-          "title": "Mannan Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/7962"
-        },
-        {
-          "id": "7960",
-          "title": "Mannan Sample",
-          "stream_url": "https://play.onestream.today/stream/page/7960"
-        },
-        {
-          "id": "7959",
-          "title": "Mannan Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/7959"
-        },
-        {
-          "id": "7958",
-          "title": "Mannan Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/7958"
-        },
-        {
-          "id": "7957",
-          "title": "Mannan Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/7957"
-        },
-        {
-          "id": "7956",
-          "title": "Mannan Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/7956"
-        },
-        {
-          "id": "7954",
-          "title": "Mannan Single Part Lq",
-          "stream_url": "https://play.onestream.today/stream/page/7954"
-        },
-        {
-          "id": "7952",
-          "title": "Mannan",
-          "stream_url": "https://play.onestream.today/stream/page/7952"
         }
       ]
     }

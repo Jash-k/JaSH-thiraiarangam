@@ -1,8 +1,120 @@
 [
   {
-    "id": "44048",
+    "id": "44099",
+    "title": "Operation Dumbo Drop",
+    "raw_title": "Operation Dumbo Drop (1995)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTJjM2U4MGMtNThmNi00ODAzLWE1ZGEtMzkyOWFjMzE0YzNjXkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "5.2",
+    "genres": "Action, Adventure, Comedy",
+    "runtime": "107 min",
+    "released": "28 Jul 1995",
+    "year": "1995",
+    "plot": "To keep the loyalty of a village during the Vietnam war, a U.S. Army officer and his unit struggle to deliver it a live elephant.",
+    "director": "Simon Wincer",
+    "actors": "Danny Glover, Ray Liotta, Denis Leary",
+    "language": "English, Vietnamese",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "44099",
+        "title": "Operation Dumbo Drop (1995)",
+        "stream_url": "https://dub.onestream.today/stream/video/44099"
+      }
+    ]
+  },
+  {
+    "id": "44098",
+    "title": "White Fang 2 Myth Of The White Wolf",
+    "raw_title": "White Fang 2 Myth of the White Wolf (1994) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BY2EzODcxMzgtZGFkNC00MjI1LWI1MDctYWJhOTU3YTA2Mzc3XkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "5.4",
+    "genres": "Adventure, Family",
+    "runtime": "106 min",
+    "released": "15 Apr 1994",
+    "year": "1994",
+    "plot": "In order to rescue one of the last surviving Alaskan Native tribes, Fang joins in with a friend of his master to stop miners from destroying an ancient sacred land.",
+    "director": "Ken Olin",
+    "actors": "Scott Bairstow, Charmaine Craig, Al Harrington",
+    "language": "English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "44098",
+        "title": "White Fang 2 Myth of the White Wolf (1994) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/44098"
+      },
+      {
+        "id": "44097",
+        "title": "White Fang 2 Myth of the White Wolf (1994) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/44097"
+      },
+      {
+        "id": "44095",
+        "title": "White Fang 2 Myth of the White Wolf (1994) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/44095"
+      },
+      {
+        "id": "44094",
+        "title": "White Fang 2 Myth of the White Wolf (1994) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/44094"
+      },
+      {
+        "id": "44086",
+        "title": "White Fang 2 Myth of the White Wolf (1994)",
+        "stream_url": "https://dub.onestream.today/stream/video/44086"
+      }
+    ]
+  },
+  {
+    "id": "44085",
+    "title": "Ransom",
+    "raw_title": "Ransom (1996) Sample (640x360)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjIxODEwMzgtNmEwNS00NzEzLTk1YTQtNzQzOGE2ZTIzZjk5XkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "6.7",
+    "genres": "Action, Crime, Drama",
+    "runtime": "121 min",
+    "released": "08 Nov 1996",
+    "year": "1996",
+    "plot": "Multi-millionaire Tom Mullen's son is kidnapped, but after initially agreeing to pay the ransom Mullen then decides to use the ransom money as a bounty.",
+    "director": "Ron Howard",
+    "actors": "Mel Gibson, Gary Sinise, Rene Russo",
+    "language": "English",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "44085",
+        "title": "Ransom (1996) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/44085"
+      },
+      {
+        "id": "44084",
+        "title": "Ransom (1996) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/44084"
+      },
+      {
+        "id": "44082",
+        "title": "Ransom (1996) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/44082"
+      },
+      {
+        "id": "44081",
+        "title": "Ransom (1996) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/44081"
+      },
+      {
+        "id": "44073",
+        "title": "Ransom (1996)",
+        "stream_url": "https://dub.onestream.today/stream/video/44073"
+      }
+    ]
+  },
+  {
+    "id": "44072",
     "title": "The Beastmaster",
-    "raw_title": "The Beastmaster (1982)",
+    "raw_title": "The Beastmaster (1982) Sample (640x360)",
     "poster": "https://m.media-amazon.com/images/M/MV5BY2EyYjlmY2EtMjQ3Ni00N2Q2LWFkYTQtOGE2NzM2YjZkZTQ5XkEyXkFqcGc@._V1_QL75_UX380_CR0,6,380,562_.jpg",
     "category": "Movie",
     "rating": "6.2",
@@ -17,6 +129,51 @@
     "lib": "dub",
     "prints": [
       {
+        "id": "44072",
+        "title": "The Beastmaster (1982) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/44072"
+      },
+      {
+        "id": "44071",
+        "title": "The Beastmaster (1982) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/44071"
+      },
+      {
+        "id": "44069",
+        "title": "The Beastmaster (1982) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/44069"
+      },
+      {
+        "id": "44068",
+        "title": "The Beastmaster (1982) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/44068"
+      },
+      {
+        "id": "44066",
+        "title": "The Beastmaster (1982) Sample",
+        "stream_url": "https://dub.onestream.today/stream/video/44066"
+      },
+      {
+        "id": "44065",
+        "title": "The Beastmaster (1982) Part-4",
+        "stream_url": "https://dub.onestream.today/stream/video/44065"
+      },
+      {
+        "id": "44064",
+        "title": "The Beastmaster (1982) Part-3",
+        "stream_url": "https://dub.onestream.today/stream/video/44064"
+      },
+      {
+        "id": "44063",
+        "title": "The Beastmaster (1982) Part-2",
+        "stream_url": "https://dub.onestream.today/stream/video/44063"
+      },
+      {
+        "id": "44062",
+        "title": "The Beastmaster (1982) Part-1",
+        "stream_url": "https://dub.onestream.today/stream/video/44062"
+      },
+      {
         "id": "44048",
         "title": "The Beastmaster (1982)",
         "stream_url": "https://dub.onestream.today/stream/video/44048"
@@ -24,9 +181,9 @@
     ]
   },
   {
-    "id": "44047",
+    "id": "44060",
     "title": "Lionheart",
-    "raw_title": "Lionheart (1990)",
+    "raw_title": "Lionheart (1990) Sample (640x360)",
     "poster": "https://m.media-amazon.com/images/M/MV5BZDQwNjgxNmYtN2M3NS00YzhmLThiNjgtZDMzNmE4MTExNDBhXkEyXkFqcGc@._V1_SX300.jpg",
     "category": "Movie",
     "rating": "6.2",
@@ -40,6 +197,26 @@
     "language": "English, French, Serbian",
     "lib": "dub",
     "prints": [
+      {
+        "id": "44060",
+        "title": "Lionheart (1990) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/44060"
+      },
+      {
+        "id": "44059",
+        "title": "Lionheart (1990) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/44059"
+      },
+      {
+        "id": "44057",
+        "title": "Lionheart (1990) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/44057"
+      },
+      {
+        "id": "44056",
+        "title": "Lionheart (1990) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/44056"
+      },
       {
         "id": "44047",
         "title": "Lionheart (1990)",
