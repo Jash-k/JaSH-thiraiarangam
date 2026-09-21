@@ -1,15 +1,15 @@
 {
   "brand": "JaSH திரையரங்கம்",
   "tagline": "Premium Tamil & Dubbed Cinema",
-  "updated_at": "2026-09-20T02:38:41.829176Z",
+  "updated_at": "2026-09-21T02:36:34.986826Z",
   "stats": {
-    "tamil_count": 202,
-    "dubbed_count": 338,
-    "total_titles": 540,
+    "tamil_count": 205,
+    "dubbed_count": 341,
+    "total_titles": 546,
     "play_pages": 9,
     "dub_pages": 15,
-    "last_movie_id": 9099,
-    "last_dubbed_id": 44099
+    "last_movie_id": 9149,
+    "last_dubbed_id": 44149
   },
   "genres": [
     "Action",
@@ -109,9 +109,88 @@
   ],
   "featured": [
     {
-      "id": "9099",
+      "id": "9146",
+      "title": "Shankar Guru",
+      "raw_title": "Shankar Guru Sample",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjIxOTIyMDEtOWJjMi00MjE4LWIxNjQtZDlmNzI3YzNmNWZjXkEyXkFqcGdeQXVyNjQ1MDcxNzM@._V1_SX300.jpg",
+      "category": "Movie",
+      "rating": "8.0",
+      "genres": "Action, Comedy, Drama",
+      "runtime": "179 min",
+      "released": "17 Feb 1978",
+      "year": "1978",
+      "plot": "The plot is about 2 separated brothers and their adventures to save their family from their father's vicious friends.",
+      "director": "V. Somasekhar",
+      "actors": "Rajkumar, T.N. Balakrishna, Jayakumar",
+      "language": "Kannada",
+      "lib": "play",
+      "prints": [
+        {
+          "id": "9146",
+          "title": "Shankar Guru Sample",
+          "stream_url": "https://play.onestream.today/stream/page/9146"
+        },
+        {
+          "id": "9145",
+          "title": "Shankar Guru Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/9145"
+        },
+        {
+          "id": "9144",
+          "title": "Shankar Guru Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/9144"
+        },
+        {
+          "id": "9143",
+          "title": "Shankar Guru Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/9143"
+        },
+        {
+          "id": "9142",
+          "title": "Shankar Guru Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/9142"
+        },
+        {
+          "id": "9140",
+          "title": "Shankar Guru Sample",
+          "stream_url": "https://play.onestream.today/stream/page/9140"
+        },
+        {
+          "id": "9139",
+          "title": "Shankar Guru Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/9139"
+        },
+        {
+          "id": "9138",
+          "title": "Shankar Guru Part-3",
+          "stream_url": "https://play.onestream.today/stream/page/9138"
+        },
+        {
+          "id": "9137",
+          "title": "Shankar Guru Part-2",
+          "stream_url": "https://play.onestream.today/stream/page/9137"
+        },
+        {
+          "id": "9136",
+          "title": "Shankar Guru Part-1",
+          "stream_url": "https://play.onestream.today/stream/page/9136"
+        },
+        {
+          "id": "9134",
+          "title": "Shankar Guru Single Part LQ",
+          "stream_url": "https://play.onestream.today/stream/page/9134"
+        },
+        {
+          "id": "9132",
+          "title": "Shankar Guru",
+          "stream_url": "https://play.onestream.today/stream/page/9132"
+        }
+      ]
+    },
+    {
+      "id": "9101",
       "title": "Sadhu",
-      "raw_title": "Sadhu (1994) Part-3",
+      "raw_title": "Sadhu (1994) Sample",
       "poster": "https://m.media-amazon.com/images/M/MV5BYTIyZDAxY2YtMjkwMC00ZjdhLThkMDAtNTU4OTk5NmQwNDNmXkEyXkFqcGdeQXVyMjM4MTU2MDg@._V1_SX300.jpg",
       "category": "Movie",
       "rating": "7.0",
@@ -125,6 +204,16 @@
       "language": "English, Hindi",
       "lib": "play",
       "prints": [
+        {
+          "id": "9101",
+          "title": "Sadhu (1994) Sample",
+          "stream_url": "https://play.onestream.today/stream/page/9101"
+        },
+        {
+          "id": "9100",
+          "title": "Sadhu (1994) Part-4",
+          "stream_url": "https://play.onestream.today/stream/page/9100"
+        },
         {
           "id": "9099",
           "title": "Sadhu (1994) Part-3",
@@ -964,85 +1053,6 @@
           "id": "8057",
           "title": "Naan Mahaan Alla",
           "stream_url": "https://play.onestream.today/stream/page/8057"
-        }
-      ]
-    },
-    {
-      "id": "8041",
-      "title": "Muthu",
-      "raw_title": "Muthu Sample",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYjM1NWVjOWMtMDhlMC00ZTkzLWI1N2UtNGJhNTJhYTA5ZjdiXkEyXkFqcGc@._V1_SX300.jpg",
-      "category": "Movie",
-      "rating": "7.5",
-      "genres": "Action, Comedy, Drama",
-      "runtime": "156 min",
-      "released": "23 Oct 1995",
-      "year": "1995",
-      "plot": "The movie is about a loyal servant, Muthu (Rajni), working for Zamindar Malayasimman (Sarath Babu) and the cunning plans by the uncle of Malasimman to capture the whole wealth which uncovers some mystery about Muthu.",
-      "director": "K.S. Ravikumar",
-      "actors": "Rajinikanth, Meena, Sarath Babu",
-      "language": "Tamil",
-      "lib": "play",
-      "prints": [
-        {
-          "id": "8041",
-          "title": "Muthu Sample",
-          "stream_url": "https://play.onestream.today/stream/page/8041"
-        },
-        {
-          "id": "8040",
-          "title": "Muthu Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/8040"
-        },
-        {
-          "id": "8039",
-          "title": "Muthu Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/8039"
-        },
-        {
-          "id": "8038",
-          "title": "Muthu Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/8038"
-        },
-        {
-          "id": "8037",
-          "title": "Muthu Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/8037"
-        },
-        {
-          "id": "8035",
-          "title": "Muthu Sample",
-          "stream_url": "https://play.onestream.today/stream/page/8035"
-        },
-        {
-          "id": "8034",
-          "title": "Muthu Part - 4",
-          "stream_url": "https://play.onestream.today/stream/page/8034"
-        },
-        {
-          "id": "8033",
-          "title": "Muthu Part - 3",
-          "stream_url": "https://play.onestream.today/stream/page/8033"
-        },
-        {
-          "id": "8032",
-          "title": "Muthu Part - 2",
-          "stream_url": "https://play.onestream.today/stream/page/8032"
-        },
-        {
-          "id": "8031",
-          "title": "Muthu Part - 1",
-          "stream_url": "https://play.onestream.today/stream/page/8031"
-        },
-        {
-          "id": "8029",
-          "title": "Muthu Single Part Lq",
-          "stream_url": "https://play.onestream.today/stream/page/8029"
-        },
-        {
-          "id": "8027",
-          "title": "Muthu",
-          "stream_url": "https://play.onestream.today/stream/page/8027"
         }
       ]
     }
