@@ -1,8 +1,32 @@
 [
   {
-    "id": "44197",
+    "id": "44249",
+    "title": "Richie Rich",
+    "raw_title": "Richie Rich (1994)",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZWEyNTYzNmMtMTFkNC00Zjk4LWI4MzUtMjAzMjZjOTJmMjVmXkEyXkFqcGc@._V1_SX300.jpg",
+    "category": "Movie",
+    "rating": "5.5",
+    "genres": "Comedy, Family",
+    "runtime": "95 min",
+    "released": "21 Dec 1994",
+    "year": "1994",
+    "plot": "Richie Rich is the richest kid in the world. The one thing Richie doesn't have is friends. When his parents suddenly go missing, Richie hooks up with a group of kids who just might fill the void in his life, while helping save his...",
+    "director": "Donald Petrie",
+    "actors": "Macaulay Culkin, Edward Herrmann, John Larroquette",
+    "language": "English, Latin",
+    "lib": "dub",
+    "prints": [
+      {
+        "id": "44249",
+        "title": "Richie Rich (1994)",
+        "stream_url": "https://dub.onestream.today/stream/video/44249"
+      }
+    ]
+  },
+  {
+    "id": "44221",
     "title": "Rise Of The Guardians",
-    "raw_title": "Rise Of The Guardians (2012)",
+    "raw_title": "Rise Of The Guardians (2012) Sample (640x360)",
     "poster": "https://m.media-amazon.com/images/M/MV5BMTkzMjgwMDg1M15BMl5BanBnXkFtZTcwMTgzNTI1OA@@._V1_SX300.jpg",
     "category": "Movie",
     "rating": "7.2",
@@ -17,6 +41,26 @@
     "lib": "dub",
     "prints": [
       {
+        "id": "44221",
+        "title": "Rise Of The Guardians (2012) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/44221"
+      },
+      {
+        "id": "44220",
+        "title": "Rise Of The Guardians (2012) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/44220"
+      },
+      {
+        "id": "44218",
+        "title": "Rise Of The Guardians (2012) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/44218"
+      },
+      {
+        "id": "44217",
+        "title": "Rise Of The Guardians (2012) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/44217"
+      },
+      {
         "id": "44197",
         "title": "Rise Of The Guardians (2012)",
         "stream_url": "https://dub.onestream.today/stream/video/44197"
@@ -24,9 +68,9 @@
     ]
   },
   {
-    "id": "44196",
+    "id": "44209",
     "title": "The Gods Must Be Crazy",
-    "raw_title": "The Gods Must Be Crazy (1980)",
+    "raw_title": "The Gods Must Be Crazy (1980) Sample (640x360)",
     "poster": "https://m.media-amazon.com/images/M/MV5BMDUzNmJjOTEtMmNhZi00YTY1LTg0MTQtOTkwNjFkNjZjMDU5XkEyXkFqcGc@._V1_SX300.jpg",
     "category": "Movie",
     "rating": "7.3",
@@ -40,6 +84,26 @@
     "language": "English, Afrikaans, Ungwatsi",
     "lib": "dub",
     "prints": [
+      {
+        "id": "44209",
+        "title": "The Gods Must Be Crazy (1980) Sample (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/44209"
+      },
+      {
+        "id": "44208",
+        "title": "The Gods Must Be Crazy (1980) HD (640x360)",
+        "stream_url": "https://dub.onestream.today/stream/video/44208"
+      },
+      {
+        "id": "44206",
+        "title": "The Gods Must Be Crazy (1980) Sample (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/44206"
+      },
+      {
+        "id": "44205",
+        "title": "The Gods Must Be Crazy (1980) HD (480x320)",
+        "stream_url": "https://dub.onestream.today/stream/video/44205"
+      },
       {
         "id": "44196",
         "title": "The Gods Must Be Crazy (1980)",
